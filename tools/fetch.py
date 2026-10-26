@@ -11,8 +11,8 @@ g++ (MSYS2 ucrt64, see BUILD.md) on the PATH. Nothing is installed outside this 
 import argparse, gzip, hashlib, os, shutil, subprocess, sys, tarfile, urllib.request, zipfile
 
 ROOT = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
-BIP39 = "https://raw.githubusercontent.com/bitcoin/bips/master/bip-0039/%s.txt"
-XMR = "https://raw.githubusercontent.com/monero-project/monero/master/src/mnemonics/%s"
+BIP39 = "https://raw.githubusercontent.com/bitcoin/bips/befa252b515d4104157bc57d3797050da51627fc/bip-0039/%s.txt"       # fixed commits, not master: the files cannot change under the SHA-256 sums
+XMR = "https://raw.githubusercontent.com/monero-project/monero/c8699f2468aa81909182ce7060b340d5d7928039/src/mnemonics/%s"
 SDK_REL = "https://github.com/Lameguy64/PSn00bSDK/releases/download/v0.24/"
 # The toolchain archives can also come from a mirror of this project (the release assets of its repository): the same files, the same SHA-256. Set MIRROR here or the
 # environment variable PSXX_MIRROR to the directory URL (ending in /); it is tried first, the upstream URL after it.

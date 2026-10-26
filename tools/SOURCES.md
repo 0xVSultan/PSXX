@@ -5,7 +5,7 @@ projects below; they are in `.gitignore`. Download them again to the same names 
 `tools/wl_pack.py`) use them.
 
 ## BIP39 word lists, `tools/wordlist_dl/<name>.txt`
-Source: https://raw.githubusercontent.com/bitcoin/bips/master/bip-0039/<name>.txt (documentation: bip-0039/bip-0039-wordlists.md)
+Source: https://raw.githubusercontent.com/bitcoin/bips/befa252b515d4104157bc57d3797050da51627fc/bip-0039/<name>.txt (a fixed commit; `master` is the same for these files today) (documentation: bip-0039/bip-0039-wordlists.md)
 
 | list | SHA-256 |
 |---|---|
@@ -23,7 +23,7 @@ Source: https://raw.githubusercontent.com/bitcoin/bips/master/bip-0039/<name>.tx
 Russian is not a BIP39 list (only Monero has one); the unofficial Trezor `russian.txt` was dropped on purpose.
 
 ## Monero mnemonic lists, `tools/wordlist_dl/monero/`
-Source: https://raw.githubusercontent.com/monero-project/monero/master/src/mnemonics/<name>
+Source: https://raw.githubusercontent.com/monero-project/monero/c8699f2468aa81909182ce7060b340d5d7928039/src/mnemonics/<name> (a fixed commit of 2026-09-20: `electrum-words.cpp` on `master` changed on 2026-10-22, the lists did not)
 
 | file | SHA-256 |
 |---|---|
