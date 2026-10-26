@@ -16,7 +16,7 @@ XMR = "https://raw.githubusercontent.com/monero-project/monero/master/src/mnemon
 SDK_REL = "https://github.com/Lameguy64/PSn00bSDK/releases/download/v0.24/"
 # The toolchain archives can also come from a mirror of this project (the release assets of its repository): the same files, the same SHA-256. Set MIRROR here or the
 # environment variable PSXX_MIRROR to the directory URL (ending in /); it is tried first, the upstream URL after it.
-MIRROR = ""
+MIRROR = "https://github.com/0xVSultan/PSXX/releases/download/toolchain-0.24/"
 FREEPSXBOOT = ("https://github.com/brad-lin/FreePSXBoot.git", "1976b3cadf1289d92eafd4a7eaf006b29c333c12")
 
 BIP39_LISTS = {
