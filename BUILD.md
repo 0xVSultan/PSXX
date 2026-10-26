@@ -25,7 +25,9 @@ py -3.13 tools/fetch.py all --check     # only verify what is there
 - `sources`: BIP39 and Monero word lists, Unifont, Terminus (into `tools/wordlist_dl*`, `tools/font_dl*`, see `tools/SOURCES.md`).
 - `toolchain`: PSn00bSDK 0.24 and gcc 12.3 (mipsel-none-elf) into `toolchain/`, and FreePSXBoot cloned at a fixed commit with `tools/stage2min/builder.cc.patched` copied over its `builder.cc` and compiled to `toolchain/FreePSXBoot/builder/builder.exe`. The patch makes the builder keep the whole payload of the card (the original copied the first 64 KB of the card over the rest, which cut off programs above about 57 KB).
 
-A download whose SHA-256 differs is deleted and the run stops. If a word list changed upstream, compare with `tools/SOURCES.md` before you accept it.
+The toolchain versions are pinned by SHA-256 (PSn00bSDK 0.24, gcc 12.3). If the upstream release goes away, put the two archives (`PSn00bSDK-0.24-win32.zip`, `gcc-mipsel-none-elf-12.3.0-windows.zip`) on any server and set `MIRROR` in `tools/fetch.py` or the environment variable `PSXX_MIRROR` to its directory URL (ending in `/`); the mirror is tried first. The project's own release assets are meant to serve as that mirror.
+
+A download whose SHA-256 differs is deleted and the next source is tried. If a word list changed upstream, compare with `tools/SOURCES.md` before you accept it.
 
 ## 3. Host build and tests
 
