@@ -1,0 +1,56 @@
+# The English texts of the range 'l' (the language module): NAME<TAB>text, C escapes. The order is the numbering: new texts go to the end. tools/ui_ids.py
+HINT_USE_THESE_WORDS_CHANGE_THE	\x01 use these words  \x02 change the last word  \x06 cancel
+HINT_SWITCH_ON_LIST_BIP39_MONERO	\x05 switch on \x03 list \x06 BIP39/Monero \x02 back
+HINT_SWITCH_ON_PAGE_LIST_BIP39	\x05 switch on \x0c page \x03 list \x06 BIP39/Monero \x02 back
+HINT_SWITCH_THIS_LANGUAGE_ON_FOR	\x05 switch this language on for new seeds and restore
+HINT_MOVE_TYPE_DELETE_WORD_TAKE	\x0b\x0c move \x01 type \x02 delete \x0d\x0f word \x03 take \x06 cancel
+HINT_MOVE_PAGE_X5_TAKE_BACK_CANCEL	\x0b\x0c move \x0d\x0f page \x0e\x10 x5 \x01 take \x02 back \x06 cancel
+HINT_CHOOSE_READ_OFF_OTHER_CARD	\x0b choose  \x01 read  \x03 off  \x04 other card  \x02 back
+HINT_PAGE	\x0c page
+LOADED	   (loaded)
+N_WORDS	%d words
+CHECK_THE_WORDS	Check the words
+LAST_N	Last: %s
+NO_BIP39_LIST	No BIP39 list
+NO_WORD_BEGINS_LIKE_THIS	No word begins like this
+OUT_OF_MEMORY	Out of memory
+TEXTS_OF_THE_SCREENS	Texts of the screens
+THE_TEXTS_OF_THE_SCREENS_ARE	The texts of the screens are damaged
+WORD_N_OF_N_2	Word %d of %d   %s
+WORD_N_OF_N_PAGE_N	Word %d of %d   %s   page %d / %d
+WORD_N_TYPE_MORE_LETTERS	Word %d: type more letters
+KEY_FORMAT_CHECKSUM_LAST	%s %s: the key 00 01 02 ..., checksum last
+LIST_N_N_OTHER_LIST_N	%s  %s  (%s: %d)
+HINT_PAGE_LIST_TEST_BIP39_MONERO	\x0b page \x0d\x0f x10 \x04 test \x06 BIP39/Monero \x02 back
+CANCELLED	Cancelled
+GLYPHS	Glyphs
+GLYPHS_DAMAGED	Glyphs damaged
+LANGUAGES_ON_THE_CARD	Languages on the card
+LIST_DAMAGED	List damaged
+LIST_TOO_BIG	List too big
+LOAD_A_LANGUAGE	Load a language
+MONERO_CHINESE	Monero Chinese
+READING_THE_LANGUAGE_CARD	Reading the language card
+SIMPLIFIED_CHINESE	Simplified Chinese
+THE_INDEX_OF_THE_CARD_IS	The index of the card is damaged
+TRADITIONAL_CHINESE	Traditional Chinese
+ONLY_THE_TEXTS_OF_THE_SCREENS	Only the texts of the screens,
+THE_WORDS_OF_SEEDS_STAY_ENGLISH	the words of the seeds stay English
+HINT_SWITCH_THE_SCREENS_TO_THIS	\x05 switch the screens to this language
+TAG_BIP39_AND_MONERO	BIP39 + Monero
+TAG_MONERO_ONLY	Monero only
+TAG_BIP39_ONLY	BIP39 only
+TAG_SCREEN_TEXTS_ONLY	screen texts
+LIST_N_N_NO_OTHER_LIST	%s  %s  (no other list)
+PAGE_N_N	page %d/%d
+HINT_PAGE_LIST_TEST_ONE_LIST	\x0b page \x0d\x0f x10 \x04 test \x02 back
+HINT_SWITCH_ON_LIST	\x05 switch on \x03 list \x02 back
+HINT_SWITCH_ON_PAGE_LIST	\x05 switch on \x0c page \x03 list \x02 back
+ONLY_MONERO_LIST_A	This language has only a Monero list.
+ONLY_MONERO_LIST_B	New BIP39 seeds and restores stay English;
+ONLY_MONERO_LIST_C	only Monero seeds use these words.
+ONLY_BIP39_LIST_A	This language has only a BIP39 list.
+ONLY_BIP39_LIST_B	Monero seeds stay English;
+ONLY_BIP39_LIST_C	only BIP39 seeds use these words.
+HINT_CONFIRM_SWITCH_ON_BACK	\x01 switch on  \x02 back
+BUILDING_THE_WORD_LISTS	Building the word lists

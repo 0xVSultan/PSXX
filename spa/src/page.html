@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-@JSHASH@'; style-src 'sha256-@CSSHASH@'">
+<title>PSXX release verifier</title>
+<style>@CSS@</style>
+</head>
+<body>
+<main>
+<h1>PSXX release verifier</h1>
+<p class="lead">Checks that your memory card files are the release signed by the project's Nostr key. Everything runs in this page; the files never leave your computer and the page makes no network request.</p>
+
+<label for="trust">Project public key <small>(npub1… or 64 hex characters; take it from a source you trust, not from this page)</small></label>
+<input type="text" id="trust" autocomplete="off" spellcheck="false">
+
+<label for="f-a">Boot card <small>(the card the console starts from; one per BIOS version)</small></label>
+<input type="file" id="f-a"> <small id="f-a-n"></small>
+
+<label for="f-b">Other cards <small>(all the other cards of the release, or package files: pick several at once)</small></label>
+<input type="file" id="f-b" multiple> <small id="f-b-n"></small>
+
+<label for="event">Package event <small>(the signed Nostr event JSON of the package)</small></label>
+<textarea id="event" spellcheck="false"></textarea>
+<input type="file" id="f-ev">
+
+<label for="manifest">Release manifest <small>(optional: the signed release event; lists the exact card files)</small></label>
+<textarea id="manifest" spellcheck="false"></textarea>
+<input type="file" id="f-man">
+
+<label for="size">Size of the A program image <small>(optional, bytes; found automatically when the overlay package is among the other cards)</small></label>
+<input type="number" id="size" min="0" step="1">
+
+<button id="go" type="button">Verify</button>
+<div id="sum" class="sum" aria-live="polite"></div>
+<ul id="out"></ul>
+
+<footer>This is one file with no dependencies. Compare its SHA-256 (<code>sha256sum</code>) with the one in the signed release manifest before you trust a verdict. @VERSION@</footer>
+</main>
+<script>@JS@</script>
+</body>
+</html>

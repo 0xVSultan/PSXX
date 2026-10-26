@@ -1,0 +1,401 @@
+PSX CRYPTO MULTITOOL - FEATURES (English overview)
+===================================================
+
+State of this text: 2026-10-26, source tree at commit b3e1ca8 plus the key store
+redesign and the saving of non-English BIP39 seeds (not committed yet). It describes
+what the code does; it is not a promise about hardware.
+
+HOW MUCH HAS BEEN TESTED (read this first)
+  - Host tests (ctest, 51 tests) check the cryptography, the transaction summaries, the
+    key store, the card packages and the screen layouts against independent
+    references (bip_utils, python-ecdsa, official test vectors, Python written from the
+    specifications).
+  - Parts have been seen running in the emulators (no$psx, DuckStation, PCSX-Redux).
+    The newest work (m16 - m56q: Nostr NIP-44/04/19, UI language switching, signed
+    packages, Extras menu, the language module changes, the vault / single key store,
+    the one-step load of the B card) has been built and host-tested but NOT fully run
+    in an emulator; the key store redesign and the saving of non-English BIP39 seeds
+    have not been run at all.
+  - NOTHING has run on a real console yet (milestone M7: measurements and a trial on
+    real hardware are still to do).
+  - No sound (SPU) yet. The CD player in the Extras menu is a placeholder
+    ("Not implemented yet"). The "hide wallet" mode (console looks like a CD player) is
+    written as test code only and shelved.
+
+
+1. WHAT THE PROGRAM IS
+----------------------
+
+An offline crypto wallet tool for an original PlayStation 1 (target: SCPH-1002,
+BIOS 2.0 E, FreePSXBoot memory card). There is no network, no radio and no operating
+system: the console runs the program straight from a memory card. It does three jobs:
+
+  - GENERATOR (card A): makes seeds from entropy that the user collects, shows the
+    words with check questions, shows addresses and QR codes, encrypts text, saves
+    password-protected keys, restores a wallet from typed words.
+  - SIGNER (card B, loaded on demand): reads a signing request from a memory card (or
+    typed in hex), shows a human-readable summary, signs after a long button hold,
+    and writes the result back as a card file, a QR code or an animated UR QR code.
+    It never makes keys itself, except the vanity search.
+  - LANGUAGE MODULE (card B code + card C data): word lists and glyphs of 14
+    languages, and optionally the language of the menus.
+
+The three cards are separate on purpose: no secret is ever written to a card unless
+it is encrypted with a password. Secrets live in RAM only; "restart" (SELECT held)
+wipes all of it.
+
+
+2. THE THREE CARDS
+------------------
+
+  A (slot 1, boot)   FreePSXBoot card. Holds the generator, the loader, the shared
+                     crypto, the font and English word lists, LZMA packed
+                     (119,927 bytes of the 120,072-byte limit of the fast boot loader).
+  B (slot 2)         Package PSXXPK01: group 1 = signer overlay, group 2 = language
+                     module (both are read in one go). Also holds the key store
+                     files, requests and results.
+  C (data card)      Package PSXXPK02: word lists of 14 languages, glyph sets
+                     (hanzi, hangul, kana), and the replaceable menu-language data.
+
+Packages are signed (BIP340 Schnorr) by the project key; card A carries the public
+key in its release record. The loader refuses a package that is damaged, unsigned,
+signed by another key, or built for a different A image (base id check), and verifies
+a hash for every group it reads.
+
+
+3. BOOT PROCESS
+---------------
+
+  1. POWER-ON. The console BIOS starts and finds the memory card in slot 1. The card
+     is a FreePSXBoot card: its save data makes the BIOS run our payload code from the
+     card (about 122 KB maximum). Normal games and the BIOS shell are not
+     involved after this point.
+  2. SELF-EXTRACTING STUB. The payload on card A is a packed executable: an LZMA
+     stream followed by a tiny stub. The stub unpacks the program into RAM at
+     0x80110000 (above the BIOS shell's data and heap, which are still alive after a
+     card boot) and jumps to it. The unpacker scratch memory lies in unused RAM above.
+  3. PROGRAM START (main). It registers the menu texts, initialises the GPU with
+     POLLED drawing (no GPU DMA interrupt, because that interrupt never reaches the
+     program after a card boot), loads the bitmap font, starts the pad reader and
+     starts the BACKGROUND ENTROPY POOL immediately: from now on every button press
+     timing feeds a SHA-256 pool.
+  4. SPLASH SCREEN. While the logo fills with a progress bar, the program builds the
+     big tables it needs: secp256k1 fixed-base table, ed25519 table, Pallas table and
+     the word-list decoders. Then the logo fades out.
+  5. MAIN MENU (fades in). Items: Generate a new seed, Restore from seed, Encryption,
+     Extras, Language. A different security tip is shown on the right every time the
+     menu appears (17 tips). SELECT cycles the language of the screens, but only when
+     another menu language is loaded (see section 11).
+  6. LOADING THE OTHER CARDS (only when the user picks Extras -> Signer, or Language):
+       - A plain load screen: a title, one sentence and a progress bar. It looks for
+         the right package by itself (a card watcher notices swaps and changes of the
+         directory) and starts reading after about 0.4 s, or at once with X. If both
+         slots hold a B card it asks to take one out. There is no source selector.
+       - The loader opens the package file by name (PSXXPK01 for the signer and the
+         language module, PSXXPK02 for the data), checks the signature and the base
+         id, reads the group (a failed frame is retried twice, the circle button
+         cancels), checks its hash, unpacks it with LZMA using card A's own in-RAM
+         image as a preset dictionary, and starts it. The B card is read ONCE: the
+         signer and the language module are loaded together (groups 1 and 2). Reading
+         is about 15 KB/s, so this takes some seconds.
+       - Overlays stay in RAM until restart: the next time the menu starts the signer
+         at once. Only X is needed; the data card C is checked again by its digest when
+         the language module is entered again, re-read automatically if its data
+         changed, and the program asks for the C card if another card is in the slot.
+       - Any error (empty slot, damaged file, wrong release, wrong signature, card
+         changed during reading) gets a screen with the cause and a way back; no
+         half-loaded code stays runnable.
+  7. The signer overlay has its own start: it builds its tables on first use, takes
+     over a seed handed from the generator (START on an address page: "sign with
+     this seed"), and shows its Home menu.
+
+
+4. GENERATOR FUNCTIONS (card A)
+-------------------------------
+
+Entropy: sources can be combined: button timing jitter, DualShock analog sticks, coin
+flips (1 bit each), dice (d6, 2.58 bit each), CD seek timing. A conservative estimator
+needs 256 bits. Emulator builds do not credit timing and warn. The background pool
+from boot also mixes in (HKDF) when a password suggestion is made.
+
+Creates:
+  - BIP39 seed, 12 or 24 words, optional passphrase;
+  - Monero 25-word legacy seed (alone or together with BIP39 from one collection);
+  - TON own 24-word phrase;
+  - after creating: the words, then check questions (4 questions, 5 answers each).
+Restores from typed words: BIP39 (12/15/18/21/24, with word completion), Monero 25
+words, TON phrase, raw key (hex).
+Text encryption: AES-256-GCM, PBKDF2-HMAC-SHA512 8192 rounds, HKDF; input text
+(1024 bytes) or hex; output as QR (Base64) or animated UR; decrypts from a card file
+or typed hex. A capacity meter shows QR fill and UR frame count.
+Password suggestion: 15 random characters or 8 BIP39 words, with an entropy estimate
+and a warning under 64 bits.
+Key store on card B: vault and single keys (see section 6).
+Extras (A): Signer, Text encoding, Safety notes, CD player placeholder.
+Saving a BIP39 seed or a Monero key from the words / address screen: Square. A seed
+made in another word-list language is saved with the id of that language.
+Coin flip and dice screens have animations; dice faces are generated.
+
+Address pages (from the BIP39 seed, paged, each with QR): see section 5.
+Watch-only export: xpub/ypub/zpub, output descriptors with checksum, BIP47 payment
+code - as text and QR.
+
+
+5. SUPPORTED CHAINS
+-------------------
+
+5.1 Addresses / keys in the generator
+  Bitcoin: segwit (bc1q), taproot (bc1p), nested (3...), legacy (1...)
+  Litecoin: the same three forms, plus MWEB (see below)
+  Dogecoin, Dash, Bitcoin Cash (CashAddr)
+  Ethereum and all EVM chains, Ethereum Classic
+  Tron, XRP, Cosmos Hub, Osmosis
+  Nostr (npub, nsec)
+  Kaspa
+  Solana, Stellar, NEAR
+  Polkadot (ed25519 / Ledger style) and Polkadot + Kusama sr25519 with junction paths
+  TON (wallet v4R2 and v5R1)
+  Zcash transparent (t1) and Zcash Orchard (u1 unified address)
+  Cardano (Shelley, Icarus, CIP-1852)
+  Monero: main address, view key, subaddresses (any of 1-999), integrated address with
+          an 8-byte payment ID (typed, or derived from the view key)
+  Litecoin MWEB: address, view keys (scan secret + spend public key) and spend keys
+          (scan + spend secret), Core and Cake/Electrum-LTC family selector, addresses
+          counted in threes (3..18)
+  Page tools: chain groups, HD style (address index, account, own path), path editor
+  with validity check per chain, custom coin (curve, address type, parameter, path),
+  list saving to the card (public data only).
+
+5.2 What the signer can sign and show
+  Bitcoin family (BTC, LTC, DOGE, DASH, BCH): PSBT v0 - outputs, amounts, change
+    recognised with the derived key, fee and fee rate (sat/vB), RBF, lock time,
+    batches, version; P2PKH, P2SH-P2WPKH, P2WPKH, P2TR (BIP86 key path); Taproot
+    script-path leaf signatures (BIP342); payjoin/foreign inputs are noted; finished
+    transaction or updated PSBT.
+  Multisig: wallet policy (wsh / sh(wsh) / sh, multi / sortedmulti, 1-8 keys)
+    registered on card B with a MAC; change is recognised only for registered
+    wallets, an unknown multisig shows a red warning.
+  Bitcoin messages: BIP137 and BIP322 (simple) for taproot addresses.
+  Ethereum / EVM / ETC: legacy, EIP-155, 2930, 1559, EIP-7702 (every authorization
+    listed with a red warning), stand-alone authorization, EIP-191 messages, EIP-712
+    (two hashes, marked blind); ERC-20 transfer / approve / transferFrom decoded.
+  Tron: TRX, TRC-10, TRC-20, Stake 2.0 and resource delegation, AccountPermissionUpdate.
+  XRP: Payment (XRP and issued currency, tag).
+  Cosmos Hub, Osmosis: SignDoc (DIRECT), MsgSend.
+  Nostr: events (NIP-01), encryption/decryption, NIP-19 (section 8).
+  Solana: legacy and v0 messages, SOL and SPL transfers, memo, priority fee.
+  Stellar: payment, account creation, merge, trust line.
+  NEAR: Transfer, FunctionCall, key addition (full access flagged), account deletion.
+  Polkadot / Kusama: ed25519 and sr25519.
+  TON: v4R2 and v5R1 BOC - addresses, amounts, comment, jetton transfer.
+  Cardano: transaction body - outputs, tokens, fee, ttl, rewards, certificates.
+  Kaspa: own request format, BLAKE2b sighash, BIP340 Schnorr.
+  Zcash transparent v4/v5 (ZIP-243/244); Zcash Orchard (ZIP-244, RedPallas, every
+    output decrypted and verified with the own key).
+  Monero: CLSAG; outputs, commitments, view tags and balance are recomputed and checked.
+  All nonces are deterministic (RFC 6979, BIP340 aux 0, Ed25519, Schnorrkel, CLSAG).
+  Confirmation needs a long hold of X (1.5 s; 3 s for blind signing).
+
+5.3 Not supported
+  FCMP++, Sapling, Cardano Byron, EIP-4844 blobs, Plutus, BIP47 payments (only the
+  payment code is shown), PSBT v2,
+  MuSig2, MWEB spending (only address and view/spend keys), Ed25519-chain vanity.
+
+
+6. KEY STORE (card B)
+---------------------
+
+Two kinds of containers, named so in the BIOS memory card manager:
+
+  Vault   ("PSXX key store M", file tag PSXXKM). One block: two directory frames plus
+          60 one-frame key slots (AES-256-GCM, PBKDF2 / HKDF). A vault always has a
+          password: one slow derivation, then every key in it opens with it; the
+          directory is protected by an HMAC. A new vault is created together with its
+          first key, so an empty vault never exists. Up to 4 vaults per card.
+  Single  ("PSXX key store S nn", file tag PSXXKS, nn = number of keys). A key with
+  key     its own password. The person sees no container and chooses no place: the
+          keys go into one hidden file; when a block is full the next block is
+          allocated and linked to the first (it shows in the BIOS card manager like
+          a multi-block save). The first block carries the title and the icon.
+
+Each key has a secret name (inside the encrypted data) and, for single keys, an open
+name that is shown without a password (default "Key N"). Interrupted writes cannot
+corrupt the card (new entry in a free slot, then the new directory over the older
+frame; for a chain the link is written last; power-cut tested at every write position
+on the host). Types: BIP39 entropy (with passphrase flag and the language id of the
+words, see section 10), Monero key, raw key (ed25519 / secp256k1 / others), TON ed25519
+seed. Limits: 60 keys per block. Rolling back the whole card to an older state cannot
+be detected. Cards written by older versions (tag PSXXKY) are not read.
+
+
+7. VANITY ADDRESS SEARCH (signer overlay, Home -> Vanity address)
+-----------------------------------------------------------------
+
+  - Kinds: Ethereum / EVM (0x...), Bitcoin segwit (bc1q...), Litecoin segwit
+    (ltc1q...), Bitcoin legacy (1...), Bitcoin nested (3...), Litecoin legacy (L...),
+    Dogecoin (D...), Dash (X...), Nostr npub1..., Kaspa (kaspa:q...), and CREATE2
+    contract addresses (EIP-1014: deployer address + init code hash are given, the
+    salt is what is found).
+  - Prefix and suffix at the same time. The program checks that the text can occur
+    in that kind of address (for example the second Kaspa character can only be
+    q, p, z or r) and refuses impossible ones with a reason.
+  - Engine: random start key s, candidates s + k; a batched secp256k1 kernel (about
+    4,000 cycles per candidate), cheap pre-filters on hex nibbles, 5-bit groups or
+    Base58 number ranges, and every hit is recomputed from the key with the normal
+    address code (a rejected-hit counter is shown).
+  - Difficulty estimate: a median ("half-way") candidate count, and the time from
+    measured speeds (emulator numbers, candidates per second: ETH 650, BTC bech32 /
+    legacy 780, nested 460, npub and Kaspa 3,300, CREATE2 880).
+  - Entropy: the start key is made from 256 bits collected in the signer (button
+    timing, sticks); CREATE2 has no secret, so no collection.
+  - Result: address, private key (WIF for Bitcoin-family, nsec for Nostr, hex
+    otherwise), QR code, save into a vault or as a single key (a raw
+    secp256k1 key), "wipe and leave".
+  - Not available: taproot (bc1p), Ed25519 chains (Monero, Solana, NEAR, TON), CREATE
+    (nonce) addresses.
+
+
+8. NOSTR
+--------
+
+Generator: npub / nsec address pages (BIP32 path m/44'/1237'/..., as with NIP-06),
+shown with QR; vanity npub search; keys saved to the key store.
+
+Signer (all offline, no relay access):
+  - NIP-01 events: shown and signed with BIP340 Schnorr.
+  - NIP-44 v2 (ECDH + HKDF + ChaCha20 + HMAC) and NIP-04 (AES-256-CBC) ENCRYPTION:
+    request field "encrypt":"nip44" or "nip04"; the recipient is "recipient" (hex,
+    npub or nprofile) or the first "p" tag. The nonce is not random (the signer has no
+    random source for requests): it is an HMAC of the conversation key, time and
+    text, so the same message and time always give the same output.
+  - DECRYPTION: a message request on the "nostr" chain with content and the other
+    party's pubkey (or a whole event; "with" for your own sent messages). A wrong key
+    or a modified NIP-44 message fails the MAC check.
+  - Message size: up to 4096 bytes, both ways. Longer messages stop with a clear
+    error before anything is signed. The whole text is shown on paged screens
+    (9 lines x 60 bytes per page, up to 12 pages) with a "read every page before you
+    sign" note; control characters appear as spaces.
+  - NIP-19: npub, nsec, note, nprofile, nevent, naddr are decoded; the "p" and "e" tags
+    are shown as npub / note1, and invalid nostr: links in the content are counted.
+  - Not supported: NIP-49 (scrypt), NIP-98, NIP-46, NIP-26.
+  - Verified against the official NIP-44 vectors (1,044 checks in the txsign test).
+Release signing: every card package signature is a signature of a real Nostr event
+(kind 30078, d tag "psxx-package", fixed created_at, so builds are byte-repeatable).
+A Nostr signer can produce it, and tools/nostr_publish.py can publish it as proof of
+the release (not yet tried on a real relay).
+
+
+9. QR CODES AND UR
+------------------
+
+  - Encoder: own QR encoder (ISO 18004), byte mode, versions 1-10, all four error
+    correction levels, automatic mask choice, no heap. Capacity at level L:
+    271 bytes in one code.
+  - Level used: addresses and watch-only data at M; secret keys at M, falling back
+    to L when too long; encrypted texts and signatures at L.
+  - Display: the code is written once into a VRAM texture and drawn as one sprite,
+    scaled to about 190 pixels with a 4-module quiet zone, drawn double width to fit
+    the TV pixel shape. For secrets the texture is cleared after leaving the screen.
+  - Animated UR: Blockchain Commons "ur:bytes" (bytewords, CRC-32, CBOR), pure
+    fragments 1..N, 50 payload bytes per frame, looping on screen. Used for encrypted
+    texts and signatures that do not fit one QR (a Base64 payload is used only up to
+    200 raw bytes).
+  - What is shown as a QR: addresses, extended public keys and descriptors, secret
+    key / view key pages, encrypted text, vanity result, signed transactions and
+    messages.
+  - There is no camera: nothing is scanned. Requests come in from memory card files
+    (made with tools/psxx_tx.py) or typed in hex; results go out as card files, QR
+    or UR.
+
+
+10. SUPPORTED WORD LISTS
+------------------------
+
+English BIP39 and the English Monero list are built into card A. Card C adds 14
+languages:
+
+  BIP39:   Japanese, Korean, Spanish, French, Italian, Czech, Portuguese,
+           Chinese simplified, Chinese traditional
+  Monero:  Japanese, Spanish (stored as masks over the BIP39 lists), French, Italian,
+           Portuguese, Chinese, Dutch, German, Russian, Esperanto, Lojban
+
+Behaviour:
+  - Word lists are range-coded and decoded at run time; the Chinese and Monero lists
+    are stored as masks or differences over the BIP39 lists where words are shared.
+  - Glyphs for other scripts come from card C (hanzi 2,821, hangul 709, kana 213);
+    card A's own font covers ASCII, Latin-1, Latin Extended A/B, Cyrillic (Russian,
+    Ukrainian, Belarusian, Bulgarian, Serbian, Macedonian) and Vietnamese. Greek was
+    removed to make room. Not covered: Greek, Arabic, Hebrew, Thai, Hindi.
+  - Viewer: choose a language (each is tagged BIP39 / Monero), page through the lists
+    with UP / DOWN, see a test mnemonic with its checksum word. A language with one
+    list only asks for a confirmation first.
+  - START in the viewer switches the language on for: new seeds (words in that
+    language), the word screen and check questions, and restore. A BIP39 sentence in
+    another language is hashed as NFKD text, as the standard says, so the same
+    entropy gives a DIFFERENT seed than in English. Such a seed is saved to the key
+    store as entropy PLUS the id of the language (4 bits, languages 1 - 14). To load
+    it the signer needs the same language switched on in the language module (card C
+    in the console); otherwise it asks to switch the language on first. A Monero key
+    has no such problem: the 25 words only encode the same 32-byte key in any
+    language, so it is saved and loaded like an English one.
+  - Typing in a language: Latin lists with suggestions (four letters are enough, no
+    accents needed); Japanese kana grid; Korean jamo grid; Chinese character grid
+    in code point order; Russian (Monero) Cyrillic grid. An overview screen and the
+    checksum word help to find a mistyped word.
+  - Handing a seed to the signer: START on an address page ("sign with this
+    seed") passes the finished seed, so words typed in any language can be signed.
+
+
+11. REPLACEABLE MENU LANGUAGE (UI language)
+-------------------------------------------
+
+  - The program has no text in its code. Every screen text is an identifier looked up
+    in a dictionary for the current language; the English text is the key set and is
+    always complete. A lint test (ctest) fails if a hard-coded user-facing string
+    comes back (protocol tags, tickers, hex and a few names are allowed).
+  - Dictionaries are data: three ranges (A = generator, B = signer, L = language
+    module), each a compact table ("UD2": texts in id order, an offset anchor every
+    8 texts, no RAM index). A table carries a list id, so a table made for another
+    release is refused and English is shown instead of wrong text. A missing text
+    also falls back to English. Plural forms use pairs (one / many).
+  - English is built into cards A and B. Any other menu language is a signed data
+    blob on card C (groups per range), read by the language module and switched on
+    with START in the language viewer; "off" or restart removes it.
+  - SELECT on the main menu cycles English -> the loaded language -> English at run
+    time, but only when another menu language is loaded; otherwise it does nothing.
+    A hint "Language / Nyelv" is always shown so it can be found in any language.
+  - A menu language is a set of files tools/strings/ui_<language id>_<a|b|l>.txt (the
+    format of en_*.txt; tools/ui_ids.py, tools/data_pack.py). No translation is shipped
+    in this repository, so the card C that it builds has the word lists only. One
+    language is roughly 12 KB, and card C has no room for it without squeezing the
+    word-list package or compressing the tables. A CD-based installer for extra
+    languages is planned, not built.
+  - The menu language and a word-list language share the module's RAM, so only one
+    is loaded at a time. Seeds' mnemonic words stay English unless a word-list
+    language is switched on.
+  - Another language file does not need card A to be rebuilt: the signature
+    (not a pin) is what the loader checks.
+
+
+12. OTHER EXTRAS
+----------------
+
+  - Text encoding tool (Extras): text to bytes (hex and binary), bytes to text,
+    braille test (U+2800 patterns drawn from their code points).
+  - Safety notes: short notes on seeds, dice and backups.
+  - 17 security tips at the main menu.
+  - Space report tool: py -3.13 tools/space_report.py <release>.
+  - BIOS test matrix: py -3.13 tools/bios_matrix.py (status / build / run) makes the 22
+    boot cards, one per BIOS, sets up DuckStation, no$psx or PCSX-Redux, waits for
+    OK / BAD from the tester and writes the verdicts next to the release.
+
+
+13. BUILD AND TOOLS (short)
+---------------------------
+
+  - Toolchain: PSn00bSDK + mipsel gcc 12.3, FreePSXBoot builder (patched to allow
+    payloads over 57 KB), MSYS2 for host tests (cmake / ninja / ctest).
+  - tools/release.py builds a release set (A, B, C cards, record, pins / keys);
+    data_pack.py builds card C; pkg_pack.py signs packages; psxx_tx.py makes
+    requests and reads results; mkcard.py makes card images.
+  - Build instructions: BUILD.md. Third-party material: THIRD_PARTY.md.

@@ -1,0 +1,4 @@
+# TEST fixture (Esperanto), the language module's range: see ui_13_a.txt
+LOAD_A_LANGUAGE	Ŝargi lingvon
+LANGUAGES_ON_THE_CARD	Lingvoj sur la karto
+HINT_CHOOSE_READ_OFF_OTHER_CARD	\x0b elekti  \x01 legi  \x03 for  \x04 alia karto  \x02 reen

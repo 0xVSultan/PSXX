@@ -1,0 +1,5 @@
+# TEST fixture (Esperanto), the signer's range: see ui_13_a.txt
+SIGN_A_TRANSACTION	Subskribi transakcion
+LOAD_ANOTHER_SEED	Ŝargi alian semon
+FORGET_THE_SEEDS	Forgesi la semojn
+SIGNING_REQUEST	Subskriba peto

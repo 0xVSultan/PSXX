@@ -1,0 +1,15 @@
+# TEST fixture, not a translation to ship: a few texts in Esperanto (language id 13) for the emulator test of the language of the data card (tools/data_pack.py with PSXX_UI_DIR=tests/ui_eo).
+GENERATE_A_NEW_SEED	Krei novan semon
+RESTORE_FROM_SEED	Restarigi el semo
+ENCRYPTION	Sifrado
+SIGNER	Subskribanto
+LANGUAGE	Lingvo
+HINT_CHOOSE_SELECT	\x0b elekti  \x01 akcepti
+COLLECT_ENTROPY_THEN_BIP39	Kolekti entropion, poste BIP39 / Monero / TON vortoj
+TYPE_YOUR_RECOVERY_WORDS_GET	Tajpu viajn restarigajn vortojn, ricevu la adresojn
+LOAD_THE_TRANSACTION_SIGNER	Ŝargi la transakcian subskribanton de la karto B
+WORD_LISTS_OF_OTHER_LANGUAGES	Vortlistoj de aliaj lingvoj, de la karto C
+ENTROPY_SOURCES	Fontoj de entropio
+JOYSTICK	Stirstango
+PRESS_BUTTONS_MOVE_THE_STICKS	Premu butonojn, movu la stirstangojn
+HINT_BACK	\x02 reen

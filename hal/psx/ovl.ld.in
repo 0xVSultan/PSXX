@@ -1,0 +1,62 @@
+/*
+ * Linker script of an overlay: code and data at a fixed address, linked against a base image with
+ * -Wl,--just-symbols=<base>.elf, so the overlay calls the functions of the base directly. tools/release.py takes the raw bytes
+ * (objcopy -O binary: the header, .text, .rodata, .data) and packs them into a package; the loader reads the header, copies the image to
+ * its load address, clears the bss, and calls the entry point. Nothing is relocated: the address is fixed.
+ *
+ * This is a template: hal/psx/CMakeLists.txt makes one script for each overlay (the signer, the language module) from the numbers of memmap.h. The code of an overlay has its slot of
+ * the overlay region 0x801B4000..0x801FD000 (after the LZMA work area of the boot stub, below the stack at 0x801FE000); the bss is in the same slot after the image, or - the signer -
+ * in a pocket of the RAM that the BIOS leaves alone (memmap.h).
+ *
+ * Header, 32 bytes, little endian: "PSXO", version (1), entry, load address, image size (header included), bss address, bss size, 0.
+ */
+ENTRY(ovl_main)
+
+MEMORY {
+	OVL_RAM (rwx) : ORIGIN = @CODE_LO@, LENGTH = @CODE_LEN@
+@BSS_MEMORY@
+}
+
+SECTIONS {
+	.ovlhdr : {
+		BYTE(0x50) BYTE(0x53) BYTE(0x58) BYTE(0x4F)
+		LONG(1)
+		LONG(ovl_main)
+		LONG(ORIGIN(OVL_RAM))
+		LONG(__ovl_load_end - ORIGIN(OVL_RAM))
+		LONG(__ovl_bss_start)
+		LONG(__ovl_bss_end - __ovl_bss_start)
+		LONG(0)
+	} > OVL_RAM
+
+	.text : {
+		*(.text .text.* .gnu.linkonce.t.*)
+	} > OVL_RAM
+	.rodata : {
+		*(.rodata .rodata.* .gnu.linkonce.r.*)
+		. = ALIGN(4);                    /* padding inside a section that has contents, so objcopy -O binary writes it */
+	} > OVL_RAM
+	.data : {
+		*(.data .data.* .gnu.linkonce.d.*)
+		*(.sdata .sdata.* .gnu.linkonce.s.*)
+		. = ALIGN(4);                    /* the padding is part of the loaded bytes, so the image size of the header is the size of the file */
+	} > OVL_RAM
+
+	. = ALIGN(4);
+	__ovl_load_end = .;
+	.bss (NOLOAD) : {
+		. = ALIGN(4);
+		__ovl_bss_start = .;
+		*(.sbss .sbss.* .gnu.linkonce.sb.*)
+		*(.scommon)
+		*(.bss .bss.* .gnu.linkonce.b.*)
+		*(COMMON)
+		. = ALIGN(4);
+		__ovl_bss_end = .;
+	} > @BSS_REGION@
+
+	/DISCARD/ : {
+		*(.gnu.lto_*)
+		*(.reginfo .MIPS.abiflags .gnu.attributes .comment .pdr .mdebug*)
+	}
+}

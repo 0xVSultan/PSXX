@@ -1,0 +1,859 @@
+106,110,1157920892373161954235709850086879078532699846656405
+106,130,64039457.584007913129639935 ETH
+119,114,w
+119,119,w
+119,98,2
+147,135,s
+147,140,s
+147,156,z
+147,161,z
+147,182,,
+150,114,00100000 00111111 00111111 00111111 
+150,114,00100000 01100011 01100001 01100110 
+150,114,00111111 00100000 01100001 01101110 
+150,114,10000011 11100010 10100000 10001001 
+150,114,10100000 10000001 11100010 10100000 
+150,114,11000101 10010001 00100000 11100010 
+150,134,00100000 01100011 01100001 01100110 
+150,134,00111111 00100000 01100001 01101110 
+150,134,01100100 00100000 01100001 00100000 
+150,134,10000011 11100010 10100000 10001001 
+150,134,10100000 10000001 11100010 10100000 
+150,154,00100000 01100011 01100001 01100110 
+150,154,00111111 00100000 01100001 01101110 
+150,154,01100100 00100000 01100001 00100000 
+150,154,01101100 01101111 01101110 01100111 
+150,154,10000011 11100010 10100000 10001001 
+150,154,11000011 10101001 00100000 01100001 
+150,174,00100000 01100011 01100001 01100110 
+150,174,01100100 00100000 01100001 00100000 
+150,174,01100101 01110010 00100000 01110100 
+150,174,01101100 01101111 01101110 01100111 
+150,174,01101110 01100100 00100000 01100001 
+150,174,11000011 10101001 00100000 01100001 
+150,74,00001010 11111111 11100010 10100000 
+150,74,00100000 00111111 00111111 00111111 
+150,74,01001000 01100101 01101100 01101100 
+150,74,01101111 00100000 00111111 00111111 
+150,74,01101111 00100000 11000011 10100001 
+150,74,11000101 10010001 00100000 11100010 
+150,94,00100000 00111111 00111111 00111111 
+150,94,00100000 01100011 01100001 01100110 
+150,94,01101111 00100000 00111111 00111111 
+150,94,01101111 00100000 11000011 10100001 
+150,94,10000001 
+150,94,10100000 10000001 11100010 10100000 
+150,94,11000101 10010001 00100000 11100010 
+16,102,Keep the recovery words.
+16,102,NgYeYTRj5UzqtReoS44qo9mtmXCqY45DJ852K5Jv2684Rge
+16,106,  Bitcoin legacy (1...)
+16,106,  Bitcoin nested segwit (3...)
+16,106,  Dash (X...)
+16,106,  Dogecoin (D...)
+16,106,  Litecoin legacy (L...)
+16,106, dolor sit amet lorem ipsum éö dolor sit amet lorem ipsum 
+16,106,9bc0e50a 2f54799e c3e80d32 577ca1c6 eb10355a
+16,106,> Bitcoin legacy (1...)
+16,106,NO KEY OF THIS SEED fits this transaction
+16,106,f3183d62 87acd1f6 1b40658a afd4f91e 43688db2
+16,106,it 21000, max fee 30 gwei Nonce 12,
+16,106,it amet lorem ipsum éö dolor sit amet lorem ipsum éö dol
+16,106,lorem ipsum éö dolor sit amet lorem ipsum éö dolor sit a
+16,106,m ipsum éö dolor sit amet lorem ipsum éö dolor sit amet 
+16,106,met lorem ipsum éö dolor sit amet lorem ipsum éö dolor s
+16,106,or sit amet lorem ipsum éö dolor sit amet lorem ipsum éö
+16,106,sum éö dolor sit amet lorem ipsum éö dolor sit amet lore
+16,106,éö dolor sit amet lorem ipsum éö dolor sit amet lorem ip
+16,108,  Orchard spending key
+16,108,  PSXXRQ05
+16,108,4AdUndXHHZ6cfufTMvppY6JwXNouMBzSkbLYfpAV5U
+16,108,> Orchard spending key
+16,108,> PSXXRQ05
+16,108,Events: 0
+16,108,fn8z4gjsq5qfvfk99
+16,110,(change)
+16,110,115792089237316195423570985008687907853269984665640564039457
+16,110,Rate:    1042054792 a second
+16,110,Rate:    1128589720 a second
+16,110,Rate:    1186812230 a second
+16,110,Rate:    3562095393 a second
+16,110,Type words with suggestions; 2-3 letters do
+16,112,At 3300 a second: never, really
+16,112,At 460 a second: never, really
+16,112,At 650 a second: never, really
+16,112,At 780 a second: never, really
+16,112,At 880 a second: never, really
+16,112,Braille patterns (U+2800...) are drawn from their code points
+16,112,First receiving address, to compare:
+16,112,Nostr npub
+16,112,Type hex bytes, see the text they make
+16,112,Type text, see its bytes in hex and binary
+16,112,after 123456789012 tries
+16,114,   - key 1
+16,114,   - key 2
+16,114,   - key 3
+16,114,  Family wallets - key 2
+16,114,  Family wallets - key 3
+16,114,  Not made with this seed (block 6)
+16,114,  To register: PSXXMS04
+16,114,  Vault 5 - 3 keys
+16,114,  Vault 6 - 3 keys
+16,114,  Vault 7 - 3 keys
+16,114,  Vault 8 - 3 keys
+16,114,  Work - key 1
+16,114,  Work - key 2
+16,114,  Work - key 3
+16,114,20 3F 3F 3F 
+16,114,20 63 61 66 
+16,114,3F 20 61 6E 
+16,114,83 E2 A0 89 
+16,114,> Family wallets - key 2
+16,114,> To register: PSXXMS04
+16,114,> Vault 5 - 3 keys
+16,114,>*Family wallets - key 2
+16,114,A0 81 E2 A0 
+16,114,C5 91 20 E2 
+16,114,reading the shielded outputs: up to a minute
+16,116,  CD player
+16,116,  Erase vaults or single keys
+16,116,  Multisig wallets
+16,116,> CD player
+16,116,> Erase vaults or single keys
+16,116,> Multisig wallets
+16,116,C7ab88b098defB751B7401B5f6d8976F 0x71C7656EC
+16,116,Memory alone fails often. Brain wallets are risky.
+16,116,The list of 2048 words takes little paper.
+16,118,The staking part is not known: this is not your 
+16,126,  Bitcoin nested segwit (3...)
+16,126,  Dash (X...)
+16,126,  Dogecoin (D...)
+16,126,  Litecoin legacy (L...)
+16,126,  Nostr public key (npub1...)
+16,126, dolor sit amet 
+16,126, dolor sit amet lorem ipsum éö dolor sit amet lorem ipsum 
+16,126,7fa4c9ee 13385d82 a7ccf116 3b6085aa cff4193e
+16,126,> Bitcoin nested segwit (3...)
+16,126,Nonce 12, gas limit 21000, max fee 30 gwei Nonce 12, gas lim
+16,126,THE FEE IS HIGH
+16,126,d7fc2146 6b90b5da ff24496e 93b8dd02 274c7196
+16,126,it amet lorem ipsum éö dolor sit amet lorem ipsum éö dol
+16,126,lorem ipsum éö dolor sit amet lorem ipsum éö dolor sit a
+16,126,m ipsum éö dolor sit amet lorem ipsum éö dolor sit amet 
+16,126,met lorem ipsum éö dolor sit amet lorem ipsum éö dolor s
+16,126,or sit amet lorem ipsum éö dolor sit amet lorem ipsum éö
+16,126,sum éö dolor sit amet lorem ipsum éö dolor sit amet lore
+16,126,éö dolor sit amet lorem ipsum éö dolor sit amet lorem ip
+16,127,  Cardano extended key
+16,127,> Cardano extended key
+16,128,  PSXXRQ06
+16,128,> PSXXRQ06
+16,130,.584007913129639935 ETH
+16,130,0 %
+16,130,100 %
+16,130,50 %
+16,130,Elapsed: 0 s
+16,130,Elapsed: 1 s
+16,130,npub1sg6plzptd64u62a878hep2kev88swjh3tw00gjsfl8f
+16,132,Half of the searches end sooner, half later.
+16,132,Your keyboard, your screen and nearly every file today use
+16,132,bc1qrp33g0q5c5txsp9arysrx4k6zdkfs4nce4xj0gdccc
+16,134,   - key 1
+16,134,   - key 2
+16,134,   - key 3
+16,134,  Addresses
+16,134,  Everything: all the vaults and the single keys
+16,134,  Family wallets - key 3
+16,134,  Not made with this seed (block 6)
+16,134,  Vault 6 - 3 keys
+16,134,  Vault 7 - 3 keys
+16,134,  Vault 8 - 3 keys
+16,134,  Wallet ee1517ff  2 of 3  nested segwit
+16,134,  Work - key 1
+16,134,  Work - key 2
+16,134,  Work - key 3
+16,134,20 63 61 66 
+16,134,3F 20 61 6E 
+16,134,64 20 61 20 
+16,134,83 E2 A0 89 
+16,134,> Addresses
+16,134,> Family wallets - key 3
+16,134,> Not made with this seed (block 6)
+16,134,> Vault 6 - 3 keys
+16,134,A0 81 E2 A0 
+16,138,By hand the checksum is the hardest part.
+16,138,Never split a 12-word seed into parts.
+16,138,base address.
+16,146,  Dash (X...)
+16,146,  Dogecoin (D...)
+16,146,  Kaspa (kaspa:q...)
+16,146,  Litecoin legacy (L...)
+16,146,  Nostr public key (npub1...)
+16,146, dolor sit amet lorem ipsum éö dolor sit amet lorem ipsum 
+16,146,> Litecoin legacy (L...)
+16,146,Delete a vault, all single keys, or all
+16,146,Mark keys and delete them together
+16,146,Open a key saved on card 2 with its password
+16,146,Play audio discs
+16,146,Short notes on seeds, dice and paper
+16,146,Text, bytes, UTF-8, ASCII, braille
+16,146,The fee cannot be told
+16,146,Transactions, keys, vanity addresses, multisig
+16,146,Type a secret key, use it or save it on the card
+16,146,it 21000, max fee 30 gwei Nonce 12,
+16,146,it amet lorem ipsum éö dolor sit amet lorem ipsum éö dol
+16,146,lorem ipsum éö dolor sit amet lorem ipsum éö dolor sit a
+16,146,m ipsum éö dolor sit amet lorem ipsum éö dolor sit amet 
+16,146,met lorem ipsum éö dolor sit amet lorem ipsum éö dolor s
+16,146,or sit amet lorem ipsum éö dolor sit amet lorem ipsum éö
+16,146,sum éö dolor sit amet lorem ipsum éö dolor sit amet lore
+16,146,éö dolor sit amet lorem ipsum éö dolor sit amet lorem ip
+16,148,  PSXXRQ07
+16,148,> PSXXRQ07
+16,148,Bitcoin, Ethereum, Nostr...: hex, nsec1 or WIF
+16,148,Payment key: 128 hex digits or addr_xsk1...
+16,148,Polkadot, Kusama: the mini secret, 64 hex digits
+16,148,TON, Solana, Stellar, NEAR: hex, keypair, S..., ed25519:
+16,148,The secret spend key as 64 hex digits
+16,148,Zcash shielded: the 32 byte key, 64 hex digits
+16,150,237lmu63q0uf63
+16,150,Half of the searches are done by more than 10 trillion tries
+16,152, UTF-8. The first 128 characters of UTF-8 are ASCII.
+16,152,efvpysxf3qccfmv3
+16,154,   - key 3
+16,154,  To register: PSXXMS07
+16,154,  Vault 7 - 3 keys
+16,154,  Wallet ee1517ff  2 of 3  nested segwit
+16,154,  Work - key 1
+16,154, * - key 3
+16,154,20 63 61 66 
+16,154,3F 20 61 6E 
+16,154,64 20 61 20 
+16,154,6C 6F 6E 67 
+16,154,83 E2 A0 89 
+16,154,>  - key 1
+16,154,>  - key 2
+16,154,>  - key 3
+16,154,> Everything: all the vaults and the single keys
+16,154,> To register: PSXXMS07
+16,154,> Vault 7 - 3 keys
+16,154,> Vault 8 - 3 keys
+16,154,> Wallet ee1517ff  2 of 3  nested segwit
+16,154,> Work - key 1
+16,154,> Work - key 2
+16,154,> Work - key 3
+16,154,>* - key 1
+16,154,>* - key 2
+16,154,>* - key 3
+16,154,>*Work - key 3
+16,154,BIP39 words, or the 25 words of a Monero wallet
+16,154,C3 A9 20 61 
+16,154,Load, import and delete keys of card 2
+16,154,Other coins, more addresses, paths and keys
+16,154,Register the cosigners of a multisig wallet
+16,154,Search for an address with a text you choose
+16,154,Type your words, load a request from card 2
+16,154,Wipe the words and keys from memory
+16,160,Only a long seed can be split, and only with care.
+16,160,Save the seed on paper, never on a device.
+16,160,bytes 1-120 of 600
+16,160,bytes 121-240 of 600
+16,166,  Dogecoin (D...)
+16,166,> Contract address, CREATE2 (0x...)
+16,166,> Dash (X...)
+16,166,> Dogecoin (D...)
+16,166,> Kaspa (kaspa:q...)
+16,166,> Nostr public key (npub1...)
+16,170,Every key the search finds comes from this start key.
+16,174,20 63 61 66 
+16,174,64 20 61 20 
+16,174,65 72 20 74 
+16,174,6C 6F 6E 67 
+16,174,6E 64 20 61 
+16,174,A picture made of the 256 patterns of 2 x 4 dots
+16,174,C3 A9 20 61 
+16,176,Compare it with what you know about the key.
+16,176,Compare the cosigners and the address with your coordinator.
+16,176,Saved: key 2 of store 1
+16,176,\x0b choose  \x01 select  \x06 back
+16,178,2 damaged blocks of keys, not used
+16,178,Deleted 3 keys
+16,178,Erased
+16,178,Mark at least one key first
+16,178,Registered: wallet 1a2b3c4d, 2 of 3
+16,178,Wrong password, or the key is damaged
+16,182,A backup is wise, if losing the seed would hurt.
+16,182,Your keys, your duty: read beyond this app.
+16,184,Not a request: the file is damaged
+16,186,1 hits rejected by the check
+16,206,Hold \x01 to delete  \x02 back
+16,206,Hold \x01 to register  \x02 back
+16,206,Hold \x01 to remove  \x02 back
+16,206,Loaded: BIP39 words
+16,206,Loaded: BIP39 words, Monero words
+16,206,Loaded: nothing
+16,206,\x01 QR  \x03 save to card 2  \x02 wipe and leave
+16,206,\x01 back
+16,206,\x01 start  \x02 change the text
+16,206,\x01 type \x02 del \x03 space \x04 shift \x05 done \x06 cancel
+16,206,\x01 type \x02 del \x04 take \x0d\x0f pick \x05 done \x06 cancel
+16,206,\x01 type \x02 del \x05 done \x06 cancel
+16,206,\x01 use  \x03 save on the card  \x02 wipe
+16,206,\x01 yes, use it  \x02 no, wipe everything
+16,206,\x02 back
+16,206,\x02 change the text
+16,206,\x02 stop
+16,206,\x02 wipe and leave
+16,206,\x05 start  \x02 back
+16,206,\x0b choose  \x01 erase  \x06 back
+16,206,\x0b choose  \x01 mark  \x05 delete  \x06 back
+16,206,\x0b choose  \x01 open  \x03 delete  \x06 back
+16,206,\x0b choose  \x01 open  \x03 remove  \x06 back
+16,206,\x0b choose  \x01 open  \x06 back
+16,206,\x0b choose  \x01 select  \x06 back
+16,206,\x0b row  \x0c change  \x01 continue  \x06 back
+16,206,\x0b scroll  \x04 back
+16,206,\x0b scroll  \x0c ASCII / UTF-8  \x06 back
+16,206,\x0c page  hold \x01 to sign  \x02 cancel
+16,24,Bitcoin legacy (1...)
+16,24,Bitcoin nested segwit (3...)
+16,24,Bitcoin segwit (bc1q...)
+16,24,Contract address, CREATE2 (0x...)
+16,24,Dash (X...)
+16,24,Dogecoin (D...)
+16,24,Ethereum / EVM chains (0x...)
+16,24,Kaspa (kaspa:q...)
+16,24,Litecoin legacy (L...)
+16,24,Litecoin segwit (ltc1q...)
+16,24,Nostr public key (npub1...)
+16,24,Which addresses?
+16,24,npub1sg6plzptd64u62a878hep2kev88swjh3tw00g
+16,24,npub1sg6plzptd64u62a878hep2kev88swjh3tw00gjsfl
+16,26,  Sign a transaction
+16,26, dolor sit amet lorem ipsum éö dolor sit amet lorem ipsum 
+16,26,0b30557a 9fc4e90e 33587da2 c7ec1136 5b80a5ca
+16,26,6388add2 f71c4166 8bb0d5fa 1f44698e b3d8fd22
+16,26,> Sign a transaction
+16,26,Sends:  1234567.123456789012345678 ETH
+16,26,With: npub10elfcs4fr0l0r8af98jlmgdh9c8tcxjvz9qkw038js35mp4dm
+16,26,bc1qar0srrr7xfkvy5l643lydnw9re59gtzzwf5mdq bc1qar0srrr7xfkvy
+16,26,it amet lorem ipsum éö dolor sit amet lorem ipsum éö dol
+16,26,lorem ipsum éö dolor sit amet lorem ipsum éö dolor sit a
+16,26,m ipsum éö dolor sit amet lorem ipsum éö dolor sit amet 
+16,26,met lorem ipsum éö dolor sit amet lorem ipsum éö dolor s
+16,26,or sit amet lorem ipsum éö dolor sit amet lorem ipsum éö
+16,26,sum éö dolor sit amet lorem ipsum éö dolor sit amet lore
+16,26,éö dolor sit amet lorem ipsum éö dolor sit amet lorem ip
+16,28,  PSXXRQ01
+16,28,.????
+16,28,.�⠁
+16,28,6 keys marked. A vault with every key marked is 
+16,28,> PSXXRQ01
+16,28,A seed is random data; the seed phrase writes it as words.
+16,28,By hand the checksum is the hardest part.
+16,28,Enough! \x05 starts the search
+16,28,Hello ?? ??? caf? and a longer text to scroll throu
+16,28,Hello áő ⠁⠃⠉ café and a longer text to scr
+16,28,Press buttons, move the sticks
+16,28,Wallet 255ae411: 3 of 8, nested segwit
+16,32,  Load a key from the card
+16,32,  Request on the card in slot 2
+16,32,  Text to bytes
+16,32,  Wallet operations
+16,32,  secp256k1 key
+16,32,> Load a key from the card
+16,32,> Request on the card in slot 2
+16,32,> Text to bytes
+16,32,> Wallet operations
+16,32,> secp256k1 key
+16,34,   - key 1
+16,34,   - key 2
+16,34,   - key 3
+16,34,  Family wallets - key 1
+16,34,  Family wallets - key 2
+16,34,  Family wallets - key 3
+16,34,  To register: PSXXMS01
+16,34,  Vault 1 - 3 keys
+16,34,  Vault 2 - 3 keys  Family wallets
+16,34,  Vault 3 - 3 keys  Work
+16,34,  Vault 4 - 3 keys
+16,34,  Wallet 699d58b2  2 of 3  legacy P2SH
+16,34,  Work - key 1
+16,34,  Work - key 2
+16,34,  Work - key 3
+16,34, * - key 1
+16,34,>  - key 1
+16,34,> Vault 1 - 3 keys
+16,34,> Wallet 699d58b2  2 of 3  legacy P2SH
+16,34,>* - key 1
+16,34,Card: no card in slot 2
+16,34,Imported key
+16,34,Label: Savings, the second store
+16,34,No keys on the card (saved by the generator)
+16,34,No requests (files PSXXQ..) on the card
+16,34,No vaults or single keys on the card
+16,34,None registered, no descriptors on the card
+16,4,Braille test
+16,4,CD player
+16,4,Cannot continue
+16,4,Decrypted Nostr message (NIP-4  1/11
+16,4,Decrypted Nostr message (NIP-4  10/11
+16,4,Decrypted Nostr message (NIP-4  11/11
+16,4,Decrypted Nostr message (NIP-4  2/11
+16,4,Decrypted Nostr message (NIP-4  3/11
+16,4,Decrypted Nostr message (NIP-4  4/11
+16,4,Decrypted Nostr message (NIP-4  5/11
+16,4,Decrypted Nostr message (NIP-4  6/11
+16,4,Decrypted Nostr message (NIP-4  7/11
+16,4,Decrypted Nostr message (NIP-4  8/11
+16,4,Decrypted Nostr message (NIP-4  9/11
+16,4,Delete keys
+16,4,Delete the marked keys?
+16,4,Delete this key?
+16,4,Entropy for the start key
+16,4,Erase every vault and single key of the card?
+16,4,Erase this with all its keys?
+16,4,Erase vaults or single keys
+16,4,Ethereum EIP-1559 transaction,  1/9
+16,4,Ethereum EIP-1559 transaction,  2/9
+16,4,Ethereum EIP-1559 transaction,  3/9
+16,4,Ethereum EIP-1559 transaction,  4/9
+16,4,Ethereum EIP-1559 transaction,  5/9
+16,4,Ethereum EIP-1559 transaction,  6/9
+16,4,Ethereum EIP-1559 transaction,  7/9
+16,4,Ethereum EIP-1559 transaction,  8/9
+16,4,Ethereum EIP-1559 transaction,  9/9
+16,4,Extras
+16,4,Found - the salt
+16,4,Found!
+16,4,Import a raw key
+16,4,Is this your key?
+16,4,Keys
+16,4,Keys on the card in slot 2
+16,4,Multisig wallets
+16,4,Private key - scan it, then leave
+16,4,Recovery words
+16,4,Register this wallet?
+16,4,Registered wallet
+16,4,Remove this wallet?
+16,4,Requests on the card in slot 2
+16,4,Result in hex
+16,4,Safety notes
+16,4,Searching...
+16,4,Signed Bitcoin transaction (PSBT)
+16,4,Signing request
+16,4,Text and bytes
+16,4,Text encoding
+16,4,Vanity address
+16,4,Wallet operations
+16,40,  Vault 1 - 3 keys
+16,40,  Vault 3 - 3 keys
+16,40,  Vault 5 - 3 keys
+16,40,  Vault 7 - 3 keys
+16,40,  Words:      < 12 >
+16,40,  Words:      < 15 >
+16,40,  Words:      < 18 >
+16,40,  Words:      < 21 >
+16,40,  Words:      < 24 >
+16,40,  Words:      < Monero 25 >
+16,40, - key 1
+16,40,> Words:      < 12 >
+16,40,> Words:      < 15 >
+16,40,> Words:      < 18 >
+16,40,> Words:      < 21 >
+16,40,> Words:      < 24 >
+16,40,> Words:      < Monero 25 >
+16,40,A file that is not usable with this seed
+16,40,The request names a chain that this signer does not know o
+16,40,Wallet 699d58b2
+16,44,  Load another seed
+16,44,8f237lmu63q0uf63m
+16,44,> Load another seed
+16,44,abcdefghijklmnopqrstuvw
+16,46,  Bitcoin legacy (1...)
+16,46,  Bitcoin nested segwit (3...)
+16,46,  Bitcoin segwit (bc1q...)
+16,46,  Ethereum / EVM chains (0x...)
+16,46,  Litecoin segwit (ltc1q...)
+16,46, dolor sit amet lorem ipsum éö dolor sit amet lorem ipsum 
+16,46,476c91b6 db00254a 6f94b9de 03284d72 97bce106
+16,46,5l643lydnw9re59gtzzwf5mdq bc1qar0srrr7xfkvy5l643lyd
+16,46,> Ethereum / EVM chains (0x...)
+16,46,Fee:    0.001234567890123456 ETH
+16,46,a8qzvjptg
+16,46,ef14395e 83a8cdf2 173c6186 abd0f51a 3f6489ae
+16,46,it amet lorem ipsum éö dolor sit amet lorem ipsum éö dol
+16,46,lorem ipsum éö dolor sit amet lorem ipsum éö dolor sit a
+16,46,m ipsum éö dolor sit amet lorem ipsum éö dolor sit amet 
+16,46,met lorem ipsum éö dolor sit amet lorem ipsum éö dolor s
+16,46,or sit amet lorem ipsum éö dolor sit amet lorem ipsum éö
+16,46,sum éö dolor sit amet lorem ipsum éö dolor sit amet lore
+16,46,éö dolor sit amet lorem ipsum éö dolor sit amet lorem ip
+16,48,  PSXXRQ02
+16,48,> PSXXRQ02
+16,48,Keys, sorted when the script is made:
+16,48,Salt (32 bytes, hex):
+16,48,Starts with: abcdefghijklmnopqrstuvw
+16,48,removed whole.
+16,50,5 bytes, 3 characters, 4 not ASCII (shown as ?)
+16,50,63 bytes, 63 characters, 6 not ASCII (shown as ?)
+16,50,72 bytes, 63 characters
+16,50,Chars 0   Line 1/1   Column 0/59   Remaining 48
+16,50,Chars 45   Line 1/1   Column 0/59   Remaining 155
+16,50,Chars 45   Line 1/1   Column 0/59   Remaining 25
+16,50,Chars 45   Line 1/1   Column 0/59   Remaining 55
+16,50,Computers and people are bad at random: mix both.
+16,50,Save the seed on paper, never on a device.
+16,51,  ed25519 key
+16,51,> ed25519 key
+16,54,   - key 1
+16,54,   - key 2
+16,54,   - key 3
+16,54,  Family wallets - key 1
+16,54,  Family wallets - key 2
+16,54,  Family wallets - key 3
+16,54,  Not made with this seed (block 3)
+16,54,  To register: PSXXMS01
+16,54,  Vault 2 - 3 keys  Family wallets
+16,54,  Vault 3 - 3 keys  Work
+16,54,  Vault 4 - 3 keys
+16,54,  Vault 5 - 3 keys
+16,54,  Work - key 1
+16,54,  Work - key 2
+16,54,  Work - key 3
+16,54,>  - key 2
+16,54,> To register: PSXXMS01
+16,54,> Vault 2 - 3 keys  Family wallets
+16,56,A Cardano payment key: enterprise address
+16,56,A Zcash Orchard spending key: unified address
+16,56,A secp256k1 key: Ethereum, Bitcoin, Nostr
+16,56,An ed25519 key: TON, Solana
+16,56,An sr25519 key: Polkadot, Kusama
+16,56,Monero main address:
+16,58,  Bytes to text
+16,58,  Type the request in hex
+16,58,> Bytes to text
+16,58,> Type the request in hex
+16,60,  Import a raw key
+16,60,  Text encoding
+16,60,> Import a raw key
+16,60,> Text encoding
+16,60,A raw ed25519 key. TON wallet address (v4R2):
+16,60,A raw secp256k1 key. Ethereum address:
+16,60,Master fingerprint: d34db33f
+16,60,Monero main address:
+16,60,Not implemented yet
+16,60,Preparing the tables of the curves
+16,60,f
+16,62,  Forget the seeds
+16,62,> Forget the seeds
+16,64,... abcdefghijklmnopqrstuvw
+16,66,  Bitcoin legacy (1...)
+16,66,  Bitcoin nested segwit (3...)
+16,66,  Bitcoin segwit (bc1q...)
+16,66,  Litecoin legacy (L...)
+16,66,  Litecoin segwit (ltc1q...)
+16,66, dolor sit amet lorem ipsum éö dolor sit amet lorem ipsum 
+16,66,0.00012345 BTC
+16,66,19 outputs
+16,66,2b50759a bfe4092e 53789dc2 e70c3156 7ba0c5ea
+16,66,> Bitcoin segwit (bc1q...)
+16,66,Message: 4096 bytes
+16,66,d3f81d42 678cb1d6 fb20456a 8fb4d9fe 23486d92
+16,66,it amet lorem ipsum éö dolor sit amet lorem ipsum éö dol
+16,66,lorem ipsum éö dolor sit amet lorem ipsum éö dolor sit a
+16,66,m ipsum éö dolor sit amet lorem ipsum éö dolor sit amet 
+16,66,met lorem ipsum éö dolor sit amet lorem ipsum éö dolor s
+16,66,or sit amet lorem ipsum éö dolor sit amet lorem ipsum éö
+16,66,sum éö dolor sit amet lorem ipsum éö dolor sit amet lore
+16,66,éö dolor sit amet lorem ipsum éö dolor sit amet lorem ip
+16,68,  (no passphrase)
+16,68,  PSXXRQ03
+16,68,  Passphrase: < no >
+16,68,10101010 11111111 you 13131313 14141414 15151
+16,68,5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a
+16,68,> PSXXRQ03
+16,68,> Passphrase: < no >
+16,68,Ends with:   abcdefghijklmnopqrstuvw
+16,68,Private key:   after 123456789012 tries
+16,69,Word 0 of 0
+16,7,BIP39 passphrase (empty: none)
+16,7,Key: 128 hex digits or addr_xsk1...
+16,7,Key: 64 hex digits
+16,7,Key: hex, base58 keypair, S... or ed25519:
+16,7,Key: hex, nsec1 or WIF
+16,7,Monero words (25)
+16,7,Password of the key
+16,7,Recovery words
+16,7,Request in hex
+16,70,  Monero spend key
+16,70,> Monero spend key
+16,70,It cannot be restored from the card.
+16,70,PSBTs of the wallet are then warned about again.
+16,72,A backup is wise, if losing the seed would hurt.
+16,72,Dice can be more trustworthy than electronics.
+16,74,   - key 1
+16,74,   - key 2
+16,74,   - key 3
+16,74,  Family wallets - key 1
+16,74,  Family wallets - key 2
+16,74,  Family wallets - key 3
+16,74,  Not made with this seed (block 3)
+16,74,  Vault 3 - 3 keys  Work
+16,74,  Vault 4 - 3 keys
+16,74,  Vault 5 - 3 keys
+16,74,  Vault 6 - 3 keys
+16,74,  Wallet 699d58b2  2 of 3  legacy P2SH
+16,74,  Work - key 1
+16,74,  Work - key 2
+16,74,  Work - key 3
+16,74, * - key 1
+16,74, * - key 2
+16,74, *Family wallets - key 2
+16,74, *Work - key 3
+16,74,0A FF E2 A0 
+16,74,20 3F 3F 3F 
+16,74,48 65 6C 6C 
+16,74,6F 20 3F 3F 
+16,74,6F 20 C3 A1 
+16,74,>  - key 3
+16,74,> Not made with this seed (block 3)
+16,74,> Vault 3 - 3 keys  Work
+16,74,C5 91 20 E2 
+16,76,0x71C7656EC7ab88b098defB751B7401B5f6d8976
+16,76,0x71C7656EC7ab88b098defB751B7401B5f6d8976F 0x71C
+16,80,  Keys
+16,80,> Keys
+16,82,4AdUndXHHZ6cfufTMvppY6JwXNouMBzSkbLYfpAV5Usx3skx
+16,84,  Braille test
+16,84,> Braille test
+16,84,It cannot be restored from the card.
+16,86,  Bitcoin legacy (1...)
+16,86,  Bitcoin nested segwit (3...)
+16,86,  Dogecoin (D...)
+16,86,  Litecoin legacy (L...)
+16,86,  Litecoin segwit (ltc1q...)
+16,86, dolor sit amet lorem ipsum éö dolor sit amet lorem ipsum 
+16,86,0f34597e a3c8ed12 375c81a6 cbf0153a 5f84a9ce
+16,86,> Litecoin segwit (ltc1q...)
+16,86,BLIND: this cannot be checked here, only a hash is signed
+16,86,Files written by tools/psxx_tx.py
+16,86,First Bitcoin address (m/84'/0'/0'/0/0):
+16,86,For short requests (a message, a small transaction)
+16,86,Nonce 12, gas limit 21000, max fee 30 gwei Nonce 12, gas lim
+16,86,b7dc0126 4b7095ba df04294e 7398bde2 072c5176
+16,86,it amet lorem ipsum éö dolor sit amet lorem ipsum éö dol
+16,86,lorem ipsum éö dolor sit amet lorem ipsum éö dolor sit a
+16,86,m ipsum éö dolor sit amet lorem ipsum éö dolor sit amet 
+16,86,met lorem ipsum éö dolor sit amet lorem ipsum éö dolor s
+16,86,or sit amet lorem ipsum éö dolor sit amet lorem ipsum éö
+16,86,sum éö dolor sit amet lorem ipsum éö dolor sit amet lore
+16,86,éö dolor sit amet lorem ipsum éö dolor sit amet lorem ip
+16,88,  Delete keys
+16,88,  PSXXRQ04
+16,88,  Safety notes
+16,88,515 16161616 17171717 
+16,88,5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a
+16,88,> Delete keys
+16,88,> PSXXRQ04
+16,88,> Safety notes
+16,88,Bits:   0 / 256
+16,88,Bits:   300 / 256
+16,88,nsec1j4c6269y9w0q2er2xjw8sv2ehyrtfxq3jwgdlxj6q
+16,89,  sr25519 key
+16,89,> sr25519 key
+16,90,Checking the transaction
+16,90,Keep the recovery words.
+16,90,The wallet itself is not touched.
+16,90,Tried:   123 billion
+16,90,bc1qar0srrr7xfkvy5l643lydnw9re59gtzzwf5mdq
+16,92,About more than 10 trillion tries to find one
+16,92,The letter l cannot be in a bech32 address: change the text
+16,94,   - key 1
+16,94,   - key 2
+16,94,   - key 3
+16,94,  Family wallets - key 1
+16,94,  Family wallets - key 2
+16,94,  Family wallets - key 3
+16,94,  To register: PSXXMS04
+16,94,  Vault 4 - 3 keys
+16,94,  Vault 5 - 3 keys
+16,94,  Vault 6 - 3 keys
+16,94,  Vault 7 - 3 keys
+16,94,  Wallet 699d58b2  2 of 3  legacy P2SH
+16,94,  Work - key 1
+16,94,  Work - key 2
+16,94,  Work - key 3
+16,94,20 3F 3F 3F 
+16,94,20 63 61 66 
+16,94,6F 20 3F 3F 
+16,94,6F 20 C3 A1 
+16,94,81 
+16,94,> Family wallets - key 1
+16,94,> Vault 4 - 3 keys
+16,94,> Wallet 699d58b2  2 of 3  legacy P2SH
+16,94,A backup can be stolen. Think of multisig.
+16,94,A0 81 E2 A0 
+16,94,C5 91 20 E2 
+16,94,You may print the word list and work on paper.
+16,94,bc1qar0srrr7xfkvy5l643lydnw9re59gtzzwf5md
+16,96,7656EC7ab
+16,96,7656EC7ab88b098defB751B7401B5f6d8976F 0x71C7656
+16,96,7656EC7ab88b098defB751B7401B5f6d8976F 0x71C7656E
+16,98,  Vanity address
+16,98,> Vanity address
+172,7,\x0e+\x10\x12
+175,114,e
+175,119,e
+175,98,3
+193,182,Tab
+20,30,*********************************************
+202,7,\x0e+\x10\x12
+203,119,5
+203,135,d
+203,140,9
+203,140,d
+203,156,x
+203,161,d
+203,161,x
+203,98,1
+212,7,\x0e+\x10\x12
+222,7,\x0e+\x10\x12
+231,114,r
+231,119,r
+231,98,4
+252,7,\x0e+\x10\x12
+254,7,A word is wrong or the checksum fails
+259,135,f
+259,140,f
+259,156,c
+259,161,c
+284,7,Checksum wrong: a word is mistyped
+287,114,t
+287,119,t
+287,98,5
+315,119,6
+315,135,g
+315,140,a
+315,140,g
+315,156,v
+315,161,e
+315,161,v
+315,98,2
+330,206,keep holding to sign
+332,7,\x0e+\x10\x12
+343,114,y
+343,119,y
+343,98,6
+364,7,Word 13 is not in the list
+371,135,h
+371,140,h
+371,156,b
+371,161,b
+382,7,\x0e+\x10\x12
+399,114,u
+399,119,u
+399,98,7
+400,206,\x01 back
+408,106,rmatted
+408,130,\x01 save to card 2
+408,152,\x0d\x0f speed
+408,206,\x10 hex  \x04 done
+408,26,One QR code
+408,26,UR code 0 of 13
+408,46,600 bytes
+408,66,13 codes, 5.0/s
+408,66,Not saved: card not fo
+408,86,Not saved: card not fo
+408,86,rmatted
+427,119,7
+427,135,j
+427,140,b
+427,140,j
+427,156,n
+427,161,f
+427,161,n
+427,98,3
+455,114,i
+455,119,i
+455,98,8
+483,135,k
+483,140,k
+483,156,m
+483,161,m
+483,182,.
+511,114,o
+511,119,o
+511,98,9
+514,4,<  ASCII  >
+514,4,< UTF-8  >
+529,98,Del
+533,182,Enter
+534,161,OK
+534,4,6-13 / 13
+534,50,1-24 / 63
+534,50,1-24 / 72
+534,50,5-28 / 63
+534,50,5-28 / 72
+534,50,9-32 / 63
+534,50,9-32 / 72
+539,135,l
+539,140,l
+543,156,Del
+543,161,Ins
+544,4,1 / 24
+544,4,1 marked
+544,4,1-8 / 13
+544,4,10 / 24
+544,4,11 / 24
+544,4,12 / 24
+544,4,13 / 24
+544,4,14 / 24
+544,4,15 / 24
+544,4,16 / 24
+544,4,17 / 24
+544,4,18 / 24
+544,4,19 / 24
+544,4,2 / 24
+544,4,2 marked
+544,4,20 / 24
+544,4,21 / 24
+544,4,22 / 24
+544,4,23 / 24
+544,4,24 / 24
+544,4,25 / 24
+544,4,3 / 24
+544,4,3 marked
+544,4,4 / 24
+544,4,4 marked
+544,4,5 / 24
+544,4,5 marked
+544,4,6 / 24
+544,4,6 marked
+544,4,7 / 24
+544,4,8 / 24
+544,4,9 / 24
+550,7,\x0e show
+56,116,⢸⣿⡋⠀⠀⠀⢹⣿⡇⠀⠀⠀⠀
+56,134,⣿⡟⠀⠀⠀⠀⠀⢿⡇⠀⠀⠀⠀
+56,152,⠉⠁⠀⠀⠀⠀⠀⠸⠇
+56,26,⣴⡿⠶⠀⠀⠀⣦⣀⣴⠀⠀⠀⠀
+56,44,⣿⡄⠀⠀⣠⣾⠛⣿⠛⣷⠀⠿⣦
+56,62,⠙⣷⣦⣾⣿⣿⣿⣿⣿⠟⠀⣴⣿
+56,80,⠀⣸⣿⣿⣿⣿⣿⣿⣿⣾⠿⠋⠁
+56,98,⠀⣿⣿⣿⠿⡿⣿⣿⡿⠀⠀⠀⠀
+567,114,p
+567,119,p
+567,98,0
+57,161,Shift
+584,50,wrap
+62,182,?123
+63,114,q
+63,119,q
+63,98,1
+72,156,OK
+91,119,4
+91,135,a
+91,140,8
+91,140,a
+91,161,c
+91,98,0

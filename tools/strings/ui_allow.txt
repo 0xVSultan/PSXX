@@ -1,0 +1,68 @@
+# Texts that are the same in every language: the lint (tools/ui_lint.py) does not take them for texts of the screens.
+# A line is an exact text (C escapes as in the sources), or re:<regular expression> for the whole text. Names of the coins and of the console, units, protocol and file tags.
+re:[A-Z0-9]{2,8}
+re:[0-9a-fA-F]{2,}
+PlayStation
+Monero
+Bitcoin
+Litecoin
+Ethereum
+Dogecoin
+Dash
+Zcash
+Solana
+Stellar
+Tron
+Polkadot
+Kusama
+Cardano
+Nostr
+Kaspa
+Osmosis
+Tonkeeper
+Tonhub
+Merlin v1.0
+PSXX key store
+PSXX CD seek log
+psxx multisig policy v1
+re:BESCES-[0-9A-Z]+
+re:(?s)PSXX.*
+QWERTYUIOP
+ASDFGHJKL
+ZXCVBNM
+REST (typing the words)
+(null)
+# names of the chains and of the protocol's own terms (the same in every language)
+Bitcoin Cash
+Ethereum Classic
+Cosmos Hub
+Optimism
+BNB Chain
+Gnosis
+Polygon
+Fantom
+zkSync Era
+Base
+Arbitrum One
+Avalanche C
+Linea
+Scroll
+Holesky
+Sepolia
+TRON POWER
+BANDWIDTH
+Owner
+Witness
+Active
+re:(?s).* Signed Message:\n
+re:(?s)psbt.*
+ed25519 seed
+TON seed version
+TON default seed
+re:0123456789\(\)\[\],.*
+# the pieces of the Nostr event in JSON (core/sign/nostr.c): part of what is signed
+",%llu,%llu,
+","pubkey":"
+","created_at":%llu,"kind":%llu,"tags":
+,"content":"
+","sig":"

@@ -1,0 +1,28 @@
+# generated
+build/
+__pycache__/
+*.pyc
+*.o
+*.obj
+*.elf
+
+# third-party programs and SDKs
+toolchain/
+emulator/
+
+# BIOS images are copyrighted
+psxbios/
+
+# downloaded sources: see tools/SOURCES.md for the URLs and hashes
+tools/wordlist_dl/
+tools/wordlist_dl_xmr/
+tools/font_dl/
+tools/font_dl_terminus/
+
+# local state
+.sentry-native/
+ducksaves/
+
+# memory card images
+*.mcd
+*.mcr
