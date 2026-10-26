@@ -1,0 +1,13 @@
+PSXX crypto multitool, "trophy" release.
+
+A PlayStation 1 memory card program for generating and holding crypto keys offline and signing transactions on the console: Bitcoin, Ethereum, Nostr, Monero and others. This is the first complete release. The files below are the memory card images of it: a boot card for each supported PlayStation BIOS version, the signer card (B) and the language card (C).
+
+How the cards fit together: the boot card (pick the one for your BIOS version) starts the key generator from memory card slot 1. The signer card (B) holds the signed overlay package: the signer itself and the built-in language module. The language card (C) holds the signed data package with the extra languages (word lists and the glyphs they need). B has to be signed by the key of this release and made for exactly the program on the boot card; C has to be signed by the same key, which the boot card names in its release record. The console checks this when it loads each of them.
+
+What the signature covers: the program on each boot card (its release record holds the release public key and the key of the language card), the overlay package on B, the data package on C, and, through this manifest, every card file below by SHA-256, including the BIOS specific loader that starts the program. A boot card whose loader or program differs from the listed one fails the check.
+
+How to check your files: open the verifier page (psxx-verify.html, one file, no network access, its SHA-256 is in this manifest), enter the project public key (take it from a source you trust), pick the boot card and the other cards (B and C), paste the package event and this manifest, and press Verify. The command line twin is tools/release.py check-cards in the source.
+
+Not included: PlayStation BIOS images and private keys.
+
+The build is repeatable on the machine it was made on with the tools whose SHA-256 are listed here; the manifest makes no claim for other machines or other toolchain builds.

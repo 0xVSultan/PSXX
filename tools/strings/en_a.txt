@@ -1,0 +1,584 @@
+# The English texts of the range 'a' (the main card): NAME<TAB>text, C escapes. The order is the numbering: new texts go to the end. tools/ui_ids.py
+HINT_QR_JUNCTIONS_SECRET_KEY	\x01 QR  \x03 junctions  \x02 secret key
+HINT_QR	\x01 QR
+HINT_QR_SECRET_KEY	\x01 QR  \x02 secret key
+HINT_QR_CODE_HIDE	\x01 QR code  \x02 hide
+HINT_APPLY_ADD_DELETE_R2_TYPE	\x01 apply  \x03 add  \x02 delete  R2 type
+HINT_BACK_TO_THE_WORDS	\x01 back to the words
+HINT_CONTINUE	\x01 continue
+HINT_CREATE_BACK	\x01 create  \x06 back
+HINT_DERIVE_OWN_PATH_BACK	\x01 derive  \x03 own path  \x06 back
+HINT_EDIT_BACK	\x01 edit  \x06 back
+HINT_PASTE_DELETE_JOIN	\x01 paste  \x02 delete  \x03 join
+HINT_RETRY_BACK	\x01 retry  \x06 back
+HINT_SAVE_TO_CARD_2	\x01 save to card 2
+HINT_SEEK_BACK	\x01 seek  \x06 back
+HINT_SHOW_QR_CODE	\x01 show QR code
+HINT_TYPE_DEL_SPACE_SHIFT_DONE	\x01 type \x02 del \x03 space \x04 shift \x05 done \x06 cancel
+HINT_TYPE_DEL_TAKE_PICK_DONE_CANCEL	\x01 type \x02 del \x04 take \x0d\x0f pick \x05 done \x06 cancel
+HINT_TYPE_DEL_DONE_CANCEL	\x01 type \x02 del \x05 done \x06 cancel
+HINT_BACK	\x02 back
+HINT_CANCEL	\x02 cancel
+HINT_HIDE	\x02 hide
+HINT_YES_DELETE_SELECTED	\x02 yes, delete selected
+HINT_HEX_INPUT	\x03 hex input
+HINT_SAVE_KEY_TO_CARD	\x03 save key to card
+HINT_SAVE_THE_KEY_TO_THE_CARD	\x03 save the key
+HINT_ANOTHER_BACK	\x04 another  \x02 back
+HINT_HEADS_TAILS_UNDO_DONE_CANCEL	\x04 heads  \x01 tails  \x0d undo  \x05 done  \x06 cancel
+HINT_MORE_COINS	\x04 more coins
+HINT_NONE_MATCH_SEE_WORDS	\x04 none match   \x03 see words
+HINT_COPY_CLIPBOARD	\x05 copy  \x06 clipboard  \x0d wrap
+HINT_KEEP_DISCARD_AND_GO_BACK	\x05 keep  \x06 discard and go back
+HINT_SIGN_WITH_THIS_SEED	\x05 sign with this seed
+HINT_BACK_2	\x06 back
+HINT_CANCEL_L2_UNLOCK_THE_FIRST_TWO	\x06 cancel  L2 unlock the first two
+HINT_CHOOSE_OPEN_BACK	\x0b choose  \x01 open  \x06 back
+HINT_CHOOSE_OPEN_SECTION	\x0b choose  \x01 open  \x0d\x0f section
+HINT_CHOOSE_SELECT	\x0b choose  \x01 select
+HINT_CHOOSE_SELECT_LOOK_AGAIN_BACK	\x0b choose  \x01 select  \x03 look again  \x04 back
+HINT_CHOOSE_USE_CONTINUE_RESET_HOLD	\x0b choose  \x01 use  \x05 continue  \x06 reset (hold)  \x04 menu
+HINT_CHOOSE_SELECT_2	\x0b choose   \x01 select
+HINT_ROW_CHANGE	\x0b row  \x0c change
+HINT_ROW_CHANGE_CONTINUE_BACK	\x0b row  \x0c change  \x01 continue  \x06 back
+HINT_ROW_CHANGE_16	\x0b row  \x0c change  \x0d\x0f +-16
+HINT_SCROLL_TEXT_HEX_BACK	\x0b scroll  \x03 text / hex  \x06 back
+HINT_SCROLL_R2_NEXT_SAVE_DONE	\x0b scroll  R2 next  \x01 save  \x04 done
+HINT_STYLE_COUNT_1_N_5	\x0b style  \x0c count (1-%d)  \x0d\x0f +-5
+HINT_N_BACK	\x0c %d/%d  \x02 back
+HINT_FACE_ENTER_UNDO_DONE_CANCEL	\x0c face  \x01 enter  \x0d undo  \x05 done  \x06 cancel
+HINT_KEY_DESCRIPTOR_BACK	\x0c key / descriptor  \x02 back
+HINT_KEY_DESCRIPTOR_QR_CODE	\x0c key / descriptor   \x01 QR code
+HINT_LEVEL_1_10	\x0c level  \x0b +-1  \x0d\x0f +-10  \x04 '
+HINT_SPEED	\x0d\x0f speed
+HINT_WATCH_ONLY_KEY	\x0d watch-only key
+HINT_HIDE_2	\x0e hide
+HINT_SHOW	\x0e show
+HINT_TYPE_A_PAYMENT_ID	\x10 type a payment ID
+HINT_MOVE_MARK_UNMARK_DELETE	\x11 move  \x01 mark  \x04 unmark  \x02 delete
+WORDS_N	  Words: %s
+N_CONTINUE	%c Continue
+N_KIND_N	%c Kind:  %c %s %c
+N_NEW_STORE	%c + New vault
+N_SINGLE_KEY	%c Single key  (%d saved)
+N_WORDS_N	%c Words: %c %d %c
+N_B_QR_N_NEAR_LIMIT_UR_N	%d B | QR %d%% near limit | UR %d
+N_B_QR_N_OVER_UR_N_CODES	%d B | QR %d%% over | UR %d codes
+N_ADDRESSES	%d addresses
+N_BYTES	%d bytes
+N_WORDS_TYPED_N_CHOSEN	%d words typed, %d chosen
+N_WORDS_TYPED_25_NEEDED	%d words typed, 25 needed
+N_HOLD_SELECT_TO_CANCEL	%lu %%  -  hold SELECT to cancel
+N_TRACKS	%u:%02u, %d tracks
+EMPTY	(empty)
+NO_LEVELS	(no levels)
+NONE	(none)
+PASSPHRASE_USED	, passphrase used
+KEEP_PASSPHRASE	- keep passphrase
+NO_PASSPHRASE	- no passphrase
+WRITE_THEM_DOWN	- write them down
+T_1_RING_50_MB	1 ring = 50 MB
+T_10_TO_20_SECONDS_EACH	10 to 20 seconds each
+T_10_TO_30_SECONDS_EACH	10 to 30 seconds each
+T_12_WORDS_ARE_ENOUGH_24_WORDS	12 words are enough; 24 words for more margin
+T_15_CHARACTERS	15 characters
+T_2ND_ADDRESS_N	2nd address: %s
+T_8_WORDS	8 words
+A_KEY_OF_64_HEX_DIGITS_SAVED	64 hex digits, saved without derivation
+A_SECOND_INDEPENDENT_WALLET	A second, independent wallet from the same entropy
+A_WEAK_ONE_IS_WARNED_ABOUT	A weak one is warned about
+A_WORD_IS_WRONG_OR_THE	A word is wrong or the checksum fails
+AES_256_GCM_NEEDS_ENTROPY	AES-256-GCM, needs entropy first; saved to card 2
+AES_256_GCM_PASSWORD_KEY_FROM	AES-256-GCM, password, key from PBKDF2
+ACCOUNT_0_FOR_RECEIVING	Account 0, for receiving
+ADDRESS	Address
+ALL_WORDS_TYPED_OK_OR_START	All words typed - OK or START
+AN_EXTRA_SECRET_WORD_ASKED	An extra secret word, asked next; keep it with the words
+ANYONE_WHO_SEES_THIS_CAN_SPEND	Anyone who sees this can spend ALL
+BIP39	BIP39
+BIP39_PASSPHRASE_EMPTY_NONE	BIP39 passphrase (empty: none)
+BIP39_WALLET	BIP39 wallet
+BIP39_WORDS	BIP39 words
+BIP39_WORDS_BITCOIN_ETHEREUM	BIP39 words (Bitcoin, Ethereum, ...)
+BIP39_12_WORDS	BIP39, 12 words
+BIP39_24_WORDS	BIP39, 24 words
+BASE64	Base64
+BECH32_CASHADDR_PREFIX	Bech32 / CashAddr prefix
+BITCOIN_CASH_CASHADDR	Bitcoin Cash (CashAddr)
+BITCOIN_AND_FORKS	Bitcoin and forks
+BITCOIN_LEGACY	Bitcoin legacy
+BITCOIN_LEGACY_1	Bitcoin legacy (1...)
+BITCOIN_NESTED_SEGWIT_3	Bitcoin nested segwit (3...)
+BITCOIN_SEGWIT	Bitcoin segwit
+BITCOIN_SEGWIT_BC1Q	Bitcoin segwit (bc1q)
+BITCOIN_TAPROOT_BC1P	Bitcoin taproot (bc1p)
+BITS_N	Bits:   %u / %d
+BITS_N_2	Bits:  %d / %d
+BITS_N_JOYSTICK_N_COIN_N_DICE	Bits: %d / %d  (joystick %d, coin %u, dice %u)
+CD_SEEK_TIMING	CD seek timing
+CANCELLED_NOTHING_WAS_KEPT	Cancelled; nothing was kept.
+CANNOT_DERIVE_THIS_ADDRESS	Cannot derive this address
+CANNOT_DERIVE_THIS_KEY	Cannot derive this key
+CANNOT_READ_THE_FILE_N	Cannot read the file: %s
+CARD_2_HOLDS_THE_KEY_STORES	Card 2 holds the vaults and the single keys
+CARD_IN_SLOT_2_N	Card in slot 2: %s
+CARDANO_SHELLEY_ICARUS	Cardano (Shelley, Icarus)
+CASHADDR_BITCOINCASH_Q	CashAddr (bitcoincash:q..)
+CHECK_N	Check %d / %d
+CHECKING_THE_TON_PHRASE	Checking the TON phrase
+CHECKSUM_WRONG_A_WORD_IS	Checksum wrong: a word is mistyped
+CIPHERTEXT_IN_HEX	Ciphertext in hex
+CLIPBOARD_BLOCKS_JOINED_BY_A	Clipboard - blocks joined by a space
+CLIPBOARD_BLOCKS_JOINED	Clipboard - blocks joined without space
+COIN	Coin
+COIN_FLIPS	Coin flips
+COLLECT_ENTROPY_THEN_BIP39	Collect entropy, then BIP39 / Monero / TON words
+COPIED	Copied
+COSMOS_HUB	Cosmos Hub
+COSMOS_STYLE_BECH32	Cosmos style bech32
+CREDIT_0_BITS_TEST	Credit: 0 bits (test)
+CURVE	Curve
+CURVE_OF_THE_KEY	Curve of the key
+CUSTOM	Custom
+CUSTOM_COIN	Custom coin
+CUSTOM_COIN_YOU_CHOOSE	Custom coin (you choose everything)
+DASH	Dash
+DATA_N_BYTES	Data: %d bytes
+DECRYPT_A_TEXT	Decrypt a text
+DECRYPTED_N_BYTES	Decrypted - %s, %d bytes
+DECRYPTING	Decrypting
+DEL	Del
+DELETE_THE_MARKED_TEXT	Delete the marked text?
+DELETE_THIS_CLIPBOARD_ENTRY	Delete this clipboard entry?
+DERIVATION_PATH	Derivation path
+DERIVING	Deriving
+DERIVING_ADDRESSES	Deriving addresses
+DERIVING_KEYS	Deriving keys
+DERIVING_SUBADDRESS	Deriving subaddress
+DERIVING_THE_TON_KEY	Deriving the TON key
+DERIVING_THE_ACCOUNT_KEY	Deriving the account key
+DERIVING_THE_ADDRESS	Deriving the address
+DERIVING_THE_KEY	Deriving the key
+DICE	Dice
+DICE_ROLLS	Dice rolls
+DOGECOIN	Dogecoin
+DRIVE_ERROR	Drive error
+ERROR	ERROR
+EMPTY_N_MB	Empty   %u MB
+ENCRYPT_A_TEXT	Encrypt a text
+ENCRYPT_A_TEXT_OR_OPEN_AN	Encrypt a text, or open an encrypted one
+ENCRYPT_WHAT_IS_THE_INPUT	Encrypt: what is the input?
+ENCRYPTED_TEXT	Encrypted text
+ENCRYPTED_TEXT_N_BYTES	Encrypted text - %s, %d bytes
+ENCRYPTING	Encrypting
+ENCRYPTION	Encryption
+HINT_ENOUGH_KEEPS_IT	Enough! \x05 keeps it
+HINT_ENOUGH_PRESS	Enough! Press \x05
+ENTROPY	Entropy
+ENTROPY_SOURCES	Entropy sources
+ERROR_TRY_AGAIN	Error - try again
+ETHEREUM_ETC	Ethereum / ETC
+ETHEREUM_CLASSIC	Ethereum Classic
+ETHEREUM_AND_EVM_CHAINS	Ethereum and EVM chains
+ETHEREUM_AND_SIMILAR	Ethereum and similar
+ETHEREUM_STYLE_0X	Ethereum style 0x..
+EVEN_DIGITS_ONLY	Even digits only
+EVENTS_N	Events: %u
+FIX_YOUR_NOTES_THEN_CHECK	Fix your notes, then check again.
+FLIPS_N	Flips: %d
+FOR_A_WALLET_WITH_ITS_OWN	For a wallet with its own convention
+FREEPSXBOOT_CARD_NOT_A_PACKAGE	FreePSXBoot card, not a package
+GENERATE_A_NEW_SEED	Generate a new seed
+GENERATING	Generating
+GENERATION_FAILED_COLLECT	Generation failed - collect entropy again
+GROUP_N_OF_N_BYTES_SLOT_N	Group %u of %u (%u bytes), slot %d
+HASHING_SEED	Hashing seed
+HEX	Hex
+HEX_BYTES_UP_TO_1024_BYTES	Hex bytes (up to 1024 bytes)
+HEX_TO_ENCRYPT	Hex to encrypt
+HEX_WHOLE_BYTES_AT_LEAST_58	Hex: whole bytes, at least 58 - again
+HINT_HOLD_TO_SHOW	Hold \x01 to show
+HINT_HOLD_WHEN_YOU_HAVE_WRITTEN_IT	Hold \x01 when you have written it down
+HINT_HOLD_TO_WIPE_RESTART	Hold \x06 to wipe, restart
+IMPORT_IT_IN_A_WATCH_ONLY	Import it in a watch-only wallet
+INSERT_A_DISC_AND_CLOSE_THE	Insert a disc and close the lid.
+JOYSTICK	Joystick
+JUNCTIONS_LIKE_NAME_0_AGAIN	Junctions like //name/0 - again
+JUNCTIONS_LIKE_POLKADOT_0_1	Junctions, like //polkadot//0/1
+JUNCTIONS_N	Junctions: %s
+KASPA_SCHNORR_LEDGER	Kaspa (schnorr, Ledger)
+KEEP_THE_RECOVERY_WORDS_AS	Keep the recovery words as well:
+KEY_64_HEX_DIGITS	Key: 64 hex digits
+KUSAMA_SR25519	Kusama (sr25519)
+LABEL_SHOWN_WITH_THE_PASSWORD	Name of the key (shown only after the password)
+LANGUAGE	Language
+LAST_SEEK_FAILED	Last seek failed
+LEDGER_LIVE	Ledger Live
+LEGACY_XPUB	Legacy (xpub)
+LETTERS_AND_DIGITS_LIKE_A	Letters and digits, like a browser suggests
+LITECOIN_LEGACY_L	Litecoin legacy (L)
+LITECOIN_NESTED_SEGWIT_M	Litecoin nested segwit (M)
+LITECOIN_SEGWIT_LTC1	Litecoin segwit (ltc1)
+LOOKING_FOR_A_VALID_TON_PHRASE	Looking for a valid TON phrase
+MAIN_ADDRESS_MAINNET	Main address (mainnet)
+MAIN_ADDRESS_WITH_A_PAYMENT_ID	Main address with a payment ID
+MAIN_ADDRESS_VIEW_KEY	Main address, view key, subaddresses
+MANY_COINS_FROM_ONE_SEED_MORE	Many coins from one seed; more on the address page
+METAMASK_TREZOR_RABBY_EXODUS	MetaMask, Trezor, Rabby, Exodus
+MISMATCH	Mismatch!
+MIXED_IN_N_BITS_OF_BUTTON	Mixed in: %u bits of button timing
+MONERO	Monero
+MONERO_25_WORDS	Monero 25 words
+MONERO_INTEGRATED_ADDRESS	Monero integrated address
+MONERO_SEED	Monero seed
+MONERO_SUBADDRESS_N	Monero subaddress %d
+MONERO_TOO	Monero too
+MONERO_VIEW_KEY	Monero view key
+MONERO_WORDS	Monero words
+MONERO_WORDS_25	Monero words (25)
+NEAR_IMPLICIT_ACCOUNT	NEAR (implicit account)
+NEAR_ACCOUNT_HEX	NEAR account (hex)
+NEAR_PRIVATE_KEY	NEAR private key
+NAME_OF_THE_SAVED_TEXT_EMPTY	Name of the saved text (empty: none)
+NATIVE_SEGWIT_ZPUB	Native segwit (zpub)
+NEEDS_EXACTLY_64_HEX_DIGITS	Needs exactly 64 hex digits
+NESTED_SEGWIT_YPUB	Nested segwit (ypub)
+NEW_ACCOUNT_PER_ADDRESS	New account per address
+NO_CAMERA_NO_ONLOOKERS_NOTHING	No camera, no onlookers. Nothing is saved.
+NO_DISC_IN_THE_DRIVE	No disc in the drive
+NO_ENCRYPTED_TEXTS_ON_THE_CARD	No encrypted texts on the card in slot 2
+NO_FREE_BLOCK_FREE_ONE_ON_THE	No room for a new vault: use an existing one
+NOSTR_NPUB	Nostr (npub)
+NOSTR_NPUB_2	Nostr npub
+NOT_A_VALID_TON_PHRASE_OR_IT	Not a valid TON phrase (or it needs a password)
+NOT_A_VALID_FILE_PASSWORD	Not a valid file - password
+NOT_A_VALID_SECP256K1_KEY	Not a valid secp256k1 key
+NOT_LOADED	Not loaded:
+NOT_SAVED_N	Not saved: %s
+NOT_SAVED_INTERNAL_ERROR	Not saved: internal error
+NOT_SAVED_NO_FREE_BLOCK	Not saved: the card is full
+NOT_SAVED_STORE_OR_KEY_LIMIT	Not saved: too many blocks of keys
+NOT_SAVED_THE_CARD_DID_NOT	Not saved: the card did not keep it
+NOT_SAVED_THE_CARD_WAS_CHANGED	Not saved: the card was changed
+NOT_SURE_TAKE_THE_FIRST_BOTH	Not sure? Take the first: same 1st address
+NOTHING_TO_COPY	Nothing to copy
+NOTHING_TO_ENCRYPT	Nothing to encrypt
+ONE_QR_CODE	One QR code
+ONE_QR_N	One QR: %d%%
+ONE_ACCOUNT_MANY_ADDRESSES	One account, many addresses
+OPEN_AN_ENCRYPTED_TEXT	Open an encrypted text
+OSMOSIS	Osmosis
+OUTPUT_DESCRIPTOR	Output descriptor
+OWN_PATH_ADVANCED	Own path (advanced)
+OWN_PATH_CHECK_IT_MATCHES_YOUR	Own path: check it matches your wallet
+P2PKH_BASE58_1_L_D	P2PKH base58 (1.., L.., D..)
+P2SH_P2WPKH_BASE58_3_M	P2SH-P2WPKH base58 (3.., M..)
+P2TR_BECH32M_BC1P	P2TR bech32m (bc1p..)
+P2WPKH_BECH32_BC1Q	P2WPKH bech32 (bc1q..)
+PSX_CRYPTO_MULTITOOL	PSX Crypto Multitool
+PAD_N	Pad:    %s
+PARAMETER	Parameter
+PASSPHRASE	Passphrase
+PASSPHRASE_EMPTY_NONE	Passphrase (empty: none)
+PASSWORD	Password
+PASSWORD_NOT_EMPTY	Password (not empty)
+PASSWORD_FOR_THIS_KEY	Password for this key
+PASSWORD_OF_THE_KEY	Password of the key
+PASSWORD_OF_THE_TEXT	Password of the text
+PASTE_OR_SCAN_IT_AS_THE_WALLET	Paste or scan it as the wallet key
+PATH	Path
+PATH_N_AGAIN	Path: %s - again
+PAYMENT_ID_N	Payment ID %s
+PAYMENT_ID_16_HEX_DIGITS	Payment ID: 16 hex digits
+PAYMENT_ID_EXACTLY_16_HEX	Payment ID: exactly 16 hex digits
+PHANTOM_SOLFLARE_LEDGER	Phantom, Solflare, Ledger
+POLKADOT_ED25519_LEDGER	Polkadot (ed25519, Ledger)
+POLKADOT_SR25519	Polkadot (sr25519)
+PRESS_BUTTONS_MOVE_THE_STICKS	Press buttons, move the sticks
+PRIVATE_VIEW_KEY_SEES_INCOMING	Private view key: sees incoming only
+PROGRAM_CHECK_N	Program check: %s
+PUBLIC_KEY_HEX_32_BYTES	Public key, hex (32 bytes)
+PUBLIC_KEY_HEX_33_BYTES	Public key, hex (33 bytes)
+PUT_THE_N_CARD_IN_N_TO	Put the %s card in %s to continue
+PUT_THE_CARD_WITH_THE_PACKAGE	Put the card with the package in.
+QR_TOO_LONG	QR too long
+HINT_R2_TEXT_DONE	R2 text  \x04 done
+RANDOM_PASSWORD	Random password
+RANDOM_PASSWORD_15_CHARACTERS	Random password, 15 characters
+RANDOM_WORDS	Random words
+RANDOM_WORDS_8_WORDS	Random words, 8 words
+RAW_ED25519_KEY_TON_NO	Raw ed25519 key (TON, no derivation)
+RAW_KEY_HEX	Raw key (hex)
+RAW_SECP256K1_KEY_NO	Raw secp256k1 key (no derivation)
+READING_THE_DISC	Reading the disc
+READING_THE_PACKAGE_FROM_SLOT	Reading the package from slot %d
+RECOVERY	Recovery
+RECOVERY_WORDS	Recovery words
+REPEAT_THE_PASSPHRASE	Repeat the passphrase
+REPEAT_THE_PASSWORD	Repeat the password
+RESTORE_FROM_SEED	Restore from seed
+RESTORE_OR_IMPORT	Restore or import
+ROLLS_N	Rolls: %d
+SECRET_KEY	SECRET key
+SECRET_KEY_DO_NOT_SHOW_TO	SECRET key - do not show to anyone
+SHIFT	SHIFT
+SS58_SUBSTRATE_ED25519	SS58 (Substrate, ed25519)
+SAVE_THE_KEY_TO_THE_CARD	Save the key to the card
+SAVED_N	Saved: %s
+SAVED_KEY_N_OF_STORE_N	Saved: key %d of the vault %.24s
+SAVING_TO_THE_CARD	Saving to the card
+SEALING_THE_KEY	Sealing the key
+SECRET_KEY_2	Secret key
+SEEK_N_MS_ACK_N_MS	Seek %s ms, ack %s ms
+SEEKING	Seeking...
+SEEKS_N	Seeks: %d
+SHIFT_2	Shift
+SLOT_2_N_SAVED	Slot 2: %d/%d saved
+SLOT_2_N	Slot 2: %s
+SOLANA	Solana
+SOLANA_CLI_SOLLET_OLD	Solana CLI, Sollet (old)
+SOLANA_BASE58	Solana base58
+SPARROW_ELECTRUM_BITCOIN_CORE	Sparrow, Electrum, Bitcoin Core
+SPECIAL	Special
+STARTING_THE_SIGNER	Starting the signer
+STELLAR	Stellar
+STELLAR_G	Stellar G..
+TEST_MODE_NO_ENTROPY_CREDIT	TEST MODE: no entropy credit. Logging to card 2.
+TON_24_WORDS_SLOW	TON 24 words (slow)
+TON_PASSWORD_EMPTY_NONE	TON password (empty: none)
+TON_PHRASE	TON phrase
+TON_PHRASE_24_WORDS	TON phrase (24 words)
+TON_V4R2	TON v4R2
+TON_V4R2_BIP39_WORDS_LEDGER	TON v4R2 (BIP39 words, Ledger)
+TON_V5R1	TON v5R1
+TON_V5R1_BIP39_WORDS_LEDGER	TON v5R1 (BIP39 words, Ledger)
+TON_WALLET_V4R2	TON wallet v4R2
+TON_WALLET_V4R2_BOUNCEABLE	TON wallet v4R2, bounceable
+TON_WALLET_V5R1	TON wallet v5R1
+TON_WALLET_V5R1_BOUNCEABLE	TON wallet v5R1, bounceable
+TON_S_OWN_PHRASE_ABOUT_8	TON's own phrase, ~8 minutes (hold SELECT to cancel)
+TAPROOT_XPUB	Taproot (xpub)
+TEXT_UTF_8_UP_TO_1024_BYTES	Text (UTF-8, up to 1024 bytes)
+TEXT_TO_ENCRYPT	Text to encrypt
+TEXTS_SAVED_ON_CARD_2_OR_PASTE	Texts saved on card 2, or paste the hex
+THAT_STORE_IS_FULL_N_KEYS	That vault is full (%d keys)
+THE_25_WORDS_OF_A_LEGACY	25 words of a legacy Monero seed; keys derived
+THE_32_BYTES_ARE_A_SECRET_KEY	The 32 bytes are a secret key; 1 .. n-1
+THE_32_BYTES_ARE_AN_ED25519	The 32 bytes are an ed25519 seed
+THE_CARD_CHANGED_OR_WAS_TAKEN	The card changed or was taken out while reading.
+THE_DRIVE_DID_NOT_ANSWER	The drive did not answer
+THE_FIRST_TWO_LEVELS_PURPOSE	The first two levels (purpose, coin) are locked
+THE_KEY_COULD_NOT_BE_DERIVED	The key could not be derived
+THE_PACKAGE_ON_THE_CARD_IS	The package on the card is damaged.
+THE_PAPER_MUST_BE_EXACTLY_THE	The paper must be exactly the
+THE_RELEASE_RECORD_IS_EMPTY	The release record is empty
+THEY_DIFFER_ENTER_IT_AGAIN	They differ - enter it again
+THIS_PATH_DOES_NOT_SUIT_THE	This path does not suit the coin
+THIS_RELEASE_HAS_NO_LANGUAGE	This release has no language card
+TONKEEPER_OR_TONHUB_PHRASE_THE	Tonkeeper or Tonhub phrase; key takes minutes
+TOO_LONG_FOR_ONE_QR_CODE	Too long for one QR code
+TOO_MANY_BLOCKS	Too many blocks
+TREZOR_SUITE_LEDGER_LIVE	Trezor Suite, Ledger Live
+TRON	Tron
+TRON_T	Tron T..
+TYPE_MY_OWN_PASSWORD	Type my own password
+TYPE_THE_WORDS_WITH_THE	Type words with suggestions; 2-3 letters do
+TYPE_YOUR_RECOVERY_WORDS_GET	Type your recovery words, get the addresses
+UQ_FOR_WALLETS_EQ_BOUNCEABLE	UQ: for wallets, EQ: bounceable
+UR_CODE_N_OF_N	UR code %d of %u
+UR_ONE_CODE	UR, one code
+UR_N_CODES_N_S	UR: %u codes, %d.%d/s
+USED_BY_N	Used by: %s
+VERSION_MISMATCH_THE_PACKAGE	Version mismatch: package of another release.
+WIF_INTERNAL_KEY	WIF (internal key)
+WIF_COMPRESSED	WIF, compressed
+WATCH_ONLY_EXPORT	Watch-only export
+WEAK_ABOUT_N_BITS_N_WANTED_OK	Weak: %d bits (%d wanted). OK again to use it, or edit
+WHAT_TO_CREATE	What to create
+WHICH_IS_WORD_N_ON_YOUR_PAPER	Which is word #%d on your paper?
+WIPED_WHEN_YOU_LEAVE_THIS_PAGE	Wiped when you leave this page
+WITH_THE_MAIN_ADDRESS_VIEW	With the main address: view-only wallet
+WITHOUT_IT_THE_FILE_CANNOT_BE	Without it the file cannot be opened.
+WORD_N_YOU_CHOSE_N	Word #%d: you chose %s
+WORD_N_IS_NOT_IN_THE_LIST	Word %d is not in the list
+WORD_N_OF_N	Word %d of %d
+WORD_LISTS_OF_OTHER_LANGUAGES	Word lists of other languages, from the C card
+WORDS	Words
+WORDS_IN_N_NEW_SEEDS_AND	Words in %s: new seeds and restore
+WORDS_OF_THE_BIP39_LIST_EASY	Words of the BIP39 list: easy to write down
+WRITE_IT_DOWN_EXACTLY_IT_IS	Write it down exactly. It is not stored.
+WRITTEN_N_OF_N_MB	Written %u of %u MB
+WRONG_PASSWORD_OR_DAMAGED_FILE	Wrong password or damaged file - again
+XRP	XRP
+XRP_R	XRP r..
+YOROI_LACE	Yoroi, Lace
+ZASHI_YWALLET	Zashi, Ywallet
+ZCASH_ORCHARD_UNIFIED_U1	Zcash Orchard (unified u1)
+ZCASH_TRANSPARENT_T1	Zcash transparent (t1)
+A_CARD_CAN_BE_LOST_OR_DAMAGED	a card can be lost or damaged
+A_FEW_SECONDS_EACH	a few seconds each
+A_GROUP_HAS_A_WRONG_HASH	a group has a wrong hash
+A_MOMENT	a moment
+A_SLOT	a slot
+ABOUT_N_SECONDS	about %u seconds
+ABOUT_10_SECONDS	about 10 seconds
+ABOUT_15_SECONDS	about 15 seconds
+ABOUT_2_SECONDS	about 2 seconds
+ABOUT_5_SECONDS	about 5 seconds
+ABOUT_8_SECONDS	about 8 seconds
+ADDR_XSK_PAYMENT_KEY	addr_xsk (payment key)
+ANOTHER_RELEASE_VERSION	another release (version mismatch)
+ATTEMPT_N_OF_ABOUT_256_HOLD	attempt %lu of ~256, hold SELECT to cancel
+BAD_OVERLAY_HEADER	bad overlay header
+BAD_PACKAGE_HEADER	bad package header
+BAD_PACKAGE_TABLE	bad package table
+BAD_SYNTAX	bad syntax
+BUFFER_TOO_SMALL	buffer too small
+BUTTON_TIMING	button timing
+CARD_ERROR	card error
+CARD_FULL_NOT_SAVED	card full - NOT saved
+CARD_IS_FULL	card is full
+CARD_NOT_FORMATTED	card not formatted
+CARD_NOT_READABLE	card not readable
+CARD_READ_ERROR	card read error
+CARD_NO_PACKAGE	card, no package
+COMMAND_N_STATUS_N_ERROR_N	command %02X, status %02X, error %02X
+D6_2_58_BITS_EACH	d6, 2.58 bits each
+DAMAGED_FILE_ENTRY	damaged file entry
+ED25519_SLIP_10	ed25519 (SLIP-10)
+ED25519_TON_SOLANA	ed25519 (TON, Solana, ...)
+ED25519_CHAINS	ed25519 chains
+EVERY_LEVEL_NEEDS_THE_MARK	every level needs the ' mark
+EXTENDED_PUBLIC_KEY	extended public key
+EXTRACTING_ENTROPY	extracting entropy
+FILE_NOT_FOUND	file not found
+HARDWARE_WALLETS_USUALLY	hardware wallets, usually
+HEADS_TAILS_1_BIT_EACH	heads / tails, 1 bit each
+KEYPAIR_BASE58	keypair, base58
+LOG_IS_FULL	log is full
+LOOKED_AT	looked at
+MATCH_N	match %d/%d
+MOST_WALLETS	most wallets
+NEAR_THE_QR_LIMIT	near the QR limit
+NEEDS_AT_LEAST_ONE_LEVEL	needs at least one level
+NEEDS_AT_LEAST_TWO_LEVELS	needs at least two levels
+NO_CARD	no card
+NO_CARD_NOT_SAVED	no card - NOT saved
+NO_CARD_IN_SLOT_2	no card in slot 2
+NO_SUCH_FILE_ON_THE_CARD	no such file on the card
+NO_SUCH_GROUP	no such group
+NOT_A_PACKAGE	not a package
+NOT_A_SAVE_FILE	not a save file
+NOT_FORMATTED_NOT_SAVED	not formatted - NOT saved
+NUMBER_TOO_LARGE	number too large
+OUTPUT_DESCRIPTOR_2	output descriptor
+OVERLAY_DOES_NOT_FIT	overlay does not fit
+PACKAGE_N_THIS_RELEASE	package %s, this release
+PACKAGE_OF_ANOTHER_RELEASE	package of another release
+PACKAGE_TOO_SHORT_OR_BUFFER	package too short or buffer too small
+PRIVATE_KEY_HEX	private key, hex
+PRIVATE_SEED_HEX	private seed, hex
+READ_BEYOND_THE_END_OF_THE	read beyond the end of the file
+READ_ERROR	read error
+RELEASE_RECORD_EMPTY	release record empty
+SECP256K1_BIP32	secp256k1 (BIP32)
+SECP256K1_ETHEREUM_BITCOIN	secp256k1 (Ethereum, Bitcoin, ...)
+SECRET_URI_POLKADOT_JS	secret URI (polkadot-js)
+SECRET_SEED_S	secret seed (S...)
+SECTION_N	section %d / %d
+SEEK_TIMING_TEST_ONLY	seek timing, test only
+SPINNING_UP_UP_TO_10_SECONDS	spinning up, up to 10 seconds
+THE_B_CARD_STAYS_IN_ITS_SLOT	the B card stays in its slot
+THE_FUNDS_OF_THIS_ADDRESS	the funds of this address.
+THE_PACKAGE_BELONGS_TO_ANOTHER	the package belongs to another release
+THE_SIGNATURE_OF_THE_PACKAGE_IS_NOT_VALID	the signature of the package is not valid
+TOO_BIG_FOR_ONE_QR	too big for one QR
+TOO_MANY_LEVELS	too many levels
+UNKNOWN_PACKAGE_VERSION	unknown package version
+UNSUPPORTED_PACKING	unsupported packing
+VERY_WEAK	very weak
+WORDS_SHOWN_ON_THE_SCREEN	words shown on the screen.
+WRITE_ERROR_STOPPED	write error - stopped
+WRONG_KIND_OF_PACKAGE	wrong kind of package
+N_BITS_N	~%d bits: %s
+EMULATED_TIMING_IGNORED	Emulated: timing ignored
+EMULATOR_BUILD	Emulator build
+ABOUT_N_BITS_LINE	%s, about %d bits
+SOURCE_WORDS_LINE	%s words
+HINT_HOLD_TO_CHECK	Hold \x02\x01 to check
+BYTES_MARKED_IN_BLOCK_ONE	%d bytes marked in %d block
+BYTES_MARKED_IN_BLOCK_MANY	%d bytes marked in %d blocks
+STORE_KEYS_ONE	%c Vault %d: %d key
+STORE_KEYS_MANY	%c Vault %d: %d keys
+DAMAGED_STORE_BLOCK_NOT_TOUCHED_ONE	%d damaged block of keys, not touched
+DAMAGED_STORE_BLOCK_NOT_TOUCHED_MANY	%d damaged blocks of keys, not touched
+UR_CODE_ONE	UR: %u code
+UR_CODE_MANY	UR: %u codes
+HINT_LANGUAGE_NYELV	\x06 Language / Nyelv
+LITECOIN_MWEB_LTCMWEB1	Litecoin MWEB (ltcmweb1)
+MWEB_SCAN_KEY_SPEND_PUBKEY	MWEB view keys: scan secret, spend pubkey
+BIP47_PAYMENT_CODE	BIP47 payment code
+PAYMENT_CODE	payment code
+ENTER	Enter
+CHARS_N_LINE_N_OF_N_COLUMN_N_OF_N_REMAINING_N	Chars %d   Line %d/%d   Column %d/%d   Remaining %d
+TAB	Tab
+WRAP	wrap
+INS	Ins
+HINT_TYPE_DEL_SPACE_INS_DONE	\x01 type \x02 del \x03 space \x04 ins \x05 done \x06 cancel
+MWEB_KEYS_SCAN_SECRET_SPEND_SECRET	MWEB keys: scan secret, spend secret
+VIEW_ONLY_KEYS	View-only keys
+ANYONE_WHO_SEES_THESE_CAN_SEE	Anyone who sees these can see EVERY
+PAYMENT_TO_THIS_ADDRESS_NOT_SPEND	payment to this address, but cannot spend.
+HINT_QR_VIEW_KEYS	\x01 QR  \x02 view keys
+HINT_QR_CODE_HIDE_SPEND_KEYS	\x01 QR code  \x02 hide  \x0d spend keys
+MWEB_INDEX_0_CHANGE_1_PEG_IN	MWEB: 0 is change, 1 peg-in, receiving from 2
+MWEB_LITECOIN_CORE	Litecoin Core
+MWEB_CAKE_WALLET_ELECTRUM_LTC	Cake Wallet, Electrum-LTC
+MWEB_LITECOIN_CORE_WALLET	Litecoin Core wallet (m/0'/100')
+MWEB_CAKE_WALLET_ELECTRUM_LTC_MWEBD	Cake Wallet, Electrum-LTC (m/1000')
+MWEB_INDEX_0_CHANGE_RECEIVING_FROM_1	MWEB: index 0 is change, receiving starts at 1
+NAME_OF_THE_NEW_STORE	Name of the new vault
+PASSWORD_FOR_THE_STORE	Password for the vault
+PASSWORD_OF_THE_STORE	Password of the vault
+WRONG_STORE_PASSWORD_AGAIN	Wrong vault password - again
+MAKING_THE_STORE_KEY	Making the vault key
+OPENING_THE_STORE	Opening the vault
+HINT_CHOOSE_SELECT_BACK_2	\x0b choose  \x01 select  \x06 back
+OPEN_LABEL_SEEN_WITHOUT_THE_PASSWORD	Name in the list (visible without the password)
+EXTRAS	Extras
+SIGNER_AND_CD_PLAYER_B_CARD	Signer, CD player (B card)
+TIP_1	Did you compile this from the source code yourself?
+TIP_2	No grid => no backdoor can come down the power line.
+TIP_3	Write your seed on paper. No photos, etc.
+TIP_4	Nobody legitimate will ever ask you for your seed phrase.
+TIP_5	Send a small test transaction before you trust a new address.
+TIP_6	Dice are older than computers, and much harder to backdoor.
+TIP_7	A mistyped seed word usually fails the checksum. That is a feature.
+TIP_8	A screen's light can carry data. Pen and paper cross any air gap.
+TIP_9	Check every address twice, don't trust in a shortened form.
+TIP_10	Keep a second copy of your backup in a different place.
+TIP_11	Is anyone watching? Look for cameras and onlookers before showing a seed.
+TIP_12	Random words are hard to remember. Do not trust memory alone.
+TIP_13	A passphrase is the wallet. Forget it and the coins are gone.
+TIP_14	Your keys, your coins, your responsibility.
+TIP_15	Never use a too SMART TV!!!
+SECURITY_TIP	Security tip
+E2E_NOTE	"End to end" is a marketing word. It holds only if neither device has a backdoor.
+SRC_NOTE_JOY	Your button timing, mixed in: you must trust the process.
+SRC_NOTE_COIN	Every bit comes from you, one per flip.
+SRC_NOTE_DICE	Dice need no electronics.
+PATH_WARNING	Dangerous! One wrong level is another wallet. Better not.
+ADDR_NOTE	To be sure send a small test first.
+QR_WARN	Screens can leak to cameras
+B_CARD	B card
+N_CARD_FOUND_IN_SLOT_N	%s card found in slot %d.
+THAT_CARD_IS_NOT_THE_N_CARD	That card is not the %s card.
+THAT_N_CARD_BELONGS_TO_ANOTHER_VERSION	That %s card belongs to another version.
+HINT_TRY_AGAIN_CANCEL	\x01 try again  \x02 cancel
+N_DO_NOT_TAKE_THE_CARD_OUT	%d %%  Do not take the card out.
+SAVED_SINGLE_KEY_N	Saved: single key (%d saved)
+KEY_N	Key %d
+THE_CARD_IS_FULL_DELETE_A_KEY	The card is full: delete a key or a vault
+N_NEW_VAULT_NO_ROOM	%c + New vault  (card full)
+HINT_LOAD_CANCEL	\x01 load  \x02 cancel
+TWO_N_CARDS_FOUND_TAKE_ONE_OUT	Two %s cards found: take one out.

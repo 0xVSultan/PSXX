@@ -1,0 +1,33 @@
+# The sources that have no text in the code any more (they use T(TXT_...)): tools/ui_lint.py fails when one of them gets a text again. One path per line, from the root of the project.
+# A source goes here when its texts have been moved to tools/strings/en_<range>.txt. Empty at the start.
+hal/psx/loader.c
+hal/psx/card_watch.c
+hal/psx/source_ui.c
+hal/psx/keyboard.c
+hal/psx/lang_ui.c
+hal/psx/signer_app.c
+hal/psx/wallet_app.c
+core/coin/chains.c
+core/coin/ton.c
+core/coin/xpub.c
+core/pkg/cardfile.c
+core/pkg/pkg.c
+core/sign/ada.c
+core/sign/btc.c
+core/sign/btcmsg.c
+core/sign/cosmos.c
+core/sign/dispatch.c
+core/sign/evm.c
+core/sign/kaspa.c
+core/sign/near.c
+core/sign/nostr.c
+core/sign/polkadot.c
+core/sign/solana.c
+core/sign/stellar.c
+core/sign/ton.c
+core/sign/tron.c
+core/sign/xmr.c
+core/sign/xrp.c
+core/sign/zec.c
+hal/psx/signer_vanity.h
+hal/psx/signer_ms.h

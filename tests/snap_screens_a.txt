@@ -1,0 +1,1483 @@
+101,59,100'
+101,59,118'
+101,59,133'
+101,59,144'
+101,59,145'
+101,59,148'
+101,59,195'
+101,59,354'
+101,59,397'
+101,59,501'
+101,59,607'
+106,59,60'
+106,59,61'
+111,59,0'
+111,59,2'
+111,59,3'
+111,59,5'
+119,114,w
+119,119,w
+119,98,2
+120,206,\x01 tails  
+140,124,To be sure send a small test first.
+147,135,s
+147,140,s
+147,156,z
+147,161,z
+147,182,,
+154,59,21..'
+16,100,  CD
+16,100,> CD
+16,100,Fix your notes, then check again.
+16,100,Keep the recovery words as well:
+16,102,purchase umbrella
+16,104,  + New vault
+16,104,  Extras
+16,104,  Taproot (xpub)
+16,104,  Vault 3: 3 keys
+16,104,> + New vault
+16,104,> Extras
+16,104,> Taproot (xpub)
+16,104,> Vault 3: 3 keys
+16,104,No camera, no onlookers. Nothing is saved.
+16,106,8
+16,106,MVZ7oMXqDzRZfqPI7RI3XIGmy/AVOl+Eqc7zGD1ih6zR9htAZYqv1PkeQ2
+16,106,eb10355a 7fa4c9ee 13385d82 a7ccf116 3b6085aa cff4193e 
+16,106,ktx6875253ftxrzlugr6fa8snqa5vvp82vv39t00cnqjwynp4
+16,106,l
+16,106,m/0'/100'/0'/{i}
+16,106,m/1000'/0'/{i}
+16,106,m/1852'/1815'/0'/0/{i}
+16,106,m/1852'/1815'/{a}'/0/0
+16,106,m/44'/0'/0'/0/{i}
+16,106,m/44'/0'/{a}'/0/0
+16,106,m/44'/111111'/0'/0/{i}
+16,106,m/44'/111111'/{a}'/0/0
+16,106,m/44'/118'/0'/0/{i}
+16,106,m/44'/118'/{a}'/0/0
+16,106,m/44'/1237'/0'/0/{i}
+16,106,m/44'/1237'/{a}'/0/0
+16,106,m/44'/133'/0'/0/{i}
+16,106,m/44'/133'/{a}'/0/0
+16,106,m/44'/144'/0'/0/{i}
+16,106,m/44'/144'/{a}'/0/0
+16,106,m/44'/145'/0'/0/{i}
+16,106,m/44'/145'/{a}'/0/0
+16,106,m/44'/148'/{i}'
+16,106,m/44'/195'/0'/0/{i}
+16,106,m/44'/195'/{a}'/0/0
+16,106,m/44'/2'/0'/0/{i}
+16,106,m/44'/2'/{a}'/0/0
+16,106,m/44'/3'/0'/0/{i}
+16,106,m/44'/3'/{a}'/0/0
+16,106,m/44'/354'/0'/0'/{i}'
+16,106,m/44'/354'/{a}'/0'/0'
+16,106,m/44'/397'/{i}'
+16,106,m/44'/5'/0'/0/{i}
+16,106,m/44'/5'/{a}'/0/0
+16,106,m/44'/501'/0'/{i}'
+16,106,m/44'/501'/{a}'/0'
+16,106,m/44'/60'/0'/0/{i}
+16,106,m/44'/60'/{a}'/0/0
+16,106,m/44'/607'/{i}'
+16,106,m/44'/61'/0'/0/{i}
+16,106,m/44'/61'/{a}'/0/0
+16,106,m/49'/0'/0'/0/{i}
+16,106,m/49'/0'/{a}'/0/0
+16,106,m/49'/2'/0'/0/{i}
+16,106,m/49'/2'/{a}'/0/0
+16,106,m/84'/0'/0'/0/{i}
+16,106,m/84'/0'/{a}'/0/0
+16,106,m/84'/2'/0'/0/{i}
+16,106,m/84'/2'/{a}'/0/0
+16,106,m/86'/0'/0'/0/{i}
+16,106,m/86'/0'/{a}'/0/0
+16,106,r
+16,106,v
+16,106,wehe4kdvxkdgy8lvvgxaan8uf9pezvkecgldh9uxczy0fnue0
+16,108,  Cardano (Shelley, Icarus)
+16,108,  Cosmos Hub
+16,108,  Dogecoin
+16,108,  Litecoin MWEB (ltcmweb1)
+16,108,  Litecoin legacy (L)
+16,108,  Litecoin nested segwit (M)
+16,108,  Litecoin segwit (ltc1)
+16,108,  Shopping list for May 26 (PSXXET04)
+16,108,  TON v4R2 (BIP39 words, Ledger)
+16,108,> Cardano (Shelley, Icarus)
+16,108,> Cosmos Hub
+16,108,> Litecoin segwit (ltc1)
+16,108,> Shopping list for May 26 (PSXXET04)
+16,108,> TON v4R2 (BIP39 words, Ledger)
+16,108,Events: 0
+16,108,OK
+16,108,The first two levels (purpose, coin) are locked
+16,110,25 words of a legacy Monero seed; keys derived
+16,110,64 hex digits, saved without derivation
+16,110,Tonkeeper or Tonhub phrase; key takes minutes
+16,110,Type words with suggestions; 2-3 letters do
+16,110,eb10355a 7fa4c9ee 13385d82 a7ccf116 3b6085aa cff4193e 
+16,110,xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+16,112,A weak one is warned about
+16,112,Letters and digits, like a browser suggests
+16,112,Words of the BIP39 list: easy to write down
+16,114,1 / 5
+16,114,1 of 2, 10 to 20 seconds each
+16,114,1 of 2, a few seconds each
+16,114,123 of 4096 candidates, about 8 minutes
+16,114,2 / 5
+16,114,2 of 2, 10 to 20 seconds each
+16,114,2 of 2, a few seconds each
+16,114,3 / 5
+16,114,4 / 5
+16,114,5 / 5
+16,114,Deriving
+16,114,Deriving the key
+16,114,about 2 seconds
+16,114,about 5 seconds
+16,114,about 8 seconds
+16,116,  Vault 4: 3 keys
+16,116,> Vault 4: 3 keys
+16,118,command 00, status 00, error 00
+16,120,"End to end" is a marketing word. It holds only if neither
+16,120,a card can be lost or damaged
+16,122,  Continue
+16,122,> Continue
+16,124,  + New vault
+16,124,2nd address: m/0'/100'/0'/3
+16,124,2nd address: m/1000'/0'/2
+16,124,2nd address: m/1852'/1815'/0'/0/1
+16,124,2nd address: m/1852'/1815'/1'/0/0
+16,124,2nd address: m/44'/0'/0'/0/1
+16,124,2nd address: m/44'/0'/1'/0/0
+16,124,2nd address: m/44'/111111'/0'/0/1
+16,124,2nd address: m/44'/111111'/1'/0/0
+16,124,2nd address: m/44'/118'/0'/0/1
+16,124,2nd address: m/44'/118'/1'/0/0
+16,124,2nd address: m/44'/1237'/0'/0/1
+16,124,2nd address: m/44'/1237'/1'/0/0
+16,124,2nd address: m/44'/133'/0'/0/1
+16,124,2nd address: m/44'/133'/1'/0/0
+16,124,2nd address: m/44'/144'/0'/0/1
+16,124,2nd address: m/44'/144'/1'/0/0
+16,124,2nd address: m/44'/145'/0'/0/1
+16,124,2nd address: m/44'/145'/1'/0/0
+16,124,2nd address: m/44'/148'/1'
+16,124,2nd address: m/44'/195'/0'/0/1
+16,124,2nd address: m/44'/195'/1'/0/0
+16,124,2nd address: m/44'/2'/0'/0/1
+16,124,2nd address: m/44'/2'/1'/0/0
+16,124,2nd address: m/44'/3'/0'/0/1
+16,124,2nd address: m/44'/3'/1'/0/0
+16,124,2nd address: m/44'/354'/0'/0'/1'
+16,124,2nd address: m/44'/354'/1'/0'/0'
+16,124,2nd address: m/44'/397'/1'
+16,124,2nd address: m/44'/5'/0'/0/1
+16,124,2nd address: m/44'/5'/1'/0/0
+16,124,2nd address: m/44'/501'/0'/1'
+16,124,2nd address: m/44'/501'/1'/0'
+16,124,2nd address: m/44'/60'/0'/0/1
+16,124,2nd address: m/44'/60'/1'/0/0
+16,124,2nd address: m/44'/607'/1'
+16,124,2nd address: m/44'/61'/0'/0/1
+16,124,2nd address: m/44'/61'/1'/0/0
+16,124,2nd address: m/49'/0'/0'/0/1
+16,124,2nd address: m/49'/0'/1'/0/0
+16,124,2nd address: m/49'/2'/0'/0/1
+16,124,2nd address: m/49'/2'/1'/0/0
+16,124,2nd address: m/84'/0'/0'/0/1
+16,124,2nd address: m/84'/0'/1'/0/0
+16,124,2nd address: m/84'/2'/0'/0/1
+16,124,2nd address: m/84'/2'/1'/0/0
+16,124,2nd address: m/86'/0'/0'/0/1
+16,124,2nd address: m/86'/0'/1'/0/0
+16,124,> + New vault
+16,124,\x0c 1 / 4
+16,124,\x0c 1 / 9
+16,124,\x0c 2 / 4
+16,124,\x0c 2 / 9
+16,124,\x0c 3 / 4
+16,124,\x0c 3 / 9
+16,124,\x0c 4 / 4
+16,124,\x0c 4 / 9
+16,124,\x0c 5 / 9
+16,124,\x0c 6 / 9
+16,124,\x0c 7 / 9
+16,124,\x0c 8 / 9
+16,124,\x0c 9 / 9
+16,126,029723acc465a57825e98e9dbe70c1fb0
+16,126,03b7363d737025d8868e94ce697aa58d1
+16,126,12 words are enough; 24 words for more margin
+16,126,6388add2 f71c4166 8bb0d5fa 1f44698e b3d8fd22 476c91b6 
+16,126,A second, independent wallet from the same entropy
+16,126,An extra secret word, asked next; keep it with the words
+16,126,b34d56b5eb7df00ba75ac11facbd42d6
+16,126,dcfe90def7fb45e270bd58650e1c4a89
+16,126,iNstf8IUZrkLXa/yRJbpO43QInTHGWu+AFKk90mb7jCC1Sd5zB5gswVXqf
+16,128,  BIP47 payment code
+16,128,  Dash
+16,128,  Dogecoin
+16,128,  Language
+16,128,  Litecoin MWEB (ltcmweb1)
+16,128,  Litecoin legacy (L)
+16,128,  Litecoin nested segwit (M)
+16,128,  Osmosis
+16,128,  Polkadot (sr25519)
+16,128,  Shopping list for May 26 (PSXXET05)
+16,128,  TON v5R1 (BIP39 words, Ledger)
+16,128,> BIP47 payment code
+16,128,> Language
+16,128,> Litecoin nested segwit (M)
+16,128,> Osmosis
+16,128,> Polkadot (sr25519)
+16,128,> Shopping list for May 26 (PSXXET05)
+16,128,> TON v5R1 (BIP39 words, Ledger)
+16,128,Dangerous! One wrong level is another wallet. Better not.
+16,128,Pad:    analog
+16,130,6388add2 f71c4166 8bb0d5fa 1f44698e b3d8fd22 476c91b6 
+16,130,Write it down exactly. It is not stored.
+16,130,xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+16,134,  + New vault  (card full)
+16,134,> + New vault  (card full)
+16,136,Bits: 0 / 256  (joystick 0, coin 0, dice 0)
+16,136,Bits: 0 / 256  (joystick 16776996, coin 120, dice 100)
+16,136,Bits: 300 / 256  (joystick 80, coin 120, dice 100)
+16,140,Error - try again
+16,140,Main address, view key, subaddresses
+16,140,Many coins from one seed; more on the address page
+16,140,TON's own phrase, ~8 minutes (hold SELECT to cancel)
+16,140,Word #25: you chose abstract
+16,140,\x0c 1 / 2
+16,140,\x0c 2 / 2
+16,140,device has a backdoor.
+16,146,292fd1f378634d3ec422357f2d0bbd53a
+16,146,2b20a2a805493396e8dfdf4bbde6feae
+16,146,MWEB: 0 is change, 1 peg-in, receiving from 2
+16,146,MWEB: index 0 is change, receiving starts at 1
+16,146,Not sure? Take the first: same 1st address
+16,146,ae9af064be378130d17a8fc7000a08b38
+16,146,db00254a 6f94b9de 03284d72 97bce106 2b50759a bfe4092e 
+16,146,every level needs the ' mark
+16,146,f8f35d4bdd524016c570a0318774d1e2
+16,146,xOkOM1h9osfsETZbgKXK7xQ5XoOozfIXPGGGq9D1Gj9kia7T+B1CZ4yx1v
+16,148,  Kusama (sr25519)
+16,148,  Litecoin legacy (L)
+16,148,  Shopping list for May 26 (PSXXET06)
+16,148,> Bitcoin Cash (CashAddr)
+16,148,> Dash
+16,148,> Dogecoin
+16,148,> Kusama (sr25519)
+16,148,> Litecoin MWEB (ltcmweb1)
+16,148,> Litecoin legacy (L)
+16,148,> Shopping list for May 26 (PSXXET06)
+16,150,Without it the file cannot be opened.
+16,150,\x0c level  \x0b +-1  \x0d\x0f +-10  \x04 '
+16,150,db00254a 6f94b9de 03284d72 97bce106 2b50759a bfe4092e 
+16,150,xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+16,152,\x01 QR  \x02 secret key
+16,152,\x01 show QR code
+16,152,\x0c key / descriptor   \x01 QR code
+16,154,Cannot derive the key
+16,154,Chars 400   Line 4/7   Column 23/59   Remaining -352
+16,154,Clipboard - blocks joined by a space
+16,154,Collect entropy, then BIP39 / Monero / TON words
+16,154,Delete the marked text?
+16,154,Delete this clipboard entry?
+16,154,Encrypt a text, or open an encrypted one
+16,154,Signer, CD player (B card)
+16,154,Signer: the package is not the one this card was built
+16,154,Type your recovery words, get the addresses
+16,154,Word lists of other languages, from the C card
+16,154,m/44'/0'/0'
+16,154,m/47'/0'/0'
+16,154,m/49'/0'/0'
+16,154,m/84'/0'/0'
+16,154,m/86'/0'/0'
+16,156,2 damaged blocks of keys, not touched
+16,158,Dice need no electronics.
+16,158,Every bit comes from you, one per flip.
+16,158,Your button timing, mixed in: you must trust the process.
+16,160,Enough! Press \x05
+16,160,Generation failed - collect entropy again
+16,160,Program check: ok
+16,162,123456123456123456123456123456123456123456123456123456123456
+16,170,53789dc2 e70c3156 7ba0c5ea 0f34597e a3c8ed12 375c81a6 
+16,170,xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+16,176,Hold \x01 to show
+16,176,Saved to card 2 as PSXXET03
+16,176,\x01 QR  \x02 secret key
+16,176,\x01 QR  \x02 view keys
+16,176,\x01 QR  \x03 junctions  \x02 secret key
+16,176,\x01 QR code  \x02 hide
+16,176,\x01 QR code  \x02 hide  \x0d spend keys
+16,176,\x01 apply  \x03 add  \x02 delete  R2 type
+16,176,\x02 yes, delete selected
+16,176,\x04 another  \x02 back
+16,176,\x05 keep  \x06 discard and go back
+16,176,\x0b choose   \x01 select
+16,176,\x0b choose  \x01 open  \x0d\x0f section
+16,176,\x0b choose  \x01 select
+16,176,\x0b choose  \x01 select  \x06 back
+16,176,\x0b row  \x0c change
+16,176,\x0b row  \x0c change  \x0d\x0f +-16
+16,176,\x0b style  \x0c count (1-20)  \x0d\x0f +-5
+16,176,\x0b style  \x0c count (1-5)  \x0d\x0f +-5
+16,176,\x11 move  \x01 mark  \x04 unmark  \x02 delete
+16,178,Import it in a watch-only wallet
+16,178,Paste or scan it as the wallet key
+16,180,\x05 sign with this seed
+16,182,1234561234561234561234561234561234561234
+16,184,No room for a new vault: use an existing one
+16,184,Not an encrypted text of this program
+16,184,That vault is full (60 keys)
+16,206,Hold \x01 when you have written it down
+16,206,Hold \x02\x01 to check
+16,206,Hold \x06 to wipe, restart
+16,206,Wiped when you leave this page
+16,206,Words in Chinese (simp.): new seeds and restore
+16,206,\x01 back to the words
+16,206,\x01 continue
+16,206,\x01 create  \x06 back
+16,206,\x01 derive  \x03 own path  \x06 back
+16,206,\x01 edit  \x06 back
+16,206,\x01 paste  \x02 delete  \x03 join
+16,206,\x01 retry  \x06 back
+16,206,\x01 seek  \x06 back
+16,206,\x01 type \x02 del \x03 space \x04 shift \x05 done \x06 cancel
+16,206,\x01 type \x02 del \x04 take \x0d\x0f pick \x05 done \x06 cancel
+16,206,\x01 type \x02 del \x05 done \x06 cancel
+16,206,\x02 back
+16,206,\x02 hide
+16,206,\x04 heads  
+16,206,\x04 none match   \x03 see words
+16,206,\x05 copy  \x06 clipboard  \x0d wrap
+16,206,\x06 back
+16,206,\x06 cancel  L2 unlock the first two
+16,206,\x0b choose  \x01 open  \x06 back
+16,206,\x0b choose  \x01 select  \x03 look again  \x04 back
+16,206,\x0b choose  \x01 select  \x06 back
+16,206,\x0b choose  \x01 use  \x05 continue  \x06 reset (hold)  \x04 menu
+16,206,\x0b row  \x0c change  \x01 continue  \x06 back
+16,206,\x0b scroll  R2 next  \x01 save  \x04 done
+16,206,\x0b scroll  \x03 text / hex  \x06 back
+16,206,\x0c 1/4  \x02 back
+16,206,\x0c 1/9  \x02 back
+16,206,\x0c 2/4  \x02 back
+16,206,\x0c 2/9  \x02 back
+16,206,\x0c 3/4  \x02 back
+16,206,\x0c 3/9  \x02 back
+16,206,\x0c 4/4  \x02 back
+16,206,\x0c 4/9  \x02 back
+16,206,\x0c 5/9  \x02 back
+16,206,\x0c 6/9  \x02 back
+16,206,\x0c 7/9  \x02 back
+16,206,\x0c 8/9  \x02 back
+16,206,\x0c 9/9  \x02 back
+16,206,\x0c face  \x01 enter  \x0d undo  \x05 done  \x06 cancel
+16,206,\x0c key / descriptor  \x02 back
+16,22,TEST MODE: no entropy credit. Logging to card 2.
+16,24,  Litecoin Core
+16,24,  New account per address
+16,24,  One account, many addresses
+16,24,15 characters, about 88 bits
+16,24,8 words, about 88 bits
+16,24,> Litecoin Core
+16,24,> New account per address
+16,24,> One account, many addresses
+16,24,Account 0, for receiving
+16,24,BIP39, 24 words, passphrase used
+16,24,Bitcoin Cash (CashAddr)
+16,24,Bitcoin legacy (1...)
+16,24,Bitcoin nested segwit (3...)
+16,24,Bitcoin segwit (bc1q)
+16,24,Bitcoin taproot (bc1p)
+16,24,Cardano (Shelley, Icarus)
+16,24,Cosmos Hub
+16,24,Dash
+16,24,Dogecoin
+16,24,Ethereum Classic
+16,24,Ethereum and EVM chains
+16,24,Junctions: (none)
+16,24,Kaspa (schnorr, Ledger)
+16,24,Kusama (sr25519)
+16,24,Litecoin MWEB (ltcmweb1)
+16,24,Litecoin legacy (L)
+16,24,Litecoin nested segwit (M)
+16,24,Litecoin segwit (ltc1)
+16,24,Main address (mainnet)
+16,24,Main address with a payment ID
+16,24,NEAR (implicit account)
+16,24,Nostr (npub)
+16,24,Osmosis
+16,24,Polkadot (ed25519, Ledger)
+16,24,Polkadot (sr25519)
+16,24,Private view key: sees incoming only
+16,24,Raw ed25519 key (TON, no derivation)
+16,24,Solana
+16,24,Stellar
+16,24,TON v4R2 (BIP39 words, Ledger)
+16,24,TON v5R1 (BIP39 words, Ledger)
+16,24,Tron
+16,24,UQ: for wallets, EQ: bounceable
+16,24,XRP
+16,24,Zcash transparent (t1)
+16,24,m/0'/100'/0'/2
+16,24,m/0'/100'/0'/3
+16,24,m/1852'/1815'/0'/0/0
+16,24,m/1852'/1815'/0'/0/1
+16,24,m/44'/0'/0'/0/0
+16,24,m/44'/0'/0'/0/1
+16,24,m/44'/111111'/0'/0/0
+16,24,m/44'/111111'/0'/0/1
+16,24,m/44'/118'/0'/0/0
+16,24,m/44'/118'/0'/0/1
+16,24,m/44'/1237'/0'/0/0
+16,24,m/44'/1237'/0'/0/1
+16,24,m/44'/133'/0'/0/0
+16,24,m/44'/133'/0'/0/1
+16,24,m/44'/144'/0'/0/0
+16,24,m/44'/144'/0'/0/1
+16,24,m/44'/145'/0'/0/0
+16,24,m/44'/145'/0'/0/1
+16,24,m/44'/148'/0'
+16,24,m/44'/148'/1'
+16,24,m/44'/195'/0'/0/0
+16,24,m/44'/195'/0'/0/1
+16,24,m/44'/2'/0'/0/0
+16,24,m/44'/2'/0'/0/1
+16,24,m/44'/3'/0'/0/0
+16,24,m/44'/3'/0'/0/1
+16,24,m/44'/354'/0'/0'/0'
+16,24,m/44'/354'/0'/0'/1'
+16,24,m/44'/397'/0'
+16,24,m/44'/397'/1'
+16,24,m/44'/5'/0'/0/0
+16,24,m/44'/5'/0'/0/1
+16,24,m/44'/501'/0'/0'
+16,24,m/44'/501'/0'/1'
+16,24,m/44'/60'/0'/0/0
+16,24,m/44'/60'/0'/0/1
+16,24,m/44'/607'/0'
+16,24,m/44'/607'/1'
+16,24,m/44'/61'/0'/0/0
+16,24,m/44'/61'/0'/0/1
+16,24,m/49'/0'/0'/0/0
+16,24,m/49'/0'/0'/0/1
+16,24,m/49'/2'/0'/0/0
+16,24,m/49'/2'/0'/0/1
+16,24,m/84'/0'/0'  extended public key
+16,24,m/84'/0'/0'  output descriptor
+16,24,m/84'/0'/0'/0/0
+16,24,m/84'/0'/0'/0/1
+16,24,m/84'/2'/0'/0/0
+16,24,m/84'/2'/0'/0/1
+16,24,m/86'/0'/0'/0/0
+16,24,m/86'/0'/0'/0/1
+16,26,  Curve: secp256k1 (BIP32)
+16,26,0b30557a 9fc4e90e 33587da2 c7ec1136 5b80a5ca ef14395e 
+16,26,> Curve: secp256k1 (BIP32)
+16,26,CzBVep/E6Q4zWH2ix+wRNluApcrvFDleg6jN8hc8YYar0PUaP2SJrtP4HU
+16,26,Enough! \x05 keeps it
+16,26,Press buttons, move the sticks
+16,28,  Bitcoin legacy (1...)
+16,28,  Bitcoin nested segwit (3...)
+16,28,  Bitcoin segwit (bc1q)
+16,28,  Bitcoin taproot (bc1p)
+16,28,  Ethereum and EVM chains
+16,28,  Joystick
+16,28,  Litecoin segwit (ltc1)
+16,28,  Shopping list for May 26 (PSXXET00)
+16,28,  Solana
+16,28,  Zcash transparent (t1)
+16,28,> 
+16,28,> Bitcoin segwit (bc1q)
+16,28,> Custom coin (you choose everything)
+16,28,> Ethereum and EVM chains
+16,28,> Joystick
+16,28,> Shopping list for May 26 (PSXXET00)
+16,28,> Solana
+16,28,> Zcash transparent (t1)
+16,28,Which is word #25 on your paper?
+16,30,  BIP39 words (Bitcoin, Ethereum, ...)
+16,30,  Words: 12
+16,30,0b30557a 9fc4e90e 33587da2 c7ec1136 5b80a5ca ef14395e 
+16,30,> BIP39 words (Bitcoin, Ethereum, ...)
+16,30,> Words: 12
+16,30,xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+16,32,  Encrypt a text
+16,32,  Generate a new seed
+16,32,  Native segwit (zpub)
+16,32,  Type my own password
+16,32,  ed25519 (TON, Solana, ...)
+16,32,> Encrypt a text
+16,32,> Generate a new seed
+16,32,> Native segwit (zpub)
+16,32,> Type my own password
+16,32,> ed25519 (TON, Solana, ...)
+16,34,  Text (UTF-8, up to 1024 bytes)
+16,34,> Text (UTF-8, up to 1024 bytes)
+16,34,Card in slot 2: no card in slot 2
+16,34,No encrypted texts on the card in slot 2
+16,4,BIP39 wallet
+16,4,Bitcoin Cash (CashAddr)
+16,4,Bitcoin and forks  (11)
+16,4,Bitcoin legacy
+16,4,Bitcoin legacy (1...)
+16,4,Bitcoin nested segwit (3...)
+16,4,Bitcoin segwit
+16,4,Bitcoin segwit (bc1q)
+16,4,Bitcoin taproot (bc1p)
+16,4,CD seek timing
+16,4,Cardano (Shelley, Icarus)
+16,4,Check 4 / 4
+16,4,Coin flips
+16,4,Cosmos Hub
+16,4,Curve of the key
+16,4,Custom  (1)
+16,4,Custom coin
+16,4,Dash
+16,4,Decrypt a text
+16,4,Decrypted - hex, 900 bytes
+16,4,Decrypted - text, 900 bytes
+16,4,Derivation path
+16,4,Dice rolls
+16,4,Dogecoin
+16,4,Encrypt: what is the input?
+16,4,Encrypted text
+16,4,Encrypted text - Base64, 700 bytes
+16,4,Encrypted text - Hex, 700 bytes
+16,4,Encryption
+16,4,Entropy sources
+16,4,Ethereum / ETC
+16,4,Ethereum Classic
+16,4,Ethereum and EVM chains
+16,4,Ethereum and similar  (6)
+16,4,Kaspa (schnorr, Ledger)
+16,4,Kusama (sr25519)
+16,4,Litecoin MWEB (ltcmweb1)
+16,4,Litecoin legacy (L)
+16,4,Litecoin nested segwit (M)
+16,4,Litecoin segwit (ltc1)
+16,4,Mismatch!
+16,4,Monero
+16,4,Monero integrated address
+16,4,Monero subaddress 1
+16,4,Monero subaddress 999
+16,4,Monero view key
+16,4,NEAR (implicit account)
+16,4,Native segwit (zpub)
+16,4,Nostr (npub)
+16,4,Nostr npub
+16,4,Osmosis
+16,4,Output descriptor
+16,4,PSX Crypto Multitool
+16,4,Password for the vault
+16,4,Password of the key
+16,4,Password of the text
+16,4,Polkadot (ed25519, Ledger)
+16,4,Polkadot (sr25519)
+16,4,Random password
+16,4,Random words
+16,4,Restore or import
+16,4,SECRET key
+16,4,SECRET key - do not show to anyone
+16,4,Save the key to the card
+16,4,Secret key
+16,4,Solana
+16,4,Special  (7)
+16,4,Stellar
+16,4,TON v4R2 (BIP39 words, Ledger)
+16,4,TON v5R1 (BIP39 words, Ledger)
+16,4,TON wallet v4R2
+16,4,TON wallet v4R2, bounceable
+16,4,TON wallet v5R1
+16,4,TON wallet v5R1, bounceable
+16,4,Tron
+16,4,View-only keys
+16,4,Watch-only export
+16,4,What to create
+16,4,XRP
+16,4,Zcash transparent (t1)
+16,4,ed25519 chains  (6)
+16,40,  Kind:  < BIP39 words >
+16,40,  Kind:  < Monero words >
+16,40,  Kind:  < Raw key (hex) >
+16,40,  Kind:  < TON phrase >
+16,40,> Kind:  < BIP39 words >
+16,40,> Kind:  < Monero words >
+16,40,> Kind:  < Raw key (hex) >
+16,40,> Kind:  < TON phrase >
+16,40,The paper must be exactly the
+16,44,  Cake Wallet, Electrum-LTC
+16,44,  New account per address
+16,44,  Own path (advanced)
+16,44,  Single key  (0 saved)
+16,44,  Single key  (7 saved)
+16,44,> Cake Wallet, Electrum-LTC
+16,44,> New account per address
+16,44,> Own path (advanced)
+16,44,> Single key  (0 saved)
+16,44,> Single key  (7 saved)
+16,44,MWEB keys: scan secret, spend secret
+16,44,MWEB view keys: scan secret, spend pubkey
+16,44,Mixed in: 0 bits of button timing
+16,44,NEAR private key
+16,44,WIF (internal key)
+16,44,WIF, compressed
+16,44,addr_xsk (payment key)
+16,44,keypair, base58
+16,44,nsec
+16,44,private key, hex
+16,44,private seed, hex
+16,44,secret URI (polkadot-js)
+16,44,secret seed (S...)
+16,46,83a8cdf2 173c6186 abd0f51a 3f6489ae d3f81d42 678cb1d6 
+16,46,JnjLHW+yBFao+02f4jSG2St9wBJktwlbrfBClOc5i94gcsUXabwOUKL1R5
+16,48,  Bitcoin legacy (1...)
+16,48,  Bitcoin nested segwit (3...)
+16,48,  Bitcoin taproot (bc1p)
+16,48,  Ethereum Classic
+16,48,  Litecoin nested segwit (M)
+16,48,  Litecoin segwit (ltc1)
+16,48,  Shopping list for May 26 (PSXXET01)
+16,48,  Stellar
+16,48,  Zcash Orchard (unified u1)
+16,48,> Bitcoin taproot (bc1p)
+16,48,> Ethereum Classic
+16,48,> Shopping list for May 26 (PSXXET01)
+16,48,> Stellar
+16,48,> Zcash Orchard (unified u1)
+16,50,  Address: CashAddr (bitcoincash:q..)
+16,50,  Address: Cosmos style bech32
+16,50,  Address: Ethereum style 0x..
+16,50,  Address: NEAR account (hex)
+16,50,  Address: P2PKH base58 (1.., L.., D..)
+16,50,  Address: P2SH-P2WPKH base58 (3.., M..)
+16,50,  Address: P2TR bech32m (bc1p..)
+16,50,  Address: P2WPKH bech32 (bc1q..)
+16,50,  Address: Public key, hex (32 bytes)
+16,50,  Address: Public key, hex (33 bytes)
+16,50,  Address: SS58 (Substrate, ed25519)
+16,50,  Address: Solana base58
+16,50,  Address: Stellar G..
+16,50,  Address: TON v4R2
+16,50,  Address: TON v5R1
+16,50,  Address: Tron T..
+16,50,  Address: XRP r..
+16,50,0x17E4F2699984632a7D185c2340DBa1565c04cBC6
+16,50,0x445cE72B03dfAEBDc6b069edb5C4F5b9F96d2972
+16,50,1CnxUzzFsL4tJerMVj6izW9qPRdvrB6jam
+16,50,1cYLWCNae2A7257CNbwL3AKHQNudG2in6
+16,50,4B1m3niACPAX7wuyB2K1m4ZyWVkhbCEX61v9o3bePjwc6nE7qnza7GnXiib1
+16,50,4LiS4bXeoegX7wuyB2K1m4ZyWVkhbCEX61v9o3bePjwc6nE7qnza7GnXiib1
+16,50,82ovaXdtLCqFu7u8sQmnu84YDZwss5staBka3DB6cEkKMSEJUzEbLg2AqRMA
+16,50,83a8cdf2 173c6186 abd0f51a 3f6489ae d3f81d42 678cb1d6 
+16,50,8AH9R92V3nQMomi1H51CzeYzuwBARdrebBhSahoicJCWXLPMGEDM9piFJnt9
+16,50,> Address: CashAddr (bitcoincash:q..)
+16,50,> Address: Cosmos style bech32
+16,50,> Address: Ethereum style 0x..
+16,50,> Address: NEAR account (hex)
+16,50,> Address: P2PKH base58 (1.., L.., D..)
+16,50,> Address: P2SH-P2WPKH base58 (3.., M..)
+16,50,> Address: P2TR bech32m (bc1p..)
+16,50,> Address: P2WPKH bech32 (bc1q..)
+16,50,> Address: Public key, hex (32 bytes)
+16,50,> Address: Public key, hex (33 bytes)
+16,50,> Address: SS58 (Substrate, ed25519)
+16,50,> Address: Solana base58
+16,50,> Address: Stellar G..
+16,50,> Address: TON v4R2
+16,50,> Address: TON v5R1
+16,50,> Address: Tron T..
+16,50,> Address: XRP r..
+16,50,Chars 0   Line 1/1   Column 0/59   Remaining 1024
+16,50,Chars 0   Line 1/1   Column 0/59   Remaining 32
+16,50,Chars 0   Line 1/1   Column 0/59   Remaining 48
+16,50,Chars 0   Line 1/1   Column 0/59   Remaining 96
+16,50,Chars 1024   Line 1/18   Column 0/59   Remaining 0
+16,50,Chars 13   Line 1/1   Column 0/59   Remaining 83
+16,50,Chars 200   Line 1/4   Column 0/59   Remaining -152
+16,50,Chars 5   Line 1/1   Column 5/59   Remaining 11
+16,50,Chars 512   Line 1/9   Column 0/59   Remaining 512
+16,50,Chars 57   Line 1/1   Column 0/59   Remaining -9
+16,50,DPJJnk3ScPiAGd8aK9EQi7PFFemvRBhoXK
+16,50,DPWSuXZaSPB8fpFUCEfFU4t2fMdJKoEBZd
+16,50,Not saved: the card was taken out
+16,50,Saved: key 3 of the vault Family
+16,50,Saved: single key (8 saved)
+16,50,UQBvW8Z5huBkMJYdnfAEM5JqTNkuWX3diqYENkWsIL0XggGG
+16,50,bc1qfhu88tdfvdlpr0kdhc74e5qewcj47g5klr3mxh
+16,50,bc1qmvsqa827hvejkcll63ckh89qwjrh28srryv720
+16,50,c9420c36ac0bd7996ad93c7b3d244013
+16,50,npub1tledsafu4xze6fx5czxqpkgp4gdmlj477p8llwc02ws884u7yk9q97l
+16,50,npub1zme9l2dm3ertus00y3dd0s67knpsslmue6vv5lvy0jxepjxnnamqrez
+16,50,wpkh([0f448efe/84h/0h/0h]xpub6DFBpC2t7N5EhQChZSz1sqp9hNXiFPA
+16,50,wpkh([483e0797/84h/0h/0h]xpub6CV9E4yxnKg5Asn8DpNvTXdHX32XE4o
+16,50,xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+16,50,zpub6r9fqQKo5gm2sUAMtXxAshpHryKR7JnhwsjAFASGQvfCQ6zSXhgJYUVU
+16,50,zpub6ruiRXNiQjACPzawEAZGJ21A3Jpc8d9TDKr4VTTkReWxc6JVRQsYeyHp
+16,52,  Coin
+16,52,> Coin
+16,54,  Hex bytes (up to 1024 bytes)
+16,54,> Hex bytes (up to 1024 bytes)
+16,56,  Monero 25 words
+16,56,  Nested segwit (ypub)
+16,56,  Restore from seed
+16,56,> Monero 25 words
+16,56,> Nested segwit (ypub)
+16,56,> Restore from seed
+16,58,  Monero too: no
+16,58,  Open an encrypted text
+16,58,  Random password, 15 characters
+16,58,  secp256k1 (Ethereum, Bitcoin, ...)
+16,58,> Monero too: no
+16,58,> Open an encrypted text
+16,58,> Random password, 15 characters
+16,58,> secp256k1 (Ethereum, Bitcoin, ...)
+16,58,m
+16,6,BIP39 words
+16,6,Entropy
+16,6,Monero words
+16,6,Recovery words
+16,60,no card in slot 2
+16,60,words shown on the screen.
+16,62,  Vault 1: 3 keys  Family wallets, a long n
+16,62,> Vault 1: 3 keys  Family wallets, a long n
+16,62,Xq7mPz2KdW9vRt4
+16,62,abstract absurd category
+16,64,  + New vault
+16,64,  Own path (advanced)
+16,64,  Vault 1: 3 keys  Family wallets, a long n
+16,64,> + New vault
+16,64,> Own path (advanced)
+16,64,> Vault 1: 3 keys  Family wallets, a long n
+16,64,Anyone who sees these can see EVERY
+16,64,Anyone who sees this can spend ALL
+16,66,0a8e8678f1741b56e8e55273713d998828b1bd77cbe8da1af5871292b4f9
+16,66,0b7838e6904205f5f4b82a45804af8b6b82eca3521b0c0fefa1ed34dfbb9
+16,66,0eb82082f750ceca75b0f3b9241fc438
+16,66,0x0a0AFc5FE080CDe4301be0EF956Ef13aF09FdD88
+16,66,0x17E4F2699984632a7D185c2340DBa1565c04cBC6
+16,66,0x3fd90534BFF0bb854a28C3CfC7414106a86cA8e3
+16,66,0x445cE72B03dfAEBDc6b069edb5C4F5b9F96d2972
+16,66,0x584715ee0b2cb1fa06002a0625cbdd542abbf32993e0199fab5a83c846
+16,66,0x6Fea3d58257fDc44559d028ff05D653dB5606724
+16,66,0x73c581D1025291fcB76CD75a4c9d04D632132998
+16,66,0xcE9d7F352c7453fED5CD42EE6152C4d142F33F82
+16,66,0xdd6d24e84f36e8911c25336dc2ee5b14a1f96c5dea1063e351d2f2de8f
+16,66,0xf27061316EaEBdC03836a87d437737a5Fda730B1
+16,66,12ppRUigbwX8eHbCzDHXYUs9Nk88e9mM43
+16,66,13MUWBvcFnccwNLj9e1JdCf6hSEQ8cvdCS5cU6EhN3ZoZcek
+16,66,13QRDSyrU6ZtFrQHNKKcZ6yvy49BC7ErUQAk1NF2wSHwZzKX
+16,66,149s48Su6GJV2WbmveCjh1ii8gbREVLDg4XXN5vLeGrVJc4U
+16,66,151f085e69c2278fab38534c99630e539458faddcecae59ed3609716e01f
+16,66,156ETXxCsjYBdgQs66ge83AS2EVViXeGJSV6d8iHdTUGuX7J
+16,66,15dZ4eT3PHXzaaCUsY8CTpzigvF7y7rhmQNoqjXuxRAmJbdm
+16,66,16Hkdd8HPFJjFNgDDC8eJY2eWv9Gztgy1EAK1xeWmf5jWiBn
+16,66,1CnxUzzFsL4tJerMVj6izW9qPRdvrB6jam
+16,66,1QJW3rmzw9MPanEPSqyULUGyYnGWJkfFXw
+16,66,1b9eb7f2a90075a63cbac9063c31cf1c39d3dab46630cc266fa2e86b3976
+16,66,1c78bfd0e7bd3f3df43276f8fab26e5a0f1fa86b4d82160de2bdccbbd01b
+16,66,1cYLWCNae2A7257CNbwL3AKHQNudG2in6
+16,66,1e086a31e42f85eb25657e9acc88927057a3fe2a787677b94d9d593035ec
+16,66,2H1fvr7VcA1hufMvnAtmo8yK83qPyNpEWzfeH4x4Zuv4tESWYHDe8UnCJYtY
+16,66,2NdBwAv7nMyPHdiBn7gMdvXLuKKbZABq3L9Q9MyDev3c
+16,66,32yJgDDGwJDFokf5Kmyo3mHAPur5LJVhRsTwpUzrbh5p
+16,66,3Bp1zwFt6rFmQqv5o7CP54NvVXfSnNdfur
+16,66,3GAzrdX7kvGiWnHM5YwCm13jziK6cezHJ2
+16,66,3KswNWjdrXpqYqtkDUonaLiZ4M1TLXwiEk
+16,66,3QiRkzP213o3wPn8FYC9irpLnkaMoYPPa4
+16,66,414ffd0261f9ffcd3fd64f11c5181bb875714c794c6ffeeca0b7d8af9f3f
+16,66,454ef9089f8f163b15511302485f7a20576e0016ae15c11cc2281a818d65
+16,66,46f228116baa34cbc560bc5284423cbf415de7967126d25edbe5c86d1d11
+16,66,5e95668529dc0d76486538b2b1e512518f22d8a6d133f35756aa77c1738c
+16,66,5hq5PqZnvVVV5ZvBvZm7X97gxe1fwo5cnRF3ox7U4752qKfP1HLBdkx5oSmj
+16,66,606bc26509d37df30ef8f85dd76689eb081bab991dbce4cf8a04f0f20b6d
+16,66,61e47991558d90ba6775594529fd67ac34a9376c82164df7ff00a054024a
+16,66,71da68a29cdac33c9b6552ee6c33af43cfbe6b601b50324d3470c632687f
+16,66,7cb3fea342f970d3fea306232b2529829e7a0761cfb01af234066c9a755a
+16,66,DE41HHbL8qrjwJSqkL8hkHXQ3DcTVh6eq8
+16,66,DNsyipd8cijdqxXURPb6mHUGvvBXsP6n2E
+16,66,DPJJnk3ScPiAGd8aK9EQi7PFFemvRBhoXK
+16,66,DPWSuXZaSPB8fpFUCEfFU4t2fMdJKoEBZd
+16,66,F6pBmDHdEvM3hh5HHMcrUewkVoER62KqVGsFBDdookBy
+16,66,GB36QRMF7PBKARFYXWRXN5H7J4ZVCZLDDJMEGS62JPVAB4LK4MFDKY5W
+16,66,GCDDNMJTYYNAODWOIWLIS63OKOT5SAWQ53KPF2IYR35KY6I6SMAPYL4N
+16,66,GCVCMBGSC5TR6UDNKCHRAQWLQHRMYOINZBVZTI6QQW4FZWQ36BHVG4QV
+16,66,GDJWGWKWINTXVXFGXSZJTJKCJSX2PTQHH2JP7O2M6ZITQZGDINIQPKEC
+16,66,GVmRcuhoPCEbhwZMkYMgpsekwyrMGonbZMSSHctTUPeu
+16,66,GfYyX31eKHdwoDnuASgsqhHKCn5ptuJgKbMrVztZAfFU9q9
+16,66,HCsadXr9sHSth1QgbtFDdXZytXi5V7k9HV556pWt8MjsKFy
+16,66,Kx1BKcjMgp8WSFdDFwmYYWCtYncN6eg5wvRANjjvFi3Nif6PdDhW
+16,66,KxLAq8cNQU6JGMcJfveWSMv4UxcNQisF7DtAvxvfXKe4DLv5PeLG
+16,66,KxLrnpZ51ixN1pB1vF8LsdMXs8tXo9TKw9KukoMEL7GVDwF3hDsu
+16,66,KyqeJMsrGvi19bV7UUNfE7T5MjxS7UcukqDgW1WiUch6tCQk5KeN
+16,66,Kyvrg6z3YkJ7Jda2JXXiiJU1vr2FsxkNQfSM2kfS3MsHNfQRCx4Q
+16,66,KywNXfBHfPx968jtHBH6KzH7EtwSVaRbwzatAmnsM44VJ4Nkhz35
+16,66,KyygMgC9bsGA9TRj5tscvy52QkeGYepde8vM6d3DmssR3EszdZZW
+16,66,L1CW8WRVyFjxdc6sEn3DtpYc4wvJ4Mn5Z1wDHhBUyjePXtGuCS1p
+16,66,L1n4o5XPxhdfj4uHKqJHjMXjVwd2AtYXKVuuGxLcmAtVGWQxqktR
+16,66,L3JKTAqcg2uRgfeykqKvVpihmBdWEN9qqNPWANUPQrNw4RTWMEKr
+16,66,L4V7fHpuvqDWPE5ECuyD2JiKAWU3ckYtAYQeLaJWp9519MCUzyDg
+16,66,L5V6xeEJTfM3SuZQGmnNeyEqgrR9JNnoN74tuMKrPuRoM2ifSVgJ
+16,66,LLNi7gTKhCv73LN23jg9NxjDKrkmqK3yqb
+16,66,LSiQXhZ6HJhUsVkUBZPQA4s4qSxjdq2Zns
+16,66,LXq5zN8jvaPoRJcCPneVv8uWEqxgH7LAEV
+16,66,LY6oSc5gDfyDHaNHWdV6v8CkcFLs5fCcNk
+16,66,MK8FNGxPvTHmTVpvsNNosBrPCqfxqiwhti
+16,66,MNUqSfTz7NpCNNMd9eo8xZgkNunzDrP5NN
+16,66,MUXgvKAU4YqhiRhGj1F22fHbe8UrL6yqiY
+16,66,MWsR7hTVXbFikUtYYdcN35WrxvjwjDWFeq
+16,66,QTHVh2CXmmF958i82GJ5NGGzWyoFTdcTo7QoxDVcRxdPS7oo64w2
+16,66,QUGn6Jruz4UyRuUfMwLGjfEFKgv3o7P4g9cRuxrNpBqc61GRhdRM
+16,66,SA5MELTTE2IBVPKJ3PL7FCSNDTL7H3TNTIIKEH2DSRMYU3CYITKWZB7R
+16,66,SC2XOKE4S3RVCKZST7FDVGOEQTWU2XFU2NPH3EELIUHWAJWPKBSG4M6B
+16,66,T3mPxH4wsX3tDysUKo29XuJkoXyPrNoRg5PuU9WFmFG6TCrvQHvc
+16,66,T4L1Q4ghpjBQ2BH63PoGtbjCJ1RzE88n5Y9jhQ4QAqEbsN7q1RYs
+16,66,T7XVtKede369cLF1UHrfXrsfaYnsh7erkUycVXxnNaraSySNcid3
+16,66,T8Rps9HMXpdsun71B6yEjK7wbcSGmcisMUiaRgMmQ6CEPpgH2SL6
+16,66,T8bEX2x1UPRw5RkR4CoysA6uk77WJpsFgMdDzodx92y52dDNAwZQ
+16,66,T9vQpPgMHMa8YnxCEPmEpFygBapRfSKf4wQfPvjTeQrJJajXKDru
+16,66,TLHaxv7UPgy5iwkBdZZK1bj2RWJ1gYq2vw
+16,66,TNiDbiZYU6baQRQnrRJNi7HBqQdWek7Wmh
+16,66,TUigYUwvkhSLEee3rMBmgbJoj27T4GUJM5
+16,66,TV9toeZHj3bLEDKRaLQ4jmr17Z2jApTTzR
+16,66,UQA3SdvaGzGe69wF07FpZOQ2cPtT87Gyb3mlmfUI8BUC8IM6
+16,66,UQBFl9Xqno_IesfDnkmgJGUcw9gylHpMFyQ2byx4HBmF5Ge7
+16,66,UQBYaoyEEY6qmZCnktPpAT9Est9r3kGWrOpqldWo8W5rnjvX
+16,66,UQC--R5jErR3RrFN7r9iP9O90ud_goI1Xf54AEsaPqFhAlXQ
+16,66,UQCh8DTZ8Gemx7RhHCO1NyqmxeouIWdkqRXmbqvyrI0dJBYa
+16,66,UQCsh6_SM9O9Oz8EcYv8YyXFwEzK_OV68-1T_Pv4iFEEEnKW
+16,66,UQD17OKCRDOZ2tK1Xunt6xY35CqLXOh_UplO2wLE2FzGqW8c
+16,66,UQDV8Pxly0DCu9aid0IOObVtzC05V8nFZw1uSolT6Hf4RGt9
+16,66,XEs4dGJDSQVuH5weJSALWGBy1Xi52KcwFJkShTtCzzbV27KxxFVV
+16,66,XGb7o6DtcS8Ufq9CZUXe9tXP4XmcbBBAEHvrVgnZB7DKFqaeaaum
+16,66,Xi5yA3J2xVdkAsvzeXSZvvgrnEv8ryTvtT
+16,66,XnvXJuYE5Z3M8qqzePiqzsrq1SkAzNs7SL
+16,66,XpbPbRiRfAbdw1pivjdjQb4iUPxWfKULn9
+16,66,XyY5Gqqzt3U88751qJjrHx8ReCRgsu7DpA
+16,66,addr1q8n9q49qrl3g0j5rfsq3vv8ttrw4csjjpwvr4qffqm2tav5p2fjlu7s
+16,66,addr1q99mha28j7vq8zazmjwpxy3ejj02zdy87shdnp7fv9jchxc2a5ygw4g
+16,66,addr1q9vzq5u69uums0atdk683kecwlkr9mjylhqymhhkpsvlcxyp2fjlu7s
+16,66,addr1qy7dzpv0yqjduuryvhqj2c0v3d94jtlawmeluykenkkdkqg2a5ygw4g
+16,66,addr_xsk1jqfnvrm9p8cu55dkm3x5eyhzq9lafzgtdwqw5m357dgtzy2mhf2
+16,66,addr_xsk1qzrklsgjtl9vmx3jffexfnjgzrr28j84py29zc0g94ysezk7lpp
+16,66,bc1p8as2xh5lafhuxe07dz760gldy6vtu7lum4apw94uc4h5fuyg789sle3z
+16,66,bc1p973gq8z6uszzmrafltw5apl5jgn26vqz6tsz6hq80rrytswdwttsm5u0
+16,66,bc1plge9xtgprttg499gzp7c7335ua59l9ywmlwktdjzfd9x57e5v0xs9877
+16,66,bc1pm07nl75psn0k5gfmhrrgvptf3wcakheefp2errke6m27ddy2jsxqzs4x
+16,66,bc1q6wfsrs407t5fdj5eyf7g4txetg898ns6qqkl38
+16,66,bc1qfhu88tdfvdlpr0kdhc74e5qewcj47g5klr3mxh
+16,66,bc1qmvsqa827hvejkcll63ckh89qwjrh28srryv720
+16,66,bc1qxyhsdm8qsepwkx2hxwz95gcr5ns5a78h5xwfg4
+16,66,bitcoincash:qql0wsfqremgmpey2udw72zhdlcczes6eyq9jgyg49
+16,66,bitcoincash:qrd4khkp4n9u5lepz8jf44rvnf570xzns5msc5anr9
+16,66,bitcoincash:qrdfkrsa0mtqs98nxm8gr03f9f5j5svvzcwkw7l2mt
+16,66,bitcoincash:qz77544xt03yzdy52y7f4439ry8hxkeg3c37v4y2pt
+16,66,c307086e0267f2d648e605466fab0357536683cf619bbaf855bcb2706aad
+16,66,c5051f79c40405b7603038151a2f46f68ab6934d81532a15885580a7fec5
+16,66,c7adbc1044210abd8640915d1bbcb2f8f50015fd9a0ec6a65f7562175728
+16,66,c844246b861228c95f2b3501cdbebf08c1a197c9aef4ab6de03d3a329de0
+16,66,cosmos14a27e54xwkygc59pxflezwgmctg9hgkrnwygrj
+16,66,cosmos156nj756pkk266vhkjftryw0glz6q9u9hj4lagv
+16,66,cosmos1fce04vtche7lkhfuepcpprvxlml79mjepmapj8
+16,66,cosmos1l29k6wse8txru5fd3dnhrydgfsp4nara93t2rs
+16,66,d13a28cc63c223eef6fdc653ee01166db4160b4434632573401ca896c681
+16,66,ed25519:5r51karY9J3SKm23PpciMaeuvfAWTiNdh2y2qqEdQXBenPjUiNNg
+16,66,ed25519:5sGZyReCUyr4GKCZH1NaBN1epMfw4FxgQasRHCx4N2QbDXTBV6EJ
+16,66,f61e348d32739941078b2e0eac8abefa
+16,66,fb20456a 8fb4d9fe 23486d92 b7dc0126 4b7095ba df04294e 
+16,66,fdbcf15e26c2b178b5ad198d551526cfb775101caa3387ec4688a5471ce9
+16,66,kaspa:qpl8mm8x5872g3l9d6w9scg5xnqlm3jvpjm4v07djryacmpe5ya5gh
+16,66,kaspa:qq7kv9jql34rvwhpl58vs8vwthmqdc2rlnaaa0y8mds89l8vchv75g
+16,66,kaspa:qqwupsgd7z7wjpqh636fjjf4ypfulmukymvpksm467vuqjc70q80cz
+16,66,kaspa:qr5yfuk3hkt253cdfxa5mql2mjkzr8a40j66k8hjjdq45xhngjg5u2
+16,66,ltc1q2kksfyg5f8669g3ft8dcw8cvrj67mdt5um3avl
+16,66,ltc1qe9nqxp7304pguh27ugy6jwnls4frk3wh37fcyg
+16,66,ltc1qpzpa68jd877phqh5euf3lh220d4h7qu4vm0es0
+16,66,ltc1qqj7ffkgkky67p033psq6k0kfp3x53xzrhfgu0p
+16,66,ltcmweb1qqf93p97l7l8sdrgt9h4wv6gj0q4scqq6y0u36xtypru8ps3sy0t
+16,66,ltcmweb1qqt6xwtptt7lqsnhg4xp4qpykw5vdcghq0rekfs46y43e7u2zd04
+16,66,ltcmweb1qqtsfatw63c3j9ppkh5c8crpv9ee5h3e2sz0j9mtnmq5z99mx66n
+16,66,ltcmweb1qqvvpt7y4kewml6ydmhmdj62pu8hddrmvqfzhaplhhcyn9tv7rdn
+16,66,npub14gv4sj0d3y6e9x3za0k6r634dh535r4s02zqqk4qk5mhq29l8w6q8ge
+16,66,npub15wgvufz28vd5f09p5secd93u66wz9nk5wpuurf4ddy6us7enekhqhlt
+16,66,npub1tledsafu4xze6fx5czxqpkgp4gdmlj477p8llwc02ws884u7yk9q97l
+16,66,npub1zme9l2dm3ertus00y3dd0s67knpsslmue6vv5lvy0jxepjxnnamqrez
+16,66,nsPoDTJXfKHG6xA1Wn+kye4TOF2Cp8zxFjtgharP9Bk+Y4it0vccQWaLsN
+16,66,nsec17gp32hdtc4qc9qpf9zhrc7chkg0aw29rhnnq72fja7xw80yygm2qzqq
+16,66,nsec1kdjqvf77jmhx6r8p6g60lq7lactm87dguu2m86ka4tc4lw5v55dqkt7
+16,66,osmo14a27e54xwkygc59pxflezwgmctg9hgkrm4hc4q
+16,66,osmo156nj756pkk266vhkjftryw0glz6q9u9h6wvd77
+16,66,osmo1fce04vtche7lkhfuepcpprvxlml79mjefqw3y4
+16,66,osmo1l29k6wse8txru5fd3dnhrydgfsp4narad2c64z
+16,66,rJKGVWeLxvbV7YQ6jDZif1Ywx7CkT1W9cB
+16,66,rJvjP7jtsFwfP7Ljd6S5foriXnCkGjvSzj
+16,66,rMCejQh46QuQ4nHLyrSHcaL2G59i6gvjY5
+16,66,rPENACSoVYxY9SD15ucvhgQLbaukaizSer
+16,66,t1RZ4YJau5TfZZxpsqiV92vQnsMKATyN1Bz
+16,66,t1RZMpAQQ6U2kdDy49L68FrdxBQoHXotyhT
+16,66,t1apG8pGbgJQni2rzZjYqp4pRSo8xmJQhuW
+16,66,t1gKp75Lz4cdFJDK3APcqSbqDS4sakwv12e
+16,68,  Bitcoin legacy (1...)
+16,68,  Bitcoin nested segwit (3...)
+16,68,  Litecoin legacy (L)
+16,68,  Litecoin nested segwit (M)
+16,68,  Litecoin segwit (ltc1)
+16,68,  NEAR (implicit account)
+16,68,  Nostr (npub)
+16,68,  Shopping list for May 26 (PSXXET02)
+16,68,  Tron
+16,68,  Words: -
+16,68,  Words: 24
+16,68,  Words: 25
+16,68,  Words: < 12 >
+16,68,> Bitcoin nested segwit (3...)
+16,68,> NEAR (implicit account)
+16,68,> Nostr (npub)
+16,68,> Shopping list for May 26 (PSXXET02)
+16,68,> Tron
+16,68,> Words: < 12 >
+16,69,Word 8 of 24
+16,69,Word 8 of 25
+16,7,BIP39 passphrase (empty: none)
+16,7,Ciphertext in hex
+16,7,Derivation path
+16,7,Even digits only
+16,7,Hex: whole bytes, at least 58 - again
+16,7,Key: 64 hex digits
+16,7,Label (shown with the password)
+16,7,Monero words (25)
+16,7,Name in the list (visible without the password)
+16,7,Name of the key (shown only after the password)
+16,7,Name of the new vault
+16,7,Name of the saved text (empty: none)
+16,7,Nothing to encrypt
+16,7,Password (not empty)
+16,7,Password of the vault
+16,7,Payment ID: 16 hex digits
+16,7,Payment ID: exactly 16 hex digits
+16,7,Recovery words
+16,7,Repeat the password
+16,7,TON phrase (24 words)
+16,7,Text to encrypt
+16,7,They differ - enter it again
+16,7,Wrong vault password - again
+16,70,5121588df2704dd4dca847cc9b731008
+16,70,6w1vcP55S1VFfMn9hyy6SnvDSUJryXCwsxqgx7g8YYEqaCM9M5Q
+16,70,EBkECJGgvo3NtHe6aMzfihC3BSu9D57rsua
+16,70,EBkECJGgvo3NtHe6aMzfihC3BSu9JkaJZG2U5bi7xXd72N
+16,70,No disc in the drive
+16,70,TP6ocvffyfdmCVtg2v6YRQqyYnGFMPibPxn8CDJSA1yagMV1ALqVuAfZjQf6
+16,70,The drive did not answer
+16,70,bNu5DFj6RB9NUkPSKBe2k5ypJazCAwcdCBg
+16,70,csf
+16,70,cur
+16,70,fb20456a 8fb4d9fe 23486d92 b7dc0126 4b7095ba df04294e 
+16,70,gtNgY8QycW9kMXhARMJm9zf7T7FUR4pfGRs
+16,70,i7egigNeVeuuSHuMz2PMBJMBC4X6kcZmEcjFeAQb2nfFzgDh615UqP3qk9HS
+16,70,pgAXPXuEn4MoiFdGwJHn84EHnEKvm8vw9LV85AVmQJZMLVUoZ4y
+16,70,xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+16,74,  Parameter: 0 (0x00)
+16,74,  Parameter: 5 (0x05)
+16,74,  Parameter: bc
+16,74,  Parameter: bitcoincash
+16,74,  Parameter: cosmos
+16,74,  Parameter: none
+16,74,> Parameter: 0 (0x00)
+16,74,> Parameter: 5 (0x05)
+16,74,> Parameter: bc
+16,74,> Parameter: bitcoincash
+16,74,> Parameter: cosmos
+16,74,> Parameter: none
+16,76,  Dice
+16,76,> Dice
+16,80,  Encryption
+16,80,  Legacy (xpub)
+16,80,  Vault 2: 3 keys  Work
+16,80,> Encryption
+16,80,> Legacy (xpub)
+16,80,> Vault 2: 3 keys  Work
+16,82,  TON 24 words (slow)
+16,82,> TON 24 words (slow)
+16,82,criminal elephant festival
+16,84,  + New vault
+16,84,  Random words, 8 words
+16,84,  Vault 2: 3 keys  Work
+16,84,> + New vault
+16,84,> Random words, 8 words
+16,84,> Vault 2: 3 keys  Work
+16,84,payment to this address, but cannot spend.
+16,84,the funds of this address.
+16,86,  Passphrase: off
+16,86,04dc2c
+16,86,0wq
+16,86,1d6833
+16,86,20c8
+16,86,20d23f2c5a9d81c7df677f8eae48628d
+16,86,27e1
+16,86,3c76
+16,86,5139
+16,86,5835wz8tt5n0epfxgp7dvzv8253dlp9h3ugfl0kfdral4v39p8cxf3t9f2x2
+16,86,5p
+16,86,6920
+16,86,7398bde2 072c5176 9bc0e50a 2f54799e c3e80d32 577ca1c6 
+16,86,7658mzv
+16,86,7679
+16,86,77
+16,86,7f26
+16,86,898d
+16,86,89svgk4
+16,86,8pj
+16,86,> Passphrase: off
+16,86,AES-256-GCM, needs entropy first; saved to card 2
+16,86,LyFAcXjCk3tif31bLBU7t6U3y8KMNpPZUg95
+16,86,Not a valid secp256k1 key (0 or >= n)
+16,86,S5Af9rZLszNx9H8gEBC4ysoAMdog
+16,86,Texts saved on card 2, or paste the hex
+16,86,The 32 bytes are an ed25519 seed
+16,86,X6H0RpjrPY/SJHbJG22wAlSm+Uud4DKE1yl7zhBitQdZq/5AkuU3idwucM
+16,86,a5b2
+16,86,af3c
+16,86,b9ad
+16,86,bde9d432257a1dad8ccf241d91c94d21
+16,86,c00vf4ql0xle978ejazlke53dmdltnz85tvqsag4r4j
+16,86,c00vf4ql0xle978ejazlke53dmdltnz85tvqsfl5agh
+16,86,c2d8
+16,86,c888
+16,86,cb41
+16,86,cjqaehqxrwhhtzsrmm6nk4ky6x0629364km8czk2a206md6epg8pzn5lpenn
+16,86,csf
+16,86,cur
+16,86,d807
+16,86,db2c
+16,86,df68
+16,86,dq3thnet0el2g2h4wxhat52f7epjxnc2kh2d3z3laewlefqn57ga972hsjny
+16,86,dv6
+16,86,e5ezwsrajzxaxev37uq656ryqx9dfq3krexrq4hhqs3
+16,86,e5ezwsrajzxaxev37uq656ryqx9dfq3krexrqv2qjqj
+16,86,e9ce
+16,86,eJgKXtf2DniPHnjjESZtJQ2gkjoUXRFnfyXN
+16,86,ebda
+16,86,ex
+16,86,f5d2
+16,86,fgq7j3ejaqx9yv3x2c7cm2leysepx83k4fxtn4qcfc9gy322tx5xpucflz76
+16,86,fvqa4sypalsyarnjvd6ajstqumjpsuv3eql84ryep30da5usucv6xvvec5f7
+16,86,l3dk5qg
+16,86,lyge3th
+16,86,moQHR2E6LCs7RxQ2tBDeXCR4d45L
+16,86,r7qk22m9mypw997hju9s9pqlm7ndxhd6d0dlqm3s3k547ktjdcwjj8qqcnut
+16,86,s3
+16,86,xa5
+16,88,  Bitcoin legacy (1...)
+16,88,  Kaspa (schnorr, Ledger)
+16,88,  Litecoin MWEB (ltcmweb1)
+16,88,  Litecoin legacy (L)
+16,88,  Litecoin nested segwit (M)
+16,88,  Litecoin segwit (ltc1)
+16,88,  Polkadot (ed25519, Ledger)
+16,88,  Shopping list for May 26 (PSXXET03)
+16,88,  XRP
+16,88,...47483647'/2147483647'/2147483647'/2147483647'/2147483647'
+16,88,> Bitcoin legacy (1...)
+16,88,> Kaspa (schnorr, Ledger)
+16,88,> Polkadot (ed25519, Ledger)
+16,88,> Shopping list for May 26 (PSXXET03)
+16,88,> XRP
+16,88,Bits:   0 / 256
+16,88,Bits:   300 / 256
+16,88,For a wallet with its own convention
+16,88,Used by: Cake Wallet, Electrum-LTC (m/1000')
+16,88,Used by: Ledger Live
+16,88,Used by: Litecoin Core wallet (m/0'/100')
+16,88,Used by: MetaMask, Trezor, Rabby, Exodus
+16,88,Used by: Phantom, Solflare, Ledger
+16,88,Used by: Solana CLI, Sollet (old)
+16,88,Used by: Sparrow, Electrum, Bitcoin Core
+16,88,Used by: Trezor Suite, Ledger Live
+16,88,Used by: Yoroi, Lace
+16,88,Used by: hardware wallets, usually
+16,88,Used by: most wallets
+16,88,m/0'/100'/0'/2
+16,88,m/1852'/1815'/0'/0/0
+16,88,m/44'/0'/0'/0/0
+16,88,m/44'/111111'/0'/0/0
+16,88,m/44'/118'/0'/0/0
+16,88,m/44'/1237'/0'/0/0
+16,88,m/44'/133'/0'/0/0
+16,88,m/44'/144'/0'/0/0
+16,88,m/44'/145'/0'/0/0
+16,88,m/44'/148'/0'
+16,88,m/44'/195'/0'/0/0
+16,88,m/44'/2'/0'/0/0
+16,88,m/44'/3'/0'/0/0
+16,88,m/44'/354'/0'/0'/0'
+16,88,m/44'/397'/0'
+16,88,m/44'/5'/0'/0/0
+16,88,m/44'/501'/0'/0'
+16,88,m/44'/60'/0'/0/0
+16,88,m/44'/607'/0'
+16,88,m/44'/61'/0'/0/0
+16,88,m/49'/0'/0'/0/0
+16,88,m/49'/2'/0'/0/0
+16,88,m/84'/0'/0'/0/0
+16,88,m/84'/2'/0'/0/0
+16,88,m/86'/0'/0'/0/0
+16,90,7398bde2 072c5176 9bc0e50a 2f54799e c3e80d32 577ca1c6 
+16,90,Card 2 holds the vaults and the single keys
+16,90,Deriving addresses
+16,90,Deriving keys
+16,90,Deriving subaddress
+16,90,Deriving the TON key
+16,90,Deriving the address
+16,90,GuLrnrrS4ZLs5kVx/<0;1>/*)#l343sh29
+16,90,Hashing seed
+16,90,Secret key
+16,90,qnJ3A167Yo5qh9mF/<0;1>/*)#lknlqpft
+16,90,xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+16,94,AES-256-GCM, password, key from PBKDF2
+16,94,Insert a disc and close the lid.
+16,96,Payment ID 20c2324daaad953d
+16,96,With the main address: view-only wallet
+16,98,  Path: m/44'/0'/0'/0/0
+16,98,  Vault 3: 3 keys
+16,98,> Path: m/44'/0'/0'/0/0
+16,98,> Vault 3: 3 keys
+169,59,0'
+172,7,\x0e+\x10\x12
+175,114,e
+175,119,e
+175,98,3
+180,4,Saved to card 2 as PSXXET03
+182,7,\x0e+\x10\x12
+186,6,- keep passphrase
+186,6,- no passphrase
+186,6,- write them down
+192,7,\x0e+\x10\x12
+193,182,Tab
+20,112, 5 -
+20,112,jklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnop
+20,132, 6 -
+20,132,qrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghij
+20,30,*************
+20,30,12ab
+20,30,20c2324daaad953d
+20,30,Key 4
+20,30,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+20,30,m/44'/60'/0'/0/0
+20,32, 1 -
+20,32,hijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmn
+20,52, 2 -
+20,52,opqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstu
+20,72, 3 -
+20,72,vwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzab
+20,92, 4 -
+20,92,cdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghi
+200,206,Seeking...
+202,7,\x0e+\x10\x12
+203,119,5
+203,135,d
+203,140,9
+203,140,d
+203,156,x
+203,161,d
+203,161,h
+203,161,x
+203,98,1
+212,59,21..'
+212,7,\x0e+\x10\x12
+222,7,\x0e+\x10\x12
+224,206,\x0d undo  
+227,59,0'
+231,114,r
+231,119,r
+231,98,4
+232,59,0
+232,59,2
+232,7,\x0e+\x10\x12
+240,106,13 ghost
+240,106,14 friendly
+240,126,14 limit
+240,126,15 awesome
+240,146,15 key
+240,146,16 oncoming
+240,166,16 exclude
+240,166,17 vague
+240,186,18 jewels
+240,26, 9 fitness
+240,26,10 enlist
+240,46,10 citizen
+240,46,11 chlorine
+240,66,11 retreat
+240,66,12 looking
+240,86,12 ethics
+240,86,13 archer
+242,7,\x0e+\x10\x12
+250,100,seek timing, test only
+250,28,button timing
+250,52,heads / tails, 1 bit each
+250,76,d6, 2.58 bits each
+254,7,A word is wrong or the checksum fails
+259,135,f
+259,140,f
+259,156,c
+259,161,c
+270,164,Enough! Press \x05
+270,24,Rolls: 0
+270,24,Rolls: 100
+270,30,Flips: 0
+270,30,Flips: 256
+270,44,Bits:  0 / 256
+270,44,Bits:  258 / 256
+270,50,Bits:  0 / 256
+270,50,Bits:  256 / 256
+270,59,21..'
+270,92,Enough! Press \x05
+274,7,1024 B | QR 532% over | UR 22 codes
+282,7,\x0e+\x10\x12
+284,7,400 B | QR 225% over | UR 10 codes
+284,7,512 B | QR 280% over | UR 12 codes
+284,7,Checksum wrong: a word is mistyped
+285,59,0'
+287,114,t
+287,119,t
+287,98,5
+290,59,0
+294,7,256 B | QR 154% over | UR 7 codes
+300,32,Security tip
+300,54,A mistyped seed word usually
+300,54,A passphrase is the wallet.
+300,54,A screen's light can carry data.
+300,54,Check every address twice, don't
+300,54,Dice are older than computers,
+300,54,Did you compile this from the
+300,54,Is anyone watching? Look for
+300,54,Keep a second copy of your
+300,54,Never use a too SMART TV!!!
+300,54,No grid => no backdoor can come
+300,54,Nobody legitimate will ever ask
+300,54,Random words are hard to
+300,54,Send a small test transaction
+300,54,Write your seed on paper. No
+300,54,Your keys, your coins, your
+300,74,Forget it and the coins are
+300,74,Pen and paper cross any air gap.
+300,74,and much harder to backdoor.
+300,74,backup in a different place.
+300,74,before you trust a new address.
+300,74,cameras and onlookers before
+300,74,down the power line.
+300,74,fails the checksum. That is a
+300,74,photos, etc.
+300,74,remember. Do not trust memory
+300,74,responsibility.
+300,74,source code yourself?
+300,74,trust in a shortened form.
+300,74,you for your seed phrase.
+300,94,alone.
+300,94,feature.
+300,94,gone.
+300,94,showing a seed.
+312,7,\x0e+\x10\x12
+315,119,6
+315,135,g
+315,140,'
+315,140,a
+315,140,g
+315,156,v
+315,161,e
+315,161,v
+315,98,2
+316,206,\x05 done  
+328,59,21..'
+330,140,Saved to card 2 as PSXXAD02
+330,152,\x0d watch-only key
+330,152,\x0d\x0f -1 +1  \x0e\x10 -10 +10
+330,152,\x10 type a payment ID
+330,180,\x04 more coins
+330,206,\x03 hex input
+330,206,\x03 save key to card
+332,7,\x0e+\x10\x12
+338,206,\x06 back
+342,7,\x0e+\x10\x12
+343,114,y
+343,119,y
+343,98,6
+352,124,Seeks: 0
+352,124,Seeks: 1
+352,124,Seeks: 2
+352,142,Last seek failed
+352,142,Seek 0.0 ms, ack 0.0 ms
+352,160,Slot 2: 123/240 saved
+352,160,Slot 2: no card - NOT saved
+352,178,Credit: 0 bits (test)
+352,44,Written 251 of 735 MB
+352,62,Empty   484 MB
+352,80,0:00, 1 tracks
+352,98,1 ring = 50 MB
+354,4,Screens can leak to cameras
+362,7,\x0e+\x10\x12
+364,7,Word 13 is not in the list
+371,135,h
+371,140,h
+371,156,b
+371,161,b
+374,7,12 words typed, 24 chosen
+374,7,25 words typed, 25 needed
+38,59,1852'
+38,59,21..'
+386,59,21..'
+392,7,\x0e+\x10\x12
+399,114,u
+399,119,u
+399,98,7
+40,102,  abstract
+40,102,> abstract
+40,106, 5 occur
+40,106, 5 second
+40,122,  abstract
+40,122,> abstract
+40,126, 6 since
+40,126, 6 upwards
+40,142,  abstract
+40,142,> abstract
+40,146, 7 chlorine
+40,146, 7 family
+40,166, 8 detect
+40,166, 8 oozed
+40,186, 9 audio
+40,26, 1 cajun
+40,26, 1 museum
+40,46, 2 oppose
+40,46, 2 tapestry
+40,62,  abstract
+40,62,> abstract
+40,66, 3 silk
+40,66, 3 unveil
+40,82,  abstract
+40,82,> abstract
+40,86, 4 paddle
+40,86, 4 usual
+402,7,\x0e+\x10\x12
+408,106,UR: 15 codes
+408,106,UR: 15 codes, 5.0/s
+408,130,\x01 save to card 2
+408,152,\x03 QR / UR
+408,176,\x0d\x0f speed
+408,206,R2 text  \x04 done
+408,26,One QR code
+408,26,UR code 0 of 15
+408,46,Data: 700 bytes
+408,66,One QR: 345%
+408,86,too big for one QR
+414,206,\x06 cancel
+427,119,7
+427,135,j
+427,140,/
+427,140,b
+427,140,j
+427,156,n
+427,161,f
+427,161,n
+427,98,3
+434,7,0 B | QR 29% | UR 2
+440,106,21 trim
+440,106,23 pawnshop
+440,126,22 metal
+440,126,24 rage
+440,146,23 sketch
+440,146,25 jerseys
+440,166,24 surround
+440,26,17 creek
+440,26,19 cube
+440,46,18 loyal
+440,46,20 rogue
+440,66,19 usual
+440,66,21 jerseys
+440,86,20 tower
+440,86,22 strained
+444,59,21..'
+455,114,i
+455,119,i
+455,98,8
+470,6,\x03 save the key
+48,59,44'
+48,59,49'
+48,59,84'
+48,59,86'
+483,135,k
+483,140,k
+483,156,m
+483,161,m
+483,182,.
+494,4,section 1 / 5
+494,4,section 2 / 5
+494,4,section 3 / 5
+494,4,section 4 / 5
+494,4,section 5 / 5
+502,59,21..'
+502,7,\x0e+\x10\x12
+511,114,o
+511,119,o
+511,98,9
+514,4,5 addresses
+529,98,Del
+53,59,0'
+533,182,Enter
+534,161,OK
+534,7,100 bytes
+539,135,l
+539,140,l
+543,156,Del
+543,161,Ins
+544,7,28 bytes
+550,7,\x0e show
+560,59,21..'
+567,114,p
+567,119,p
+567,98,0
+57,161,Shift
+584,154,wrap
+584,50,wrap
+62,182,?123
+63,114,q
+63,119,q
+63,98,1
+72,156,OK
+8,160,\x02 cancel
+8,204,\x01 load  \x02 cancel
+8,204,\x01 try again  \x02 cancel
+8,204,\x02 cancel
+8,28,Group 1 of 2 (64206 bytes), slot 2
+8,28,Not loaded:
+8,50,B card found in slot 1.
+8,50,B card found in slot 2.
+8,50,C card found in slot 2.
+8,50,Cancelled; nothing was kept.
+8,50,Put the B card in a slot to continue
+8,50,Put the card with the package in.
+8,50,That B card belongs to another version.
+8,50,That card is not the B card.
+8,50,The card changed or was taken out while reading.
+8,50,Two B cards found: take one out.
+8,50,Version mismatch: package of another release.
+8,50,card not formatted
+8,50,card not readable
+8,6,B card
+8,6,Load a language
+8,6,Load the signer
+8,72,Put the B card in a slot to continue
+8,94,0 %  Do not take the card out.
+8,94,100 %  Do not take the card out.
+8,94,50 %  Do not take the card out.
+91,119,4
+91,135,a
+91,140,8
+91,140,a
+91,161,c
+91,161,m
+91,98,0
+96,59,11..'
+96,59,1237'
+96,59,1815'
+96,59,21..'

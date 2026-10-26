@@ -1,0 +1,540 @@
+# The English texts of the range 'b' (the signer): NAME<TAB>text, C escapes. The order is the numbering: new texts go to the end. tools/ui_ids.py
+HINT_QR_SAVE_TO_CARD_2_WIPE_AND	\x01 QR  \x03 save to card 2  \x02 wipe and leave
+HINT_BACK_3	\x01 back
+HINT_START_CHANGE_THE_TEXT	\x01 start  \x02 change the text
+HINT_YES_USE_IT_NO_WIPE_EVERYTHING	\x01 yes, use it  \x02 no, wipe everything
+HINT_CHANGE_THE_TEXT	\x02 change the text
+HINT_STOP	\x02 stop
+HINT_WIPE_AND_LEAVE	\x02 wipe and leave
+HINT_START_BACK	\x05 start  \x02 back
+HINT_CHOOSE_OPEN_DELETE_BACK	\x0b choose  \x01 open  \x03 delete  \x06 back
+HINT_CHOOSE_OPEN_REMOVE_BACK	\x0b choose  \x01 open  \x03 remove  \x06 back
+HINT_CHOOSE_SELECT_BACK	\x0b choose  \x01 select  \x06 back
+HINT_SCROLL_BACK	\x0b scroll  \x04 back
+HINT_PAGE_HOLD_TO_SIGN_CANCEL	\x0c page  hold \x01 to sign  \x02 cancel
+HINT_HEX_DONE	\x10 hex  \x04 done
+NO_PASSPHRASE_2	  (no passphrase)
+BINARY_SHOWN_IN_HEX	 (binary, shown in hex)
+JETTON_UNITS	 jetton units
+TOKEN	 token
+TOKEN_UNITS	 token units
+TRANSACTION	 transaction
+UNITS_OF_TRC_10_TOKEN	 units of TRC-10 token 
+YOU	 you
+N_ISSUER_N	%.12s (issuer %.56s)
+N_NOT_MADE_WITH_THIS_SEED	%c Not made with this seed (block %d)
+N_PASSPHRASE_N	%c Passphrase: %c %s %c
+N_STORE_N_KEY_N_2	%c %.14s - key %d
+N_TO_REGISTER_N	%c To register: %s
+N_WALLET_N_OF_N	%c Wallet %02x%02x%02x%02x  %d of %d  %s
+N_WORDS_N_2	%c Words:      %c %d %c
+N_WORDS_N_MONERO_25_N	%c Words:      %c Monero 25 %c
+N_HITS_REJECTED_BY_THE_CHECK	%d hits rejected by the check
+N_BILLION	%u billion
+N_BYTES_2	%u bytes
+N_BYTES_OF_PAYLOAD	%u bytes of payload
+N_BYTES_N	%u bytes%s
+N_CODES_N_S	%u codes, %d.%d/s
+N_DAYS	%u days
+N_MILLION	%u million
+N_MIN	%u min
+N_THOUSAND	%u thousand
+CHANGE	(change)
+FEE_MAX_FEE	, fee = max fee
+FLAGS_SET	, flags set
+T_40_HEX_DIGITS	40 hex digits
+T_64_HEX_DIGITS	64 hex digits
+WHAT_THEY_SEND_AND_TO_WHOM	: what they send, and to whom, cannot be fully seen here
+A_CHARACTER_CANNOT_OCCUR_IN	A character cannot occur in these addresses
+A_FILE_THAT_IS_NOT_USABLE_WITH	A file that is not usable with this seed
+A_KEY_HAS_NO_ORIGIN	A key has no origin [fingerprint/path], or the origin does not fit it
+A_PASSWORD_PROTECTED_KEY_SAVED	Load, import and delete keys of card 2
+A_RAW_ED25519_KEY_TON_WALLET	A raw ed25519 key. TON wallet address (v4R2):
+A_RAW_SECP256K1_KEY_ETHEREUM	A raw secp256k1 key. Ethereum address:
+ADD_A_KEY_WITH_FULL_ACCESS	ADD A KEY WITH FULL ACCESS
+ABOUT_N_TRIES_TO_FIND_ONE	About %s tries to find one
+ADDRESS_OF_THE_DEPLOYER_40_HEX	Address of the deployer (40 hex digits)
+AFTER_N_IT_STARTS_WITH_EMPTY	After "%s" it starts with (empty: anything)
+AN_EXTENDED_KEY_CANNOT_BE_READ	An extended key cannot be read, or it is a private one
+AN_OUTPUT_SCRIPT_IS_NOT_KNOWN	An output script is not known
+ANYONE_WHO_SENDS_IT_IN_A	Anyone who sends it in a transaction applies it
+AT_N_A_SECOND_N	At %u a second: %s
+BIP39_WORDS_OR_THE_25_WORDS_OF	BIP39 words, or the 25 words of a Monero wallet
+BLIND_THIS_CANNOT_BE_CHECKED	BLIND: this cannot be checked here, only a hash is signed
+BAD_PATH	Bad path
+BALANCES_CALL_N_DECODED_FROM	Balances call %u.%u, decoded from the call indices of the current runtime
+BITCOIN_SEGWIT_BC1Q_2	Bitcoin segwit (bc1q...)
+CLEARS_THE_DELEGATION_ADDRESS	CLEARS the delegation (address 0)
+CALL_N_BYTES_OF_ARGUMENTS_N	Call %s(), %u bytes of arguments, %llu gas
+CANNOT_BE_MINED_BEFORE_N_UTC	Cannot be mined before %04u-%02u-%02u %02u:%02u UTC
+CANNOT_BE_MINED_BEFORE_BLOCK_N	Cannot be mined before block %u
+CANNOT_BE_SHOWN_ONLY_THE_HASH	Cannot be shown: only the hash is signed
+CANNOT_CONTINUE	Cannot continue
+CANNOT_READ_IT	Cannot read it
+CANNOT_READ_IT_N	Cannot read it: %s
+CANNOT_START_N	Cannot start (%d)
+CARD_N	Card: %s
+CARDANO_TRANSACTION	Cardano transaction
+CHAIN_N	Chain %llu
+CHAIN_N_ACCOUNT_NUMBER_N	Chain %s, account number %llu
+CHAIN_ID_N	Chain id %llu
+CHANGES_WHO_CAN_SIGN_FOR_THIS	Changes who can sign for this account
+CHECKING_THE_KEY	Checking the key
+CHECKING_THE_TRANSACTION	Checking the transaction
+CHECKING_THE_WALLET	Checking the wallet
+CHECKING_THE_WALLETS	Checking the wallets
+COMMENT_N	Comment: %s
+COMPARE_IT_WITH_WHAT_YOU_KNOW	Compare it with what you know about the key.
+COMPARE_THE_COSIGNERS_AND_THE	Compare the cosigners and the address with your coordinator.
+CONTRACT_ADDRESS_CREATE2_0X	Contract address, CREATE2 (0x...)
+CONTRACT_CALL_N_BYTES_OF_DATA	Contract call %08x, %u bytes of data
+CONTRACT_CALL_N_BYTES_OF_DATA_2	Contract call, %u bytes of data
+CONTRACT_CREATION	Contract creation
+CONTRACT_TYPE_N	Contract type %u
+COSMOS_TRANSACTION	Cosmos transaction
+CREATES_A_TOKEN_ACCOUNT	Creates a token account
+DELEGATES_CONTROL_OF_AN	DELEGATES CONTROL OF AN ACCOUNT
+DELETE_ACCOUNT_FUNDS_GO_TO_N	DELETE ACCOUNT, funds go to %.60s
+DASH_X	Dash (X...)
+DELEGATE	Delegate
+DELEGATE_THIS_ACCOUNT_EIP_7702	Delegate this account (EIP-7702)
+DELEGATE_TO_N	Delegate to %s
+DELETE_THIS_KEY	Delete this key?
+DELETED	Deleted
+DELETING_THE_KEY	Deleting the key
+DESTINATION_TAG_N	Destination tag %llu
+DOGECOIN_D	Dogecoin (D...)
+ERC_20_APPROVE	ERC-20 approve
+ERC_20_TRANSFER	ERC-20 transfer
+ERC_20_TRANSFERFROM	ERC-20 transferFrom
+EVERY_CHAIN_ID_0_NONCE_N	EVERY CHAIN (id 0), nonce %llu
+ELAPSED_N	Elapsed: %s
+ENDS_WITH_N	Ends with:   %.40s
+HINT_ENOUGH_STARTS_THE_SEARCH	Enough! \x05 starts the search
+ENTROPY_FOR_THE_START_KEY	Entropy for the start key
+ERROR_2	Error
+ETHEREUM_EVM_CHAINS_0X	Ethereum / EVM chains (0x...)
+EVERY_KEY_THE_SEARCH_FINDS	Every key the search finds comes from this start key.
+FEE_LIMIT_N	Fee limit %s
+FEE_RATE_N_SAT_VB_ABOUT_N_VB	Fee rate %u.%u sat/vB (about %u vB)
+FEE_N	Fee:    %.50s
+FILES_WRITTEN_BY_TOOLS_PSXX_TX	Files written by tools/psxx_tx.py
+FIRST_BITCOIN_ADDRESS_M_84_0_0	First Bitcoin address (m/84'/0'/0'/0/0):
+FIRST_RECEIVING_ADDRESS_TO	First receiving address, to compare:
+FOR_SHORT_REQUESTS_A_MESSAGE_A	For short requests (a message, a small transaction)
+FORGET_THE_SEEDS	Forget the seeds
+FOUND_THE_SALT	Found - the salt
+FOUND	Found!
+FOUR_WALLETS_ARE_THE_MOST	Four wallets are the most
+GAS_LIMIT_N	Gas limit %llu
+HALF_OF_THE_SEARCHES_ARE_DONE	Half of the searches are done by %s tries
+HALF_OF_THE_SEARCHES_END	Half of the searches end sooner, half later.
+HANDS_THE_CODE_OF_YOUR_ACCOUNT	Hands the code of your account to that contract
+HASH_OF_THE_INIT_CODE_64_HEX	Hash of the init code (64 hex digits)
+HASHING_THE_SEED	Hashing the seed
+HINT_HOLD_TO_DELETE_BACK	Hold \x01 to delete  \x02 back
+HINT_HOLD_TO_REGISTER_BACK	Hold \x01 to register  \x02 back
+HINT_HOLD_TO_REMOVE_BACK	Hold \x01 to remove  \x02 back
+IS_THIS_YOUR_KEY	Is this your key?
+IT_CANNOT_BE_RESTORED_FROM_THE	It cannot be restored from the card.
+IT_CONTAINS_DATA_OR_A_CONTRACT	It contains data or a contract call
+IT_ENDS_WITH_EMPTY_ANYTHING	It ends with (empty: anything)
+IT_PROVES_YOU_HOLD_THIS	It proves you hold this address; it moves no funds
+JETTON_TRANSFER_THE_TON_OF_THE	Jetton transfer: the TON of the message pay for the fees
+JETTON_TRANSFER_THE_DETAILS	Jetton transfer: the details cannot be read
+KASPA_KASPA_Q	Kaspa (kaspa:q...)
+KASPA_TRANSACTION	Kaspa transaction
+KEEP_THE_RECOVERY_WORDS	Keep the recovery words.
+KEY_FROM_THE_CARD	Keys
+KEYS_ON_THE_CARD_IN_SLOT_2	Keys on the card in slot 2
+KEYS_IN_THIS_ORDER	Keys, in this order:
+KEYS_SORTED_WHEN_THE_SCRIPT_IS	Keys, sorted when the script is made:
+LABEL_N	Label: %s
+LITECOIN_LEGACY_L_2	Litecoin legacy (L...)
+LITECOIN_SEGWIT_LTC1Q	Litecoin segwit (ltc1q...)
+LOAD_ANOTHER_SEED	Load another seed
+LOAD_YOUR_SEED_FIRST	Load your seed first
+LOAD_YOUR_SEED_FIRST_LOAD	Load your seed first (Load another seed): the wallets are checked against it
+LOADED_N	Loaded: %s%s%s
+LOCK_TIME_N	Lock time %llu
+LOCK_TIME_N_IS_NOT_ENFORCED	Lock time %u is not enforced: all inputs are final
+LOCKED_FOR_N_BLOCKS	Locked for %llu blocks
+LOOKING_AT_THE_CARD	Looking at the card
+MULTISIG_OF_A_WALLET_NOT	MULTISIG OF A WALLET NOT REGISTERED HERE
+MASTER_FINGERPRINT_N	Master fingerprint: %s
+MEMO_ID_N	Memo id: %llu
+MEMO_N	Memo: %s
+MEMO_A_32_BYTE_HASH	Memo: a 32 byte hash
+MESSAGE_BODY_OPERATION_N	Message body, operation %08x
+MINTS_OR_BURNS_TOKENS	Mints or burns tokens
+MONERO_MAIN_ADDRESS	Monero main address:
+MONERO_TRANSACTION	Monero transaction
+MORE_THAN_256_BYTES_ITS	More than 256 bytes: its BLAKE2b-256 hash is signed
+MORE_THAN_8_KEYS_OR_M_IS_MORE	More than 8 keys, or m is more than n
+MULTISIG_N_OF_N	Multisig %d of %d:
+MULTISIG_WALLETS	Multisig wallets
+NEAR_TRANSACTION	NEAR transaction
+NO_KEY_OF_THIS_SEED_FITS_THIS	NO KEY OF THIS SEED fits this transaction
+NO_ADDRESS_OF_THIS_KIND_LOOKS	No address of this kind looks like that
+NO_KASPA_ADDRESS_STARTS_LIKE_THAT	No Kaspa address starts like that (2nd letter: q p z r)
+NO_CHAIN_ID_THE_SIGNATURE	No chain id: the signature works on every EVM chain
+NO_KEY_STORE_N	No keys: %s
+NO_KEYS_ON_THE_CARD_SAVED_BY	No keys on the card (saved by the generator)
+NO_REQUESTS_FILES_PSXXQ_ON_THE	No requests (files PSXXQ..) on the card
+NONCE_N_GAS_LIMIT_N	Nonce %llu, gas limit %llu%s
+NONE_OF_THE_KEYS_IS_YOURS	None of the keys is yours
+NONE_REGISTERED_NO_DESCRIPTORS	None registered, no descriptors on the card
+NOSTR_CONTACT_LIST_KIND_3	Nostr contact list (kind 3)
+NOSTR_DELETION_KIND_5	Nostr deletion (kind 5)
+NOSTR_DIRECT_MESSAGE_KIND_4	Nostr direct message (kind 4)
+NOSTR_EVENT_KIND_N	Nostr event (kind %llu)
+NOSTR_NOTE_KIND_1	Nostr note (kind 1)
+NOSTR_PROFILE_KIND_0	Nostr profile (kind 0)
+NOSTR_PUBLIC_KEY_NPUB1	Nostr public key (npub1...)
+NOSTR_REACTION_KIND_7	Nostr reaction (kind 7)
+NOSTR_RELAY_LOGIN_KIND_22242	Nostr relay login (kind 22242)
+NOSTR_REPOST_KIND_6	Nostr repost (kind 6)
+NOT_A_MULTISIG_DESCRIPTOR_OF_A	Not a multisig descriptor of a kind this signer reads
+NOT_A_SIGNING_REQUEST	Not a signing request
+NOT_DELETED_N	Not deleted: %s
+NOT_LOCKED	Not locked
+NOT_POSSIBLE_N	Not possible (%d)
+NOT_POSSIBLE_FOR_THIS_COIN	Not possible for this coin
+NOT_REMOVED_N	Not removed: %s
+NOT_SUPPORTED_HERE	Not supported here
+NOT_THE_SAME_OR_EMPTY_PASSWORD	Not the same (or empty) - password again
+NOTHING_IN_IT_BELONGS_TO_THIS	Nothing in it belongs to this seed
+OP_RETURN_DATA	OP_RETURN data
+ONLY_A_PAYMENT_CAN_BE_SHOWN	Only a payment can be shown: the rest is signed blind
+ONLY_THE_HASH_OF_THE_MESSAGE	Only the hash of the message is signed
+ONLY_THE_TWO_HASHES_ARE_KNOWN	Only the two hashes are known: the content cannot be shown
+OP_N_SOURCE_ACCOUNT_N	Op %u source account %.56s
+OPENING_THE_KEY	Opening the key
+OPERATION_TYPE_N	Operation type %u
+OPERATION_TYPE_6_LIQUIDITY	Operation type 6 (liquidity pool trust line)
+OPERATIONS_AFTER_THIS_ONE_ARE	Operations after this one are not shown
+ORCHARD_ADDRESS	Orchard address
+OWNER_AND_ACTIVE_KEYS_CAN_MOVE	Owner and active keys can move all the funds
+PSBT_WITH_THE_NEW_SIGNATURES	PSBT with the new signatures
+PSBTS_OF_THE_WALLET_ARE_THEN	PSBTs of the wallet are then warned about again.
+PSX_SIGNER	Wallet operations
+PASSPHRASE_OF_THIS_KEY	Passphrase of this key
+PASSWORD_OF_THE_SAVED_KEY	Password of the saved key
+PASSWORD_OF_THIS_KEY	Password of this key
+PAYMENT_ID_OUTPUT_N	Payment ID (output %d): %s
+PAYS_N_ADDRESSES	Pays %d addresses
+PREPARING_THE_SEARCH	Preparing the search
+PREPARING_THE_TABLES_OF_THE	Preparing the tables of the curves
+PREVIOUS_TRANSACTION_MISSING	Previous transaction missing or wrong
+PRIORITY_FEE_N_MICRO_LAMPORTS	Priority fee: %llu micro-lamports per unit, %llu units
+PRIVATE_KEY_SCAN_IT_THEN_LEAVE	Private key - scan it, then leave
+PRIVATE_KEY_AFTER_N_TRIES	Private key:   after %llu tries
+RATE_N_A_SECOND	Rate:    %u a second
+READING_THE_DESCRIPTOR	Reading the descriptor
+READING_THE_KEY_STORE	Reading the keys
+RECEIVER_N	Receiver %s
+REGISTER_THE_COSIGNERS_OF_A	Register the cosigners of a multisig wallet
+REGISTER_THIS_WALLET	Register this wallet?
+REGISTERED_WALLET	Registered wallet
+REGISTERED_WALLET_N	Registered: wallet %02x%02x%02x%02x
+REMOVE_THIS_WALLET	Remove this wallet?
+REMOVED	Removed
+REMOVING_IT	Removing it
+REPLACEABLE_RBF_A_HIGHER_FEE	Replaceable (RBF): a higher fee can be set later
+REQUEST_IN_HEX	Request in hex
+REQUEST_ON_THE_CARD_IN_SLOT_2	Request on the card in slot 2
+REQUESTS_ON_THE_CARD_IN_SLOT_2	Requests on the card in slot 2
+RESULT_IN_HEX	Result in hex
+SALT_32_BYTES_HEX	Salt (32 bytes, hex):
+SAVED_AS_N	Saved as %s%02d
+SAVED_TO_THE_CARD_IN_SLOT_2	Saved to the card in slot 2
+SEARCH_FOR_AN_ADDRESS_WITH_A	Search for an address with a text you choose
+SEARCHING	Searching...
+SENDS_N	Sends:  %.50s
+SEQUENCE_N	Sequence %llu%s
+SEVERAL_MULTISIG_SCRIPTS_OF	Several multisig scripts of different sizes
+SIGN_A_TRANSACTION	Sign a transaction
+SIGN_MESSAGE_N	Sign message (%s)
+SIGN_MESSAGE_EIP_191	Sign message (EIP-191)
+SIGN_TYPED_DATA_EIP_712	Sign typed data (EIP-712)
+SIGNER_N_NONCE_N	Signer %s, nonce %llu
+SIGNING	Signing
+SIGNING_REQUEST	Signing request
+SIGNS_AS_N	Signs as %.80s
+SOLANA_TRANSACTION	Solana transaction
+SOME_DATA_COULD_NOT_BE	Some data could not be verified
+SOURCE_N_SEQUENCE_N	Source %.56s, sequence %llu
+SPENDS_N_OF_THIS_WALLET_IN	Spends %s of this wallet in shielded notes
+STAKE_FOR_N	Stake for %s
+STARTS_WITH_N	Starts with: %.40s
+STELLAR_TRANSACTION	Stellar transaction
+STORE_N_KEY_N	%.14s - key %d
+THE_FEE_IS_HIGH	THE FEE IS HIGH
+TON_WALLET_MESSAGE	TON wallet message
+TRC_20_TRANSFER_TOKEN_CONTRACT	TRC-20 transfer, token contract %s
+TAKE_BACK	Take back
+THAT_FILE_IS_TOO_LONG_FOR_A	That file is too long for a descriptor
+THAT_IS_NOT_A_KEY_ENTRY	That is not a key entry
+THAT_SEED_IS_NOT_LOADED_LOAD	That seed is not loaded: load it first (BIP39 words, or the 25 Monero words)
+THAT_WALLET_IS_REGISTERED	That wallet is registered already
+THE_CHECKSUM_OF_THE_DESCRIPTOR	The #checksum of the descriptor does not fit
+THE_CALL_CANNOT_BE_DECODED	The call cannot be decoded without the metadata of the runtime
+THE_CONTENT_IS_ENCRYPTED_ONLY	The content is encrypted: only the metadata can be checked
+THE_FEE_CANNOT_BE_TOLD	The fee cannot be told
+THE_KEY_DOES_NOT_FIT_THE	The key does not fit the transaction
+SWITCH_ON_THE_LANGUAGE_OF_THIS_KEY	Switch on the language of this key first
+THE_OUTPUTS_ARE_TIME_LOCKED	The outputs are time locked
+THE_OUTPUTS_OR_AMOUNTS_DO_NOT	The outputs or amounts do not match the request
+THE_SAME_PASSWORD_AGAIN	The same password again
+THE_TEXT_MUST_START_WITH_N	The text must start with %s
+THE_TRANSACTION_IS_NOT_VALID	The transaction is not valid
+THE_VALUE_OF_THE_NOTES_SPENT	The value of the notes spent was not given: it cannot be checked
+THE_WALLET_ITSELF_IS_NOT	The wallet itself is not touched.
+THERE_ARE_MORE_OUTPUTS_THAN	There are more outputs than listed
+TOKEN_MINT_N	Token mint %s
+TOO_BIG	Too big
+TOO_LONG	Too long
+TRANSACTION_TYPE_N	Transaction type %d
+TRANSACTION_VERSION_N_USUAL_1	Transaction version %u (usual: 1 or 2)
+TRIED_N	Tried:   %s
+TRON_TRANSACTION	Tron transaction
+TYPE_THE_REQUEST_IN_HEX	Type the request in hex
+TYPE_YOUR_WORDS_LOAD_A_REQUEST	Type your words, load a request from card 2
+UNLIMITED_TOKEN_UNITS	UNLIMITED token units
+UNENCRYPTED_PAYMENT_ID_IN_THE	Unencrypted payment ID in the extra
+UNKNOWN_COIN	Unknown coin
+UNSTAKE_FROM_N	Unstake from %s
+UNUSUAL_SIGNATURE_TYPE	Unusual signature type
+VALID_UNTIL_SLOT_N	Valid until slot %llu
+VANITY_ADDRESS	Vanity address
+VERSION_0_MESSAGE_SOME	Version 0 message: some accounts come from lookup tables
+WALLET_N	Wallet %02x%02x%02x%02x
+WALLET_N_OF_N	Wallet %02x%02x%02x%02x, %d of %d:
+WALLET_N_OF_N_2	Wallet %02x%02x%02x%02x: %d of %d, %s
+WALLET_V4R2_SEQNO_N_VALID	Wallet v4R2, seqno %llu, valid until %llu
+WALLET_V5R1_SEQNO_N_VALID	Wallet v5R1, seqno %llu, valid until %llu
+WHICH_ADDRESSES	Which addresses?
+WIPE_THE_WORDS_AND_KEYS_FROM	Wipe the words and keys from memory
+WITHDRAW_THE_UNSTAKED_TRX	Withdraw the unstaked TRX
+WITHDRAWS_N_OF_STAKING_REWARDS	Withdraws %s of staking rewards
+WRONG_PASSWORD_OR_DAMAGED_KEY	Wrong password or damaged key - again
+XRP_TRANSACTION	XRP transaction
+ZCASH_TRANSACTION_V_N	Zcash transaction (v%d)
+ZCASH_TRANSACTION_V5_ORCHARD	Zcash transaction (v5, Orchard)
+A_FEW_SECONDS	a few seconds
+ABOUT_15_SECONDS_FOR_EVERY	about 15 seconds for every input
+ABOUT_3_SECONDS	about 3 seconds
+ABOUT_A_SECOND	about a second
+ADD_A_FUNCTION_CALL_KEY	add a function call key
+AFTER_N_TRIES	after %llu tries
+AUTHORIZATION_SIGNATURE_R_S	authorization signature r, s, yParity
+BYTES_N_OF_N	bytes %u-%u of %u
+CALL_N	call %c%c%c%c
+CANNOT_BE_SHOWN	cannot be shown
+CHAIN_ID_N_NONCE_N	chain id %llu, nonce %llu
+CHAIN_ID_ABOVE_2_64_NONCE_N	chain id above 2^64, nonce %llu
+CONTRACT_N	contract %s
+CREATE_ACCOUNT	create account
+CREATE_ACCOUNT_N	create account %.56s
+DAMAGED_KEY_STORE	damaged block of keys
+DECORATED_SIGNATURE_XDR	decorated signature (XDR)
+DELETE_A_KEY	delete a key
+DEPLOY_CONTRACT_N_BYTES	deploy contract, %u bytes
+FROM_N	from %s
+GIVES_COMPLETE_CONTROL_OF_THE	gives complete control of the account
+INSTRUCTION_N_BYTES_OF_DATA	instruction, %u bytes of data
+ISSUER_N	issuer %.56s
+KEEP_HOLDING_TO_SIGN	keep holding to sign
+KEEP_THE_CARD_IN_THE_SLOT	keep the card in the slot
+LEGACY_P2SH	legacy P2SH
+LIMITED_ACCESS	limited access
+MERGE_ALL_FUNDS_INTO_N	merge ALL funds into %.56s
+MESSAGE_SIGNATURE_BASE64	message signature (Base64)
+MORE_THAN_10_TRILLION	more than 10 trillion
+NATIVE_SEGWIT	native segwit
+NESTED_SEGWIT	nested segwit
+NEVER_REALLY	never, really
+NO_FREE_BLOCK	no free block
+NO_TRANSFER	no transfer
+NOT_POSSIBLE	not possible
+OUTPUTS_INPUTS_KEY_IMAGES_A	outputs, inputs, key images: a few seconds
+PROGRAM_N	program %.30s
+RAW_KEY	raw key
+READING_THE_SHIELDED_OUTPUTS	reading the shielded outputs: up to a minute
+SCRIPT_V_N	script v%u 
+SIGN_DONE	sign: done
+SIGN_START	sign: start
+SIGNATURE_64_BYTES	signature (64 bytes)
+SIGNATURE_MULTISIGNATURE	signature (MultiSignature)
+SIGNATURE_R_S_RECOVERY_ID	signature r, s, recovery id
+SIGNATURE_R_S_V	signature r, s, v
+SIGNATURE_SCRIPTS_KSIG	signature scripts (KSIG)
+SIGNATURES_XMRS	signatures (XMRS)
+SIGNATURES_ZORS	signatures (ZORS)
+SIGNED_TXRAW	signed TxRaw
+SIGNED_EVENT	signed event
+SIGNED_TRANSACTION	signed transaction
+SIGNED_TRANSACTION_BLOB	signed transaction blob
+STAKING_ACTION	staking action
+SUMMARY_DONE	summary: done
+SUMMARY_START	summary: start
+THE_CARD_DID_NOT_KEEP_IT	the card did not keep it
+THE_CARD_WAS_CHANGED	the card was changed
+TRUST_N	trust %s
+UNKNOWN_MESSAGE_FORMAT	unknown message format
+VANITY_N	vanity %.9s
+WEIGHT_N_THRESHOLD_N	weight %llu, threshold %llu
+WITNESS_SET_CBOR	witness set (CBOR)
+YOU_2	you 
+N_TRANSACTION_EIP_7702	%s transaction (EIP-7702)
+N_TRANSACTION	%s transaction
+N_TOKEN_CONTRACT_N	%s, token contract %s
+N_EXTRINSIC	%s extrinsic
+N_KEY_N	%s key %s
+N_ISSUER_N_2	%s%s %s (issuer %s)
+N_OR_MORE_GOES_TO_OUTPUTS_THAT	%s or more goes to outputs that cannot be read
+N_GOES_INTO_THE_SHIELDED_POOL	%s goes into the shielded pool
+N_COMES_OUT_OF_THE_SHIELDED	%s comes out of the shielded pool
+COUNT_INPUT_ONE	%d input
+COUNT_INPUT_MANY	%d inputs
+COUNT_OUTPUT_ONE	%d output
+COUNT_OUTPUT_MANY	%d outputs
+DAMAGED_STORE_BLOCK_NOT_USED_ONE	%d damaged block of keys, not used
+DAMAGED_STORE_BLOCK_NOT_USED_MANY	%d damaged blocks of keys, not used
+PLUS_TOKEN_ONE	 + %d token
+PLUS_TOKEN_MANY	 + %d tokens
+CERTIFICATE_ONE	%d certificate (staking or delegation changes)
+CERTIFICATE_MANY	%d certificates (staking or delegation changes)
+COUNT_INPUT_OURS_ONE	%d input (%d ours)
+COUNT_INPUT_OURS_MANY	%d inputs (%d ours)
+COUNT_TAG_ONE	%d tag
+COUNT_TAG_MANY	%d tags
+CREATED_AT_CONTENT_BYTES	created_at %llu, content %u bytes
+COUNT_KEY_IN_ONE	%d key in
+COUNT_KEY_IN_MANY	%d keys in
+COUNT_PERMISSION_ONE	%d permission
+COUNT_PERMISSION_MANY	%d permissions
+COUNT_INPUT_RING_ONE	%d input (ring %d)
+COUNT_INPUT_RING_MANY	%d inputs (ring %d)
+SHIELDED_OUTPUT_CANNOT_BE_READ_ONE	%d shielded output cannot be read (padding, or not made with this wallet's key)
+SHIELDED_OUTPUT_CANNOT_BE_READ_MANY	%d shielded outputs cannot be read (padding, or not made with this wallet's key)
+ORCHARD_ACTION_ONE	%d Orchard action%s
+ORCHARD_ACTION_MANY	%d Orchard actions%s
+SPEND_TO_AUTHORIZE_ONE	%d spend to authorize, branch id %08x
+SPEND_TO_AUTHORIZE_MANY	%d spends to authorize, branch id %08x
+INPUT_BRANCH_ID_EXPIRY_ONE	%d input, branch id %08x, expiry height %u
+INPUT_BRANCH_ID_EXPIRY_MANY	%d inputs, branch id %08x, expiry height %u
+EMULATED_TIMING_IGNORED_NOT	Emulated: timing ignored, NOT SECURE
+STAKE	stake
+MESSAGE_SIGNATURE_BIP322	message signature (BIP322, smp + Base64)
+N_OF_N_INPUTS_ARE_NOT_YOURS	%d of %d inputs are not yours (payjoin?)
+SIGNS_A_TAPROOT_SCRIPT_PATH_THE_OTHER	Signs a Taproot script path; its other keys are not checked
+NOSTR_ENCRYPTED_WITH_NIP_N_FOR_S	Encrypted with NIP-%02d for %s
+NOSTR_TO_S	To: %s
+NOSTR_EVENT_S	Event: %s
+NOSTR_REFERENCES_N_N_NOT_VALID	%d nostr: references, %d not valid
+NOSTR_DECRYPTED_MESSAGE_NIP_N	Decrypted Nostr message (NIP-%02d)
+NOSTR_WITH_S	With: %s
+NOSTR_MESSAGE_BYTES_N	Message: %d bytes
+NOSTR_DECRYPTED_MESSAGE	Decrypted message
+NOSTR_LONG_TEXT_READ_EVERY_PAGE	Long text: read every page before you sign
+THE_MESSAGE_IS_OVER_4096_BYTES_TOO	The message is over 4096 bytes: too long for this signer
+CD_PLAYER	CD player
+NOT_IMPLEMENTED_YET	Not implemented yet
+TRANSACTIONS_KEYS_VANITY_ADDRESSES_MULTISIG	Transactions, keys, vanity addresses, multisig
+PLAY_AUDIO_DISCS	Play audio discs
+SIGNER	Wallet operations
+TEXT_ENCODING	Text encoding
+TEXT_BYTES_UTF_8_ASCII_BRAILLE	Text, bytes, UTF-8, ASCII, braille
+TEXT_TO_BYTES	Text to bytes
+BYTES_TO_TEXT	Bytes to text
+BRAILLE_TEST	Braille test
+TYPE_TEXT_SEE_ITS_BYTES_IN	Type text, see its bytes in hex and binary
+TYPE_HEX_BYTES_SEE_THE_TEXT	Type hex bytes, see the text they make
+BRAILLE_PATTERNS_ARE_DRAWN_FROM	Braille patterns (U+2800...) are drawn from their code points
+YOUR_KEYBOARD_AND_THE_SYSTEM_USE	Your keyboard, your screen and nearly every file today use UTF-8. The first 128 characters of UTF-8 are ASCII.
+TEXT_AND_BYTES	Text and bytes
+N_BYTES_N_CHARACTERS	%d bytes, %d characters
+N_NOT_ASCII_SHOWN_AS	, %d not ASCII (shown as ?)
+HINT_SCROLL_PRESET_BACK	\x0b scroll  \x0c ASCII / UTF-8  \x06 back
+EVERY_PATTERN_IS_DRAWN_FROM_ITS	A picture made of the 256 patterns of 2 x 4 dots
+TEXT_UTF_8_2	Text (UTF-8)
+BYTES_IN_HEX	Bytes in hex
+BRAILLE_1	⣴⡿⠶⠀⠀⠀⣦⣀⣴⠀⠀⠀⠀
+BRAILLE_2	⣿⡄⠀⠀⣠⣾⠛⣿⠛⣷⠀⠿⣦
+BRAILLE_3	⠙⣷⣦⣾⣿⣿⣿⣿⣿⠟⠀⣴⣿
+BRAILLE_4	⠀⣸⣿⣿⣿⣿⣿⣿⣿⣾⠿⠋⠁
+BRAILLE_5	⠀⣿⣿⣿⠿⡿⣿⣿⡿⠀⠀⠀⠀
+BRAILLE_6	⢸⣿⡋⠀⠀⠀⢹⣿⡇⠀⠀⠀⠀
+BRAILLE_7	⣿⡟⠀⠀⠀⠀⠀⢿⡇⠀⠀⠀⠀
+BRAILLE_8	⠉⠁⠀⠀⠀⠀⠀⠸⠇
+PRESET_ASCII	<  ASCII  >
+PRESET_UTF_8	< UTF-8  >
+SAFETY_NOTES	Safety notes
+SHORT_NOTES_ON_SEEDS_DICE_AND	Short notes on seeds, dice and paper
+NOTE_1	A seed is random data; the seed phrase writes it as words.
+NOTE_2	Computers and people are bad at random: mix both.
+NOTE_3	Dice can be more trustworthy than electronics.
+NOTE_4	You may print the word list and work on paper.
+NOTE_5	The list of 2048 words takes little paper.
+NOTE_6	By hand the checksum is the hardest part.
+NOTE_7	Save the seed on paper, never on a device.
+NOTE_8	A backup is wise, if losing the seed would hurt.
+NOTE_9	A backup can be stolen. Think of multisig.
+NOTE_10	Memory alone fails often. Brain wallets are risky.
+NOTE_11	Never split a 12-word seed into parts.
+NOTE_12	Only a long seed can be split, and only with care.
+NOTE_13	Your keys, your duty: read beyond this app.
+ADDRESSES	Addresses
+OTHER_COINS_MORE_ADDRESSES_PATHS	Other coins, more addresses, paths and keys
+A_RAW_KEY_HAS_ONE_ADDRESS_ONLY	A raw key has one address only
+LOAD_A_KEY_FROM_THE_CARD	Load a key from the card
+IMPORT_A_RAW_KEY	Import a raw key
+DELETE_KEYS	Delete keys
+ERASE_A_KEY_STORE	Erase vaults or single keys
+OPEN_A_KEY_SAVED_ON_CARD_2	Open a key saved on card 2 with its password
+TYPE_A_SECRET_KEY_USE_IT_OR	Type a secret key, use it or save it on the card
+MARK_KEYS_OF_THE_STORES_AND	Mark keys and delete them together
+DELETE_A_WHOLE_STORE_OR_ALL	Delete a vault, all single keys, or all
+SECP256K1_KEY	secp256k1 key
+ED25519_KEY	ed25519 key
+MONERO_SPEND_KEY	Monero spend key
+BITCOIN_ETHEREUM_NOSTR_HEX_NSEC_WIF	Bitcoin, Ethereum, Nostr...: hex, nsec1 or WIF
+TON_SOLANA_THE_32_BYTE_SEED_AS	TON, Solana, Stellar, NEAR: hex, keypair, S..., ed25519:
+THE_SECRET_SPEND_KEY_AS_64_HEX	The secret spend key as 64 hex digits
+KEY_HEX_NSEC1_OR_WIF	Key: hex, nsec1 or WIF
+THE_CHECKSUM_IS_WRONG_A_CHARACTER	The checksum is wrong: a character is mistyped
+NOT_A_KEY_HEX_NSEC1_OR_WIF_IS	Not a key: hex, nsec1 or WIF is needed
+IMPORTED_KEY	Imported key
+HINT_USE_SAVE_ON_THE_CARD_WIPE	\x01 use  \x03 save on the card  \x02 wipe
+HINT_CHOOSE_MARK_DELETE_BACK	\x0b choose  \x01 mark  \x05 delete  \x06 back
+N_MARKED	%d marked
+MARK_AT_LEAST_ONE_KEY_FIRST	Mark at least one key first
+DELETE_THE_MARKED_KEYS	Delete the marked keys?
+N_KEYS_MARKED_A_STORE_WITH_ALL	%d keys marked. A vault with every key marked is removed whole.
+DELETED_N_KEYS	Deleted %d keys
+N_STORE_N_N_KEYS	%c Vault %d - %d keys
+ALL_THE_STORES	Everything: all the vaults and the single keys
+HINT_CHOOSE_ERASE_BACK	\x0b choose  \x01 erase  \x06 back
+NO_KEY_STORES_ON_THE_CARD	No vaults or single keys on the card
+ERASE_THIS_STORE	Erase this with all its keys?
+ERASE_EVERY_KEY_STORE	Erase every vault and single key of the card?
+ERASED	Erased
+KEY_HEX_KEYPAIR_S_OR_ED25519	Key: hex, base58 keypair, S... or ed25519:
+NOT_A_KEY_HEX_KEYPAIR_S_OR_ED25519_IS	Not a key: hex, keypair, S... or ed25519: is needed
+SR25519_KEY	sr25519 key
+ORCHARD_SPENDING_KEY	Orchard spending key
+CARDANO_EXTENDED_KEY	Cardano extended key
+POLKADOT_KUSAMA_THE_MINI_SECRET_AS	Polkadot, Kusama: the mini secret, 64 hex digits
+ZCASH_SHIELDED_THE_32_BYTE_KEY_AS	Zcash shielded: the 32 byte key, 64 hex digits
+PAYMENT_KEY_128_HEX_DIGITS_OR_ADDR	Payment key: 128 hex digits or addr_xsk1...
+KEY_128_HEX_DIGITS_OR_ADDR_XSK1	Key: 128 hex digits or addr_xsk1...
+NOT_A_CARDANO_KEY_128_HEX_DIGITS_OR	Not a Cardano key: 128 hex digits or addr_xsk1... needed
+NOT_A_VALID_EXTENDED_KEY	Not a valid extended key
+A_SECP256K1_KEY_ETHEREUM_BITCOIN_NOSTR	A secp256k1 key: Ethereum, Bitcoin, Nostr
+AN_ED25519_KEY_TON_SOLANA	An ed25519 key: TON, Solana
+AN_SR25519_KEY_POLKADOT_KUSAMA	An sr25519 key: Polkadot, Kusama
+A_ZCASH_ORCHARD_SPENDING_KEY_UNIFIED	A Zcash Orchard spending key: unified address
+A_CARDANO_PAYMENT_KEY_ENTERPRISE_ADDRESS	A Cardano payment key: enterprise address
+THE_STAKING_PART_IS_NOT_KNOWN_THIS	The staking part is not known: this is not your base address.
+N_SINGLE_KEYS_N	%c Single keys - %d
