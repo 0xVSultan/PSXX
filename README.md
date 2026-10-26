@@ -15,9 +15,44 @@ See `FEATURES_EN.txt` for what the program does in detail.
 ## Status: read this first
 
 - The cryptography, the transaction summaries, the key store, the card packages and the screen layouts are checked by 51 host tests against independent references and official test vectors.
-- Parts have run in emulators (no$psx, DuckStation, PCSX-Redux). The newest work has been built and host-tested but not fully run in an emulator.
+- Parts have run in emulators (no$psx, DuckStation, PCSX-Redux).
 - **Nothing has run on a real console yet.** Do not keep funds you cannot lose behind it. Verify every release yourself.
 - Builds from this source are signed with a **development key** that `tools/sign_key.py` creates on your machine (`build/keys/`, never committed). They are different cards from any official release; the official release is signed by the project's own key.
+
+## Consoles and BIOS versions
+
+The boot card (FreePSXBoot) has to match the BIOS of the console, so there is one boot card per BIOS version (`tools/release.py cards --bios <version>`, `tools/bios_matrix.py build` makes all of them). Region letters in the BIOS names: A = North America, E = Europe (PAL), I = Japan.
+
+**The BIOS 1.0 of the SCPH-1000 (Japan, 1994) does not work.** The program does not support it (the matrix test marks it BAD, "yet unsupported"). Do not use a SCPH-1000 console. Every other BIOS version below is supported.
+
+Model numbers are from Wikipedia ([PlayStation models](https://en.wikipedia.org/wiki/PlayStation_models); the last digit of an SCPH number is the region: 0 Japan, 1 North America, 2 Europe, 3 Asia). The test column is the boot test of the 22 boot cards in the DuckStation emulator (`tools/bios_matrix.py`) with an earlier build; the current build is expected to boot the same way. No real console has been tried yet.
+
+| BIOS version | Models (Wikipedia) | Boot test |
+|---|---|---|
+| 1.0 (1994-09-22, I) | SCPH-1000 | **does not work** |
+| 1.1 (1995-01-22, I) | SCPH-3000 | OK |
+| 2.0 (1995-05-07, A) | not listed | OK |
+| 2.0 (1995-05-10, E) | SCPH-1002 | OK |
+| 2.1 (1995-07-17, A) | not listed | OK |
+| 2.1 (1995-07-17, E) | SCPH-1002 | OK |
+| 2.1 (1995-07-17, I) | SCPH-3500 | OK |
+| 2.2 (1995-12-04, A) | SCPH-1001 | OK |
+| 2.2 (1995-12-04, E) | SCPH-1002 | OK |
+| 2.2 (1995-12-04, I) | SCPH-5000, SCPH-5003, SCPH-5903 | OK |
+| 3.0 (1996-09-09, I) | SCPH-5500 | OK |
+| 3.0 (1996-11-18, A) | SCPH-5501, SCPH-5503, SCPH-7003 | OK |
+| 3.0 (1997-01-06, E) | SCPH-5502, SCPH-5552 | OK |
+| 4.0 (1997-08-18, I) | SCPH-7000, SCPH-9000 | OK |
+| 4.1 (1997-11-14, A) | SCPH-7000W (listed as a Japanese promotional model) | OK |
+| 4.1 (1997-12-16, A) | SCPH-7001, SCPH-7501, SCPH-9001 | OK |
+| 4.1 (1997-12-16, E) | SCPH-7002, SCPH-7502, SCPH-9002 | OK |
+| 4.3 (2000-03-11, I) | SCPH-100 (PS one) | OK |
+| 4.4 (2000-03-24, A) | not listed | OK |
+| 4.4 (2000-03-24, E) | SCPH-102 (PS one) | OK |
+| 4.5 (2000-05-25, A) | SCPH-101 (PS one) | OK |
+| 4.5 (2000-05-25, E) | SCPH-102, SCPH-103 (PS one) | OK |
+
+The main target of the project is the SCPH-1002 (BIOS 2.0 E). Models whose BIOS dump is not in the table (for example the Japanese 4.1 of the SCPH-7500) were not part of the test.
 
 ## Layout
 
