@@ -14,6 +14,9 @@ ROOT = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)),
 BIP39 = "https://raw.githubusercontent.com/bitcoin/bips/master/bip-0039/%s.txt"
 XMR = "https://raw.githubusercontent.com/monero-project/monero/master/src/mnemonics/%s"
 SDK_REL = "https://github.com/Lameguy64/PSn00bSDK/releases/download/v0.24/"
+# The toolchain archives can also come from a mirror of this project (the release assets of its repository): the same files, the same SHA-256. Set MIRROR here or the
+# environment variable PSXX_MIRROR to the directory URL (ending in /); it is tried first, the upstream URL after it.
+MIRROR = ""
 FREEPSXBOOT = ("https://github.com/brad-lin/FreePSXBoot.git", "1976b3cadf1289d92eafd4a7eaf006b29c333c12")
 
 BIP39_LISTS = {
@@ -62,8 +65,8 @@ def sha256(path):
     return h.hexdigest()
 
 
-def get(url, rel, want, check):
-    """The file rel (under the root) with the SHA-256 want: there already, or downloaded. Returns True when it is there and right."""
+def get(url, rel, want, check, mirrored=False):
+    """The file rel (under the root) with the SHA-256 want: there already, or downloaded. Returns True when it is there and right. mirrored: the mirror is tried first."""
     path = os.path.join(ROOT, rel)
     if os.path.exists(path):
         if sha256(path) == want:
@@ -77,14 +80,22 @@ def get(url, rel, want, check):
         print("MISSING  ", rel)
         return False
     os.makedirs(os.path.dirname(path), exist_ok=True)
-    print("download ", url)
-    req = urllib.request.Request(url, headers={"User-Agent": "psxx-fetch"})
-    with urllib.request.urlopen(req) as r, open(path, "wb") as f:
-        shutil.copyfileobj(r, f)
-    if sha256(path) != want:
+    mirror = os.environ.get("PSXX_MIRROR", MIRROR)
+    urls = ([mirror + os.path.basename(rel)] if mirrored and mirror else []) + [url]
+    for u in urls:
+        print("download ", u)
+        try:
+            req = urllib.request.Request(u, headers={"User-Agent": "psxx-fetch"})
+            with urllib.request.urlopen(req) as r, open(path, "wb") as f:
+                shutil.copyfileobj(r, f)
+        except OSError as e:
+            print("         failed:", e)
+            continue
+        if sha256(path) == want:
+            return True
         os.remove(path)
-        sys.exit("the SHA-256 of %s is not the expected one: the file was deleted (the upstream file may have changed; see tools/SOURCES.md)" % rel)
-    return True
+        print("         the SHA-256 is not the expected one: the file was deleted")
+    sys.exit("could not get %s with the expected SHA-256 (the upstream file may have changed or gone; see tools/SOURCES.md and BUILD.md)" % rel)
 
 
 def sources(check):
@@ -107,7 +118,7 @@ def sources(check):
 
 
 def toolchain(check):
-    ok = get(*SDK, check) and get(*GCC, check)
+    ok = get(*SDK, check, mirrored=True) and get(*GCC, check, mirrored=True)
     if check:
         for rel in ("toolchain/sdk/PSn00bSDK-0.24-win32/bin", "toolchain/gcc/bin", "toolchain/FreePSXBoot/builder/builder.exe"):
             e = os.path.exists(os.path.join(ROOT, rel))
