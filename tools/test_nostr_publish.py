@@ -44,6 +44,20 @@ except SystemExit:
 got = {}
 
 
+# an event signed elsewhere (--event): a valid one is taken, a changed one or a wrong signature is refused
+import tempfile
+tmp = tempfile.mkdtemp()
+def efile(e, name):
+    p = os.path.join(tmp, name)
+    open(p, "w", encoding="utf-8").write(json.dumps(e))
+    return p
+check("a signed event file is taken", N.event_from_file(efile(ev, "ok.json")) == ev)
+for bad, why in ((dict(ev, content="x" * 64), "a changed content (the id no longer fits)"), (dict(ev, sig="00" * 64), "a zero signature"), ({k: v for k, v in ev.items() if k != "sig"}, "a missing sig")):
+    try:
+        N.event_from_file(efile(bad, "bad.json")); check("refused: " + why, False)
+    except SystemExit:
+        check("refused: " + why, True)
+
 def relay(srv):
     c, _ = srv.accept()
     req = b""

@@ -400,6 +400,7 @@ def main():
     m.add_argument("--date", help="YYYY-MM-DD")
     m.add_argument("--created-at", type=int, help="the created_at of the event (default: now)")
     m.add_argument("--source-rev", help="the git revision the release was built from (default HEAD)")
+    m.add_argument("--alt", help="the text of the alt tag (NIP-31, what a Nostr client shows for the event); default: a general sentence with the name")
     m.add_argument("--description-file", help="the text for people (English) that goes into the manifest as its description (release-notes/<name>.txt)")
     m.add_argument("--spa", help="the verifier page of the release (tools/build_spa.py): its size and SHA-256 go into the manifest")
     am = sub.add_parser("attach-manifest", help="put the signature of the signer into the manifest event; writes manifest_signed.json and package_event.json")

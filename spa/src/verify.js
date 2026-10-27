@@ -1,4 +1,4 @@
-// The chain of the release, from the files only. X.verify(input) returns {results: [{status, title, detail}], ok}.
+// The chain of the release (release-trust-plan.md section 2), from the files only. X.verify(input) returns {results: [{status, title, detail}], ok}.
 // status: "ok" (checked), "fail" (does not match), "warn" (cannot say / not covered), "info" (a fact), "skip" (not given).
 // input: {trust: npub or hex, boot: bytes of the boot card, others: [{name, data}] the other cards or package files (any number: B, C, later ones),
 //         event: JSON text of the signed package event, manifest: JSON text of a signed release event, imageSize: bytes of the unpacked program image (0 = look for it), lzma: "lc,lp,pb"}

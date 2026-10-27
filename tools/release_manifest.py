@@ -124,14 +124,19 @@ def manifest(a):
         s = open(a.spa, "rb").read()
         content["verifier"] = {"name": os.path.basename(a.spa), "size": len(s), "sha256": sha(s)}
     ev = {"kind": P.EVENT_KIND, "created_at": a.created_at or int(__import__("time").time()),
-          "tags": [["d", "psxx/release/" + a.name], ["alt", "PSXX release manifest %s: the signed list of the memory card files of this release of the PSXX crypto multitool (description inside)" % a.name]], "content": canon(content)}
+          "tags": [["d", "psxx/release/" + a.name], ["alt", a.alt or "PSXX release manifest %s: the signed list of the memory card files of this release of the PSXX crypto multitool (description inside)" % a.name]], "content": canon(content)}
     open(os.path.join(d, "manifest_event.json"), "w", encoding="utf-8").write(json.dumps(ev, separators=(",", ":"), ensure_ascii=False))
-    req = psxx_tx.make_request("nostr", 0, "m/44'/1237'/0'/0/0", json.dumps(ev, separators=(",", ":"), ensure_ascii=False).encode())
-    bcard = next((c for c in cards if c["role"] == "other" and c["name"].endswith("B-ok.mcd")), None)
-    card = bytearray(open(os.path.join(cdir, bcard["name"]), "rb").read()) if bcard else M.blank_card()
-    psxx_tx.add_file(card, psxx_tx.REQ_TAG, req)
-    open(os.path.join(d, "manifest_request.mcd"), "wb").write(card)
-    print("manifest of %s: %d cards (%d boot), %d bytes of content (the request holds %d of 7936 bytes)" % (a.name, len(cards), boot_n, len(ev["content"]), len(req)))
+    try:
+        req = psxx_tx.make_request("nostr", 0, "m/44'/1237'/0'/0/0", json.dumps(ev, separators=(",", ":"), ensure_ascii=False).encode())
+    except SystemExit as e:                                                       # many boot cards: the event is longer than a request file of the signer (7936 bytes); sign manifest_event.json with another Nostr signer
+        print("manifest of %s: %d cards (%d boot), %d bytes of content; no request card for the console signer (%s)" % (a.name, len(cards), boot_n, len(ev["content"]), e))
+        req = None
+    if req:
+        bcard = next((c for c in cards if c["role"] == "other" and c["name"].endswith("B-ok.mcd")), None)
+        card = bytearray(open(os.path.join(cdir, bcard["name"]), "rb").read()) if bcard else M.blank_card()
+        psxx_tx.add_file(card, psxx_tx.REQ_TAG, req)
+        open(os.path.join(d, "manifest_request.mcd"), "wb").write(card)
+        print("manifest of %s: %d cards (%d boot), %d bytes of content (the request holds %d of 7936 bytes)" % (a.name, len(cards), boot_n, len(ev["content"]), len(req)))
     print("source tree %s%s" % (tree, " (the working tree has uncommitted changes)" if dirty else ""))
     print("wrote manifest_event.json and manifest_request.mcd in %s; sign it with the signer (key %s), then" % (d, rel["key"][:16]))
     print("  release.py attach-manifest %s --sig <128 hex digits>" % a.dir)

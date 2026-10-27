@@ -54,6 +54,16 @@ Model numbers are from Wikipedia ([PlayStation models](https://en.wikipedia.org/
 
 The main target of the project is the SCPH-1002 (BIOS 2.0 E). Models whose BIOS dump is not in the table (for example the Japanese 4.1 of the SCPH-7500) were not part of the test.
 
+## Verifying a release
+
+Every release has a signed manifest (a Nostr event, kind 30078) that lists the SHA-256 of each memory card file, and the card packages are signed by the project key. The verifier is one static HTML page (`spa/`, built reproducibly by `tools/build_spa.py`): it makes no network requests and checks the cards, the package events and the manifest in your browser.
+
+- IPFS CID of the verifier page (`psxx-verify.html`, CIDv1 raw, so the CID is the SHA-256 of the file): `bafkreibufcdxdvwkdcripaiw5jchwvbicbcekd2iwps7ohbz6lg7e46ayu`
+- Gateway link: <https://bafkreibufcdxdvwkdcripaiw5jchwvbicbcekd2iwps7ohbz6lg7e46ayu.ipfs.inbrowser.link/>
+- File SHA-256: `34288771d6ca18a2878116ea447b54281044450f48b3e5f71c39f2cdf273c0c5`
+
+Build the page yourself with `py -3.13 tools/build_spa.py` and compare the hash, or use the command line twin `py -3.13 tools/release.py check-cards`. Take the project public key from a source you trust, not from the page.
+
 ## Layout
 
 | directory | contents |

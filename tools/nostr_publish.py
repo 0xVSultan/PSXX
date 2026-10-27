@@ -1,13 +1,17 @@
 """The Nostr event of a card package (core/pkg/pkg.h): the proof that the key signed this package, ready to publish.
 
   py -3.13 tools/nostr_publish.py <package> [--pub HEX64] [--relay wss://relay.example ...]
+  py -3.13 tools/nostr_publish.py --event <signed event .json> [--relay wss://relay.example ...]
 
 Without --relay it prints the event (one JSON line: id, pubkey, created_at, kind, tags, content, sig); with one or more it also sends  ["EVENT", <event>]  to each relay and prints
 what the relay answers (["OK", id, true|false, message]). --pub is the x only public key (hex) that signed the package; the default is the key of tools/sign_key.py. The signature is
 checked against it before anything is printed or sent: a package that is not signed (a zero signature, see pkg_pack.py build --pub / attach) is refused.
 
 The event is kind 30078 (NIP-78) with the digest of the package as its "d" tag and as its content, and a fixed created_at, so the same package always gives the same event, and
-two packages never replace each other on a relay. Publishing is outward facing: nothing is sent unless --relay is given."""
+two packages never replace each other on a relay. Publishing is outward facing: nothing is sent unless --relay is given.
+
+--event takes an event that was signed elsewhere (a Nostr client, the release manifest manifest_signed.json, package_event.json): the file holds one event as JSON. Its id has to be the SHA-256 of
+its NIP-01 serialisation and its signature a valid BIP340 signature of the id for its pubkey, or it is refused; then it is printed and sent like the event of a package."""
 import argparse, base64, hashlib, json, os, socket, ssl, struct, sys, time
 from urllib.parse import urlparse
 
@@ -28,6 +32,25 @@ def event_of(data, pub):
         raise SystemExit("the signature of the package is not valid for the key %s" % pub.hex())
     dig = P.digest(head).hex()
     return {"id": eid.hex(), "pubkey": pub.hex(), "created_at": P.EVENT_TIME, "kind": P.EVENT_KIND, "tags": [["d", dig]], "content": dig, "sig": sig.hex()}
+
+
+def event_from_file(path):
+    """a signed event from a JSON file (an object, or a list with one object); raises SystemExit when it is not a valid NIP-01 event"""
+    ev = json.load(open(path, encoding="utf-8-sig"))
+    if isinstance(ev, list) and len(ev) == 1:
+        ev = ev[0]
+    try:
+        keys = ("id", "pubkey", "created_at", "kind", "tags", "content", "sig")
+        if not isinstance(ev, dict) or any(k not in ev for k in keys):
+            raise ValueError("fields")
+        text = json.dumps([0, ev["pubkey"], ev["created_at"], ev["kind"], ev["tags"], ev["content"]], separators=(",", ":"), ensure_ascii=False)
+        if hashlib.sha256(text.encode()).hexdigest() != ev["id"]:
+            raise SystemExit("the id of the event is not the SHA-256 of its serialisation")
+        if not bip340.verify(bytes.fromhex(ev["pubkey"]), bytes.fromhex(ev["id"]), bytes.fromhex(ev["sig"])):
+            raise SystemExit("the signature of the event is not valid for its pubkey")
+    except (ValueError, TypeError):
+        raise SystemExit("%s is not a signed Nostr event (id, pubkey, created_at, kind, tags, content, sig)" % path)
+    return ev
 
 
 # ---- a small WebSocket client (RFC 6455): one text message out, text messages in ----
@@ -111,19 +134,24 @@ def publish(url, ev, timeout=15):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("package")
+    ap.add_argument("package", nargs="?", help="a signed card package (.pkg)")
+    ap.add_argument("--event", help="a signed Nostr event (JSON file) instead of a package")
     ap.add_argument("--pub", help="x only public key, hex (default: the key in release.json next to the package, else the key of tools/sign_key.py)")
     ap.add_argument("--relay", action="append", default=[])
     a = ap.parse_args()
+    if bool(a.package) == bool(a.event):
+        ap.error("give a package or --event <file>")
     import sign_key
-    rj = os.path.join(os.path.dirname(os.path.abspath(a.package)), "release.json")
-    if a.pub:
+    rj = os.path.join(os.path.dirname(os.path.abspath(a.package or a.event)), "release.json")
+    if a.event:
+        pub = None
+    elif a.pub:
         pub = bytes.fromhex(a.pub)
     elif os.path.exists(rj):
         pub = bytes.fromhex(json.load(open(rj))["key"])                              # the key the release was made for (release.py build --pub)
     else:
         pub = sign_key.public()
-    ev = event_of(open(a.package, "rb").read(), pub)
+    ev = event_from_file(a.event) if a.event else event_of(open(a.package, "rb").read(), pub)
     print(json.dumps(ev, separators=(",", ":"), ensure_ascii=False))
     for r in a.relay:
         try:
