@@ -62,7 +62,12 @@ Every release has a signed manifest (a Nostr event, kind 30078) that lists the S
 - Gateway link: <https://bafkreibufcdxdvwkdcripaiw5jchwvbicbcekd2iwps7ohbz6lg7e46ayu.ipfs.inbrowser.link/>
 - File SHA-256: `34288771d6ca18a2878116ea447b54281044450f48b3e5f71c39f2cdf273c0c5`
 
-Build the page yourself with `py -3.13 tools/build_spa.py` and compare the hash, or use the command line twin `py -3.13 tools/release.py check-cards`. Take the project public key from a source you trust, not from the page.
+Build the page yourself with `py -3.13 tools/build_spa.py` and compare the hash, or use the command line twin `py -3.13 tools/release.py check-cards`. The project public key that signs the releases:
+
+- npub: `npub1x3jrmnnmzstz4xw7uasrjsrvwj5and82tr4sdnd5f45qv5th7uwqheg2qd`
+- hex: `34643dce7b14162a99dee76039406c74a9d9b4ea58eb06cdb44d68065177f71c`
+
+Do not take the key from the verifier page, and compare it with other places where the project publishes it before you trust a release.
 
 ## Layout
 
