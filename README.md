@@ -90,6 +90,19 @@ py -3.13 tools/fetch.py all            # word lists, fonts, toolchain, FreePSXBo
 cmake -S . -B build/host -G Ninja ; cmake --build build/host ; ctest --test-dir build/host
 ```
 
+## Donations
+
+If the project is useful to you, you can support it here.
+
+| coin | address |
+|---|---|
+| Bitcoin (BTC) | `bc1q5pw3esmkcym5cq3hj96fezlhz7fdtgxvg5tsjc` |
+| Ethereum (ETH) | `0xca39C9965599a365C22973BD97CFc5C4c80595B5` |
+| Monero (XMR) | `46SFFZKZvrwDn3XDcGpb9PXKmGXX9Tc9cjNRwPGFNTw7hBycAQtRSRrMxA5K3kZYAaUmMpHMSRspidLbwndGtc4L4c2FJiC` |
+| Litecoin (LTC) | `ltc1q0myv8k2pyfna9x2cwh552qyz6zxuwx8qst4fx3` |
+| Bitcoin Cash (BCH) | `qzst44m4dfgmheasra94ntm9agh7xgf7qufc2qsump` |
+| Dogecoin (DOGE) | `DQkioaWJomSC3dKGk1JE6b2SvRtWSPrCaj` |
+
 ## Licence
 
 MIT, see `LICENSE`. Third-party material: `THIRD_PARTY.md`.
