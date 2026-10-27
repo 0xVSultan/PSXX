@@ -102,6 +102,7 @@ If the project is useful to you, you can support it here.
 | Litecoin (LTC) | `ltc1q0myv8k2pyfna9x2cwh552qyz6zxuwx8qst4fx3` |
 | Bitcoin Cash (BCH) | `qzst44m4dfgmheasra94ntm9agh7xgf7qufc2qsump` |
 | Dogecoin (DOGE) | `DQkioaWJomSC3dKGk1JE6b2SvRtWSPrCaj` |
+| Kaspa (KAS) | `kaspa:qrxf2gcttngm0nthwvz3s8dr8pyfe2v6yc5vcj6gehw4w3xlf733uc80u8fx5` |
 
 ## Licence
 
