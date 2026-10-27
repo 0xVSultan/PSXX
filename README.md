@@ -97,12 +97,14 @@ If the project is useful to you, you can support it here.
 | coin | address |
 |---|---|
 | Bitcoin (BTC) | `bc1q5pw3esmkcym5cq3hj96fezlhz7fdtgxvg5tsjc` |
-| Ethereum (ETH) | `0xca39C9965599a365C22973BD97CFc5C4c80595B5` |
-| Monero (XMR) | `46SFFZKZvrwDn3XDcGpb9PXKmGXX9Tc9cjNRwPGFNTw7hBycAQtRSRrMxA5K3kZYAaUmMpHMSRspidLbwndGtc4L4c2FJiC` |
-| Litecoin (LTC) | `ltc1q0myv8k2pyfna9x2cwh552qyz6zxuwx8qst4fx3` |
 | Bitcoin Cash (BCH) | `qzst44m4dfgmheasra94ntm9agh7xgf7qufc2qsump` |
+| Cardano (ADA) | `addr1q8h2dk2wqctc6hhmja46kzuj3z4fsh0yrrsyvkeaaumuvt5vxdnmq9rpkf4xyfl6sqcexvdda9ht8ujhj8jer7tdsf2q03z7zk` |
 | Dogecoin (DOGE) | `DQkioaWJomSC3dKGk1JE6b2SvRtWSPrCaj` |
+| Ethereum (ETH) | `0xca39C9965599a365C22973BD97CFc5C4c80595B5` |
 | Kaspa (KAS) | `kaspa:qrxf2gcttngm0nthwvz3s8dr8pyfe2v6yc5vcj6gehw4w3xlf733uc80u8fx5` |
+| Litecoin (LTC) | `ltc1q0myv8k2pyfna9x2cwh552qyz6zxuwx8qst4fx3` |
+| Monero (XMR) | `46SFFZKZvrwDn3XDcGpb9PXKmGXX9Tc9cjNRwPGFNTw7hBycAQtRSRrMxA5K3kZYAaUmMpHMSRspidLbwndGtc4L4c2FJiC` |
+| Solana (SOL) | `GWbS5w4PYjJuno7nKWNQuCUDKcDe6kkrkVvx3VhHnWzY` |
 
 ## Licence
 
