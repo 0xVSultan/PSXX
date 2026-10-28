@@ -109,3 +109,27 @@ If the project is useful to you, you can support it here.
 ## Licence
 
 MIT, see `LICENSE`. Third-party material: `THIRD_PARTY.md`.
+
+## Update 2026-10-28
+
+I started developing PSXX on Windows 10 (I live in the EU; the OS still receives security patches and updates). Every necessary component of the project is open-source, and the PowerShell component is only used for setting up the environment.
+
+In theory the compiler would produce the same binary for the programs that run from the memory cards, but:A PSX memory card has only 128 KB of total space and is accessed by 128-byte sectors.
+
+The first 64 sectors are needed for the BIOS glitch (invalid directory entry, padding, small loader, etc.) what makes the card bootable. The rest of the card contains a stage-2 loader, an LZMA unpacker and the packed payload. There are two kinds of stage-2 loaders (depending on the BIOS version), which leaves 959 or 954 free sectors for the actual program.
+
+Sometimes the packed program is too big for the remaining space (in one rare case a version had exactly 0 bytes free - I called it the “trophy edition”). When that happens there are three ways to solve it:
+
+- change the compression settings
+- rewrite the code
+- edit some strings (there were a few cases where rephrasing strings produced a smaller size because the same words were reused in multiple sentences)
+
+The whole program needs two memory cards. Functions loaded from the boot card (A card) are used by the functions loaded from the wallet card (B card). The two cards rely heavily on each other to keep the integrity of the program.That’s why development is still only done on Windows 10. The compiled code must be compressed with the best possible settings to keep working. If a Linux compiler produces a binary that differs by even a few bytes and the compressed form no longer fits on the card, the whole thing stops working.That’s also why there is a signing mechanism. Version X cannot use cards from version Y if the layout or the shared functions between the cards have been rearranged or modified. There is a tool that generates a key which can be used to build the cards, so anyone can generate their own key and test their own build. Only the wallet card (B card) and the language card (C card) are signed; the boot card (A card) stores the necessary 96 bytes of verification data. At the moment those bytes still sit inside the packed section, so they affect the binary output. In the next release those 96 bytes will be placed in a separate area, which will make the packed section fully reproducible.
+
+I work with AI, but this is not a one-shot “build a nice-looking website” project. It’s about bit-packing, trial and error, etc., and sometimes I make small (96-byte) mistakes…
+
+I have now started rewriting the wallet functionality and generated a document called wallet-profile. It is almost 32 KB (1/4 memory card LOL) and describes every aspect of how it works. I will generate the same kind of documents for every part of the program. That will make understanding and manual analysis a lot easier.
+
+Next (fixed) release will land about Monday. There will be a CD image for testing and installing the memory cards on real hardware. Testing the cards is necessary: there are fake 64KB cards, and "4 Mb" cards with <512KB flash and compression.
+
+I bought an scph-9002 with a 1Mb memory card without a controller or any cables. Next month I will buy an scph-102 with a real 4Mb card and all accessories, a few not Sony 1Mb memory cards , and a multipage card what possibly uses compression.
